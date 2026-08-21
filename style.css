@@ -1,0 +1,71 @@
+:root {
+  --bg: #0f1117;
+  --card: #1a1e2a;
+  --card2: #202636;
+  --text: #e8eaf2;
+  --muted: #8b93a7;
+  --primary: #38bdf8;
+  --primary-dark: #0ea5e9;
+  --border: #2a3040;
+  --radius: 12px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Microsoft JhengHei", "PingFang TC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.site-header { background: var(--card); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+.nav-inner { max-width: 960px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 16px; }
+.logo { font-weight: 800; font-size: 1.1rem; color: var(--text); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
+.logo .mark { color: var(--primary); }
+.nav-links { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto; }
+.nav-links a { color: var(--muted); text-decoration: none; font-size: .88rem; padding: 6px 10px; border-radius: 8px; }
+.nav-links a:hover { color: var(--text); background: var(--card2); }
+
+#hero { background: linear-gradient(135deg, #16202e 0%, #1a1530 100%); border-bottom: 1px solid var(--border); text-align: center; padding: 38px 16px 32px; }
+#hero h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 4vw, 2.1rem); }
+.hero-sub { max-width: 620px; margin: 0 auto 14px; color: #b9c0d4; font-size: .95rem; }
+.badges { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.badge { font-size: .8rem; color: #bae6fd; background: #0c2a3d; border-radius: 999px; padding: 4px 13px; }
+
+main { max-width: 960px; margin: 24px auto 44px; padding: 0 16px; }
+
+.data-status { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 18px; font-size: .84rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 18px; box-shadow: 0 2px 10px rgba(0,0,0,.25); }
+.data-status strong { color: var(--text); }
+
+.card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; margin-top: 18px; }
+.card h2 { margin: 0 0 6px; font-size: 1.08rem; }
+
+.game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; margin-top: 16px; }
+.game-card { background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; text-decoration: none; color: var(--text); display: flex; gap: 12px; transition: border-color .15s; }
+.game-card:hover { border-color: var(--primary); }
+.game-card img { width: 52px; height: 52px; border-radius: 12px; flex: none; background: #111; }
+.game-card .t { min-width: 0; }
+.game-card .name { font-weight: 700; font-size: .9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.game-card .meta { color: var(--muted); font-size: .76rem; margin-top: 4px; }
+.game-card .go { color: var(--primary); font-size: .78rem; margin-top: 6px; }
+
+.notice { background: #241d10; border: 1px solid #4a3a1c; border-radius: 10px; padding: 12px 16px; font-size: .84rem; color: #d4b46a; margin-top: 18px; }
+.notice a, .page a { color: var(--primary); }
+
+.how-list { padding-left: 22px; }
+.how-list li { margin: 8px 0; font-size: .93rem; color: #c6cddd; }
+
+.page { max-width: 760px; margin: 32px auto 48px; padding: 0 16px; }
+.page h1 { font-size: 1.5rem; margin-bottom: 4px; }
+.page-date { color: var(--muted); font-size: .82rem; margin-bottom: 22px; }
+.page h2 { font-size: 1.12rem; margin-top: 28px; border-left: 4px solid var(--primary); padding-left: 10px; }
+.page p, .page li { font-size: .95rem; color: #c6cddd; }
+.page ul { padding-left: 22px; }
+
+footer { border-top: 1px solid var(--border); background: var(--card); margin-top: 30px; }
+.footer-inner { max-width: 960px; margin: 0 auto; padding: 24px 16px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.footer-links { display: flex; gap: 14px; flex-wrap: wrap; margin-left: auto; }
+.footer-links a { color: var(--muted); text-decoration: none; font-size: .86rem; }
+.footer-note { width: 100%; color: var(--muted); font-size: .76rem; }

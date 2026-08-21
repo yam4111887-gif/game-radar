@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>遊戲前哨站｜台灣 App Store 最新遊戲雷達 — 每日更新、獨立觀察</title>
+<meta name="description" content="每天從 Apple 官方饋流收錄台灣 App Store 最新上架的遊戲：名稱、開發者、價格、直達商店頁。獨立觀察站，不收費、不刷榜、開發者可自由投稿。">
+<meta name="keywords" content="新手遊, 最新遊戲, App Store 新遊戲, 台灣 手遊推薦, 遊戲上架, indie game 中文, 獨立遊戲 推薦">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yam4111887-gif.github.io/game-radar/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="遊戲前哨站">
+<meta property="og:title" content="遊戲前哨站 — 台灣最新遊戲每日雷達">
+<meta property="og:description" content="官方資料每日更新，最新上架遊戲一目了然。獨立觀察、開發者可投稿。">
+<meta property="og:url" content="https://yam4111887-gif.github.io/game-radar/">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "遊戲前哨站",
+  "url": "https://yam4111887-gif.github.io/game-radar/",
+  "description": "台灣 App Store 最新上架遊戲的每日觀察站，資料來自 Apple 官方饋流。",
+  "inLanguage": "zh-Hant"
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-inner">
+    <a class="logo" href="index.html"><span class="mark">◎</span>遊戲前哨站</a>
+    <nav class="nav-links">
+      <a href="#latest">最新收錄</a>
+      <a href="#how">運作方式</a>
+      <a href="submit.html">開發者投稿</a>
+      <a href="about.html">關於</a>
+    </nav>
+  </div>
+</header>
+
+<section id="hero">
+  <h1>今天，又有哪些新遊戲上架了？</h1>
+  <p class="hero-sub">每天從官方資料收錄台灣 App Store 最新上架的遊戲——不刷榜、不收費、不演算法推薦，就是 newest 的那一批，等你來發現。</p>
+  <div class="badges">
+    <span class="badge">📡 官方資料每日更新</span>
+    <span class="badge">🚫 不收費不刷榜</span>
+    <span class="badge">🎮 開發者可自由投稿</span>
+  </div>
+</section>
+
+<main>
+  <div class="data-status" id="data-status">正在載入最新收錄…</div>
+
+  <section class="card" id="latest">
+    <h2>🎮 最新收錄</h2>
+    <div class="game-grid" id="game-grid"></div>
+    <p style="color:var(--muted);font-size:.85rem;margin-top:14px" id="game-note"></p>
+  </section>
+
+  <section class="card" id="how">
+    <h2>這個站怎麼運作（誠實版）</h2>
+    <ol class="how-list">
+      <li><strong>資料來源</strong>：Apple 官方公開饋流（iTunes RSS）——名稱、開發者、價格與商店連結都是官方資料，我們只做收錄與中文介面。</li>
+      <li><strong>排序</strong>：純粹按上架新到舊。沒有付費排名、沒有廣告排序——未來若有任何商業合作都會明確標示「廣告」。</li>
+      <li><strong>編輯觀察</strong>：收錄清單之外，我們會慢慢挑選值得注意的作品寫觀察筆記（標明為編輯觀點）。遊戲畫面素材一律優先使用開發商提供的媒體資源。</li>
+      <li><strong>開發者投稿</strong>：歡迎開發者<a href="submit.html">自主投稿</a>，免費，與收錄清單分開標示。</li>
+    </ol>
+    <div class="notice">
+      本站為獨立觀察站，與 Apple Inc. 無隸屬或背書關係。收錄資訊以<a href="https://www.apple.com/tw/ios/app-store/" target="_blank" rel="noopener">App Store 官方頁面</a>為準；遊戲之版權與商標屬各自開發商／發行商。詳見<a href="about.html">關於</a>與免責說明。
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="logo" style="font-size:1rem"><span class="mark">◎</span>遊戲前哨站</div>
+    <nav class="footer-links">
+      <a href="submit.html">開發者投稿</a>
+      <a href="about.html">關於與免責</a>
+      <a href="privacy.html">隱私</a>
+    </nav>
+    <div class="footer-note">© 2026 遊戲前哨站 — 資料來源：Apple 官方 iTunes RSS。獨立觀察站，非官方，不構成任何推薦。</div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
