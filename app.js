@@ -6,6 +6,15 @@
   const status = document.getElementById("data-status");
   const grid = document.getElementById("game-grid");
   const note = document.getElementById("game-note");
+
+  /* 靜態清單已由更新腳本寫進 HTML（SEO 用）——直接讀 data 屬性顯示狀態 */
+  if (grid && grid.children.length) {
+    status.innerHTML = `<span>📅 最近更新：<strong>${grid.dataset.updated || ""}</strong></span><span>📦 收錄 <strong>${grid.dataset.count || grid.children.length}</strong> 款最新遊戲</span><span>📡 來源：Apple 官方 iTunes RSS</span>`;
+    note.textContent = `顯示最新 ${grid.children.length} 款（按上架時間新到舊）。清單為官方資料自動收錄，非編輯推薦。`;
+    return;
+  }
+
+  /* 備援：靜態內容缺失時才動態抓 JSON */
   let data = null;
   try {
     const res = await fetch("data/games.json", { cache: "no-store" });
