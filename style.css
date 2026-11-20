@@ -78,6 +78,32 @@ footer { border-top: 1px solid var(--border); background: var(--card); margin-to
 .spec-col li { font-size: .8rem; color: #c6cddd; margin: 3px 0; }
 .spec-go { display: inline-block; margin-top: 10px; color: var(--primary); font-size: .8rem; text-decoration: none; }
 .spec-go:hover { text-decoration: underline; }
+/* 兌換碼分區 */
+.redeem-line { margin: 10px 0 4px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.redeem-btn { display: inline-block; background: var(--primary-dark); color: #fff; font-size: .84rem; font-weight: 700; padding: 7px 14px; border-radius: 8px; text-decoration: none; }
+.redeem-btn:hover { background: var(--primary); }
+.redeem-note { color: var(--muted); font-size: .78rem; }
+.src-line { color: var(--muted); font-size: .76rem; margin: 2px 0 12px; }
+.src-line a { color: var(--primary); }
+.code-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
+.code-item { background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.code-chip { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-weight: 700; letter-spacing: .5px; background: #0c2a3d; color: #bae6fd; border: 1px dashed #1e4e6b; border-radius: 8px; padding: 3px 10px; font-size: .9rem; }
+.code-item .reward { flex: 1 1 200px; color: #c6cddd; font-size: .82rem; min-width: 0; }
+.st { font-size: .7rem; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.st-active { background: #0c3a24; color: #6ee7a0; }
+.st-unverified { background: #3a2f0c; color: #e3c96a; }
+.st-expired { background: #3a1420; color: #e38aa0; }
+.copy-btn { background: #171b26; border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 5px 12px; font-size: .78rem; cursor: pointer; }
+.copy-btn:hover { border-color: var(--primary); color: var(--primary); }
+.copy-btn.copied { background: #0c3a24; border-color: #166534; color: #6ee7a0; }
+.copy-btn.copy-fail { background: #3a1420; color: #e38aa0; }
+.empty-note { color: var(--muted); font-size: .86rem; background: #171b26; border: 1px dashed var(--border); border-radius: 10px; padding: 12px 16px; }
+.expired-details { margin-top: 12px; }
+.expired-details summary { cursor: pointer; color: var(--muted); font-size: .82rem; }
+.expired-details summary:hover { color: var(--text); }
+.code-item-expired { opacity: .68; }
+.code-item-expired .code-chip { color: #8b93a7; background: #1a1e2a; border-color: var(--border); }
+
 .footer-inner { max-width: 960px; margin: 0 auto; padding: 24px 16px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 .footer-links { display: flex; gap: 14px; flex-wrap: wrap; margin-left: auto; }
 .footer-links a { color: var(--muted); text-decoration: none; font-size: .86rem; }
