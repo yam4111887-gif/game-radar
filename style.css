@@ -122,3 +122,10 @@ footer { border-top: 1px solid var(--border); background: var(--card); margin-to
 .footer-links { display: flex; gap: 14px; flex-wrap: wrap; margin-left: auto; }
 .footer-links a { color: var(--muted); text-decoration: none; font-size: .86rem; }
 .footer-note { width: 100%; color: var(--muted); font-size: .76rem; }
+
+/* AI 遊戲雷達 chips */
+.chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+.chip { font-size: .7rem; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.chip-coop { background: #0c3a24; color: #6ee7a0; }
+.chip-free { background: #0c2a3d; color: #bae6fd; }
+.chip-demo { background: #3a2f0c; color: #e3c96a; }
