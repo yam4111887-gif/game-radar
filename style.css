@@ -78,6 +78,20 @@ footer { border-top: 1px solid var(--border); background: var(--card); margin-to
 .spec-col li { font-size: .8rem; color: #c6cddd; margin: 3px 0; }
 .spec-go { display: inline-block; margin-top: 10px; color: var(--primary); font-size: .8rem; text-decoration: none; }
 .spec-go:hover { text-decoration: underline; }
+
+/* 強度排行 tier list */
+.tier-table { margin-top: 14px; display: grid; gap: 10px; }
+.tier-row { display: grid; grid-template-columns: 52px 1fr; gap: 10px; align-items: start; background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+.tier-label { font-weight: 800; border-radius: 8px; text-align: center; padding: 6px 0; font-size: .95rem; }
+.tier-S .tier-label { background: #3d1f24; color: #f87171; }
+.tier-A .tier-label { background: #1f3324; color: #4ade80; }
+.tier-B .tier-label { background: #1f2a3d; color: #60a5fa; }
+.tier-note { color: var(--muted); font-size: .78rem; margin: 4px 0 8px; }
+.champ-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.champ { background: #171b26; border: 1px solid var(--border); border-radius: 999px; padding: 3px 12px; font-size: .82rem; color: #dfe3ef; white-space: nowrap; }
+.champ small { color: var(--muted); font-size: .72rem; }
+.champ .up { color: #4ade80; }
+.champ .down { color: #f87171; }
 /* 兌換碼分區 */
 .redeem-line { margin: 10px 0 4px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .redeem-btn { display: inline-block; background: var(--primary-dark); color: #fff; font-size: .84rem; font-weight: 700; padding: 7px 14px; border-radius: 8px; text-decoration: none; }
