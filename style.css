@@ -65,6 +65,19 @@ main { max-width: 960px; margin: 24px auto 44px; padding: 0 16px; }
 .page ul { padding-left: 22px; }
 
 footer { border-top: 1px solid var(--border); background: var(--card); margin-top: 30px; }
+
+/* 配備需求分區 */
+.spec-list { display: grid; gap: 14px; margin-top: 16px; }
+.spec-card { background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
+.spec-card h3 { margin: 0; font-size: 1rem; display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.spec-meta { color: var(--muted); font-size: .78rem; font-weight: 400; }
+.spec-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 10px; }
+.spec-col { background: #171b26; border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; }
+.spec-col h4 { margin: 0 0 6px; font-size: .84rem; color: var(--primary); }
+.spec-col ul { margin: 0; padding-left: 18px; }
+.spec-col li { font-size: .8rem; color: #c6cddd; margin: 3px 0; }
+.spec-go { display: inline-block; margin-top: 10px; color: var(--primary); font-size: .8rem; text-decoration: none; }
+.spec-go:hover { text-decoration: underline; }
 .footer-inner { max-width: 960px; margin: 0 auto; padding: 24px 16px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 .footer-links { display: flex; gap: 14px; flex-wrap: wrap; margin-left: auto; }
 .footer-links a { color: var(--muted); text-decoration: none; font-size: .86rem; }
