@@ -3,6 +3,16 @@
    用法：node scripts/update-games.js（在 game-radar 目錄下執行） */
 const fs = require("fs");
 const path = require("path");
+const { spawnSync } = require("child_process");
+
+/* ⛓️ 串接其他分區更新（每日 cron 只叫這支：games → steam → specs → codes）
+   各腳本獨立 fail-soft：單一來源掛掉不影響其他分區的收錄 */
+function chain(name) {
+  const r = spawnSync(process.execPath, [path.join(__dirname, name)], { encoding: "utf8" });
+  const last = (arr) => arr.filter(Boolean).pop() || "";
+  if (r.status !== 0) console.error(`[chain] ${name} 失敗：${last((r.stderr || "").trim().split("\n"))}`);
+  else console.log(`[chain] ${name} → ${last((r.stdout || "").trim().split("\n"))}`);
+}
 
 function cardHtml(g) {
   const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -17,6 +27,8 @@ function cardHtml(g) {
 }
 
 async function main() {
+  ["update-steam.js", "update-specs.js", "update-codes.js"].forEach(chain);
+
   const res = await fetch("https://itunes.apple.com/tw/rss/newapplications/limit=100/genre=6014/json");
   if (!res.ok) throw new Error("iTunes RSS HTTP " + res.status);
   const j = await res.json();
