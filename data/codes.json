@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 05:46",
+ "updated": "2026-11-20 18:00",
  "games": [
   {
    "key": "genshin",
@@ -90,29 +90,82 @@
    "name": "Honkai: Star Rail",
    "zh": "崩壞：星穹鐵道",
    "redeemUrl": "https://hsr.hoyoverse.com/redemption",
-   "sourceName": "Pocket Gamer（Honkai Star Rail codes）",
-   "sourceUrl": "https://www.pocketgamer.com/honkai-star-rail/codes/",
-   "sourceUpdated": "October 04th, 2026 - article retired",
-   "note": "來源頁面已停止維護（article retired），碼狀態僅供參考",
+   "sourceName": "ONE eSports（HSR codes）× Hum-Bao/hoyoverse-codes 每日驗證",
+   "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+   "note": "活碼狀態由 Hum-Bao/hoyoverse-codes 每日更新清單交叉驗證（US 區）",
    "retrieved": "2026-11-20",
    "codes": [
     {
-     "code": "NSJR3B97ZZ5X",
-     "reward": "50 星玉, 10,000 信用點",
-     "status": "unverified",
-     "sourceUrl": "https://www.pocketgamer.com/honkai-star-rail/codes/"
-    },
-    {
-     "code": "SilverWolfLV999",
-     "reward": "3 Travelers Guide, 2 Badge Battle Robes",
-     "status": "unverified",
-     "sourceUrl": "https://www.pocketgamer.com/honkai-star-rail/codes/"
-    },
-    {
      "code": "STARRAILGIFT",
-     "reward": "50 星玉, 10,000 信用點",
-     "status": "unverified",
-     "sourceUrl": "https://www.pocketgamer.com/honkai-star-rail/codes/"
+     "reward": "50x 星瓊, 2x 旅行者的指引, 5x Bottled Soda, 10,000 信用點",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "4TKSX77Y58QK",
+     "reward": "見官方兌換頁說明",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "5S6ZHRWTDNJB",
+     "reward": "見官方兌換頁說明",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "CREATIONNYMPH",
+     "reward": "見官方兌換頁說明",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "FAREWELL",
+     "reward": "見官方兌換頁說明",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "IFYOUAREREADINGTHIS",
+     "reward": "見官方兌換頁說明",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "NS4DU8AAGXBP",
+     "reward": "見官方兌換頁說明",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "OMEGA",
+     "reward": "見官方兌換頁說明",
+     "status": "active",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "DTJ7CVACLBGF",
+     "reward": "100x 星瓊, 4x 精煉的以太",
+     "status": "expired",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "ZS36CVBUMTZB",
+     "reward": "100x 星瓊, 5x 旅行者的指引",
+     "status": "expired",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "FTJ6CVTULSXP",
+     "reward": "100x 星瓊, 50,000 信用點",
+     "status": "expired",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+    },
+    {
+     "code": "HSRNEWYEAR2025",
+     "reward": "3x 旅行者的指引, 20,000 信用點",
+     "status": "expired",
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
     }
    ]
   },
@@ -183,7 +236,7 @@
     },
     {
      "code": "2NDANNIVERSARY",
-     "reward": "星聲 ×100, Forgery Premium Supply ? ×2, 貝幣 ×40000 (valid until April 19th)",
+     "reward": "星聲 ×100, Forgery Premium Supply ? ×2, Shell 信用點 ×40000 (valid until April 19th)",
      "status": "expired",
      "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
     },

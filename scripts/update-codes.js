@@ -24,9 +24,11 @@ const GAMES = [
   {
     key: "starrail", name: "Honkai: Star Rail", zh: "崩壞：星穹鐵道",
     redeemUrl: "https://hsr.hoyoverse.com/redemption",
-    sourceName: "Pocket Gamer（Honkai Star Rail codes）",
-    sourceUrl: "https://www.pocketgamer.com/honkai-star-rail/codes/",
-    type: "pocketgamer",
+    sourceName: "ONE eSports（HSR codes）× Hum-Bao/hoyoverse-codes 每日驗證",
+    sourceUrl: "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+    type: "oneesports",
+    livenessUrl: "https://raw.githubusercontent.com/Hum-Bao/hoyoverse-codes/main/HSR.txt",
+    livenessName: "Hum-Bao/hoyoverse-codes",
   },
   {
     key: "zzz", name: "Zenless Zone Zero", zh: "絕區零",
@@ -70,12 +72,13 @@ const esc = (s) =>
 /* 標準貨幣/道具名對照（只譯官方繁中確定者，其餘保留原文，不猜不編） */
 const ZH_TERMS = [
   [/Primogems?\b/gi, "原石"], [/Mora\b/gi, "摩拉"], [/Hero's Wit/gi, "大英雄的經驗"],
-  [/Adventurer's Experience/gi, "冒險家的經驗"], [/Stellar Jade/gi, "星玉"],
-  [/Credits\b/gi, "信用點"], [/Polychrome/gi, "菲林"], [/Astrites?\b/gi, "星聲"],
+  [/Adventurer's Experience/gi, "冒險家的經驗"], [/Stellar Jades?\b/gi, "星瓊"],
+  [/Traveler's Guide/gi, "旅行者的指引"], [/Refined Aether/gi, "精煉的以太"],
+  [/Credits?\b/gi, "信用點"], [/Polychrome/gi, "菲林"], [/Astrites?\b/gi, "星聲"],
   [/Shell Credits?/gi, "貝幣"],
 ];
 function zhReward(r) {
-  let t = String(r || "");
+  let t = String(r || "").replace(/[\u2018\u2019]/g, "'");
   const asia = /\(Asia only\)/i.test(t);
   t = t.replace(/\(Asia only\)/gi, "").replace(/\(new!\)/gi, "").replace(/\s+,/g, ",").replace(/\s{2,}/g, " ").trim();
   for (const [re, zh] of ZH_TERMS) t = t.replace(re, zh);
@@ -171,6 +174,76 @@ function parseFollowchain(html, game) {
   return { codes, sourceUpdated: "", note: "來源未標示各碼有效期限，一律標「未驗證」，領取失敗即已過期" };
 }
 
+/* ---------- Fetcher：ONE eSports（HSR）
+   主表格 = 日期/到期/碼/獎勵；表格下方另有「Expired codes」清單。
+   活碼狀態用 Hum-Bao/hoyoverse-codes（GitHub，每日白動更新，US 區）交叉驗證：
+   在清單上=active、不=expired、清單抓不到=unverified（依到期日推估） ---------- */
+function parseOneesports(html) {
+  const tables = [...html.matchAll(/<table[\s\S]*?<\/table>/g)].map((m) => m[0]);
+  const codesTable = tables.find((tb) => tb.includes("<td") && /CODES/i.test(tb));
+  if (!codesTable) throw new Error("找不到 codes 表格");
+  const entries = [];
+  for (const r of codesTable.matchAll(/<tr[\s\S]*?<\/tr>/g)) {
+    const cells = [...r[0].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/g)].map((c) => decode(c[1]));
+    if (cells.length < 4) continue;
+    const expiryRaw = cells[1], code = cells[2], reward = cells[3];
+    if (!/^[A-Za-z0-9]{4,20}$/.test(code)) continue;
+    entries.push({ expiryRaw, code, reward });
+  }
+  if (!entries.length) throw new Error("表格解析到 0 碼");
+  const expiredBlock = html.match(/Expired[^<]{0,40}codes[\s\S]{0,8000}?<\/ul>/i);
+  const expiredSet = new Set();
+  if (expiredBlock) {
+    for (const m of expiredBlock[0].matchAll(/<li>([\s\S]*?)<\/li>/g)) {
+      const c = decode(m[1]);
+      if (/^[A-Za-z0-9]{4,20}$/.test(c)) expiredSet.add(c.toUpperCase());
+    }
+  }
+  return { entries, expiredSet };
+}
+
+async function fetchOneesports(game, html) {
+  const { entries, expiredSet } = parseOneesports(html);
+
+  let live = [];
+  let livenessOk = false;
+  try {
+    const txt = await fetchHtml(game.livenessUrl);
+    live = txt.split(/\r?\n/).map((s) => s.trim()).filter((s) => /^[A-Za-z0-9]{4,20}$/.test(s));
+    livenessOk = true;
+  } catch (_) { /* fail-soft：驗證清單抓不到 → 狀態降級 */ }
+  const liveSet = new Set(live.map((c) => c.toUpperCase()));
+  const now = Date.now();
+
+  const out = [];
+  for (const e of entries) {
+    if (expiredSet.has(e.code.toUpperCase())) continue;
+    const dm = e.expiryRaw.match(/[A-Z][a-z]+ \d{1,2}, \d{4}/);
+    const exp = dm ? new Date(dm[0] + " 23:59:00+08:00") : null;
+    let status;
+    if (livenessOk) status = liveSet.has(e.code.toUpperCase()) ? "active" : "expired";
+    else status = exp && exp.getTime() < now ? "expired" : "unverified";
+    out.push({ code: e.code, reward: zhReward(e.reward), status, sourceUrl: game.sourceUrl });
+  }
+  /* 活碼清單有、表格沒有的碼（新碼表格還沒收）也補進來 */
+  for (const c of live) {
+    if (!out.some((o) => o.code.toUpperCase() === c.toUpperCase())) {
+      out.push({ code: c, reward: "見官方兌換頁說明", status: "active", sourceUrl: game.sourceUrl });
+    }
+  }
+  if (!out.length) throw new Error("解析到 0 碼");
+
+  const act = out.filter((c) => c.status === "active").slice(0, MAX_ACTIVE);
+  const expd = out.filter((c) => c.status === "expired").slice(0, MAX_EXPIRED);
+  return {
+    codes: [...act, ...expd],
+    sourceUpdated: "",
+    note: livenessOk
+      ? "活碼狀態由 Hum-Bao/hoyoverse-codes 每日更新清單交叉驗證（US 區）"
+      : "驗證清單抓取失敗，狀態僅依表格到期日推估，僅供參考",
+  };
+}
+
 /* ---------- codes.html 靜態區塊 ---------- */
 function statusBadge(s) {
   return s === "active" ? '<span class="st st-active">有效</span>'
@@ -230,7 +303,9 @@ async function main() {
   for (const game of GAMES) {
     try {
       const html = await fetchHtml(game.sourceUrl);
-      const parsed = game.type === "pocketgamer" ? parsePocketgamer(html, game) : parseFollowchain(html, game);
+      const parsed = game.type === "pocketgamer" ? parsePocketgamer(html, game)
+        : game.type === "oneesports" ? await fetchOneesports(game, html)
+        : parseFollowchain(html, game);
       results.push({
         key: game.key, name: game.name, zh: game.zh,
         redeemUrl: game.redeemUrl, ...(game.redeemNote ? { redeemNote: game.redeemNote } : {}),
