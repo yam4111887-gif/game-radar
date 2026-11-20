@@ -1,8 +1,71 @@
 {
- "updated": "2026-11-20 04:14",
+ "updated": "2026-11-20 05:10",
  "source": "Steam 官方商店搜尋（依上架日排序・繁中篩選）",
- "count": 35,
+ "count": 36,
  "games": [
+  {
+   "name": "The Hero is too Powerful so let's Pleeeease Settle this Peacefully!",
+   "id": "5597340",
+   "url": "https://store.steampowered.com/app/5597340/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955870/deee2a46b2e946f159e4e38ec55e51c869c217fe/capsule_231x87.jpg?t=1795151288",
+   "released": "2026 年 11 月 19 日",
+   "price": "NT$ 197.00",
+   "discount": 17,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Find Cats 9: 賽博霓虹城",
+   "id": "5597350",
+   "url": "https://store.steampowered.com/app/5597350/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5597340/5edb11d99af6aebfae7e66fa024216766cee70bb/capsule_231x87.jpg?t=1795150649",
+   "released": "2026 年 11 月 19 日",
+   "price": "NT$ 18.00",
+   "discount": 25,
+   "platforms": [
+    "Win",
+    "Linux"
+   ]
+  },
+  {
+   "name": "Find Cats 9: 繪本奇遇",
+   "id": "4903900",
+   "url": "https://store.steampowered.com/app/4903900/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5597350/222a3991ed81a32ef92cdac25996b3b3d09c3c5d/capsule_231x87.jpg?t=1795150631",
+   "released": "2026 年 11 月 19 日",
+   "price": "NT$ 18.00",
+   "discount": 25,
+   "platforms": [
+    "Win",
+    "Linux"
+   ]
+  },
+  {
+   "name": "Find Cats 9: 隱藏的寶藏",
+   "id": "2173300",
+   "url": "https://store.steampowered.com/app/2173300/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903900/38d40c47a4b24c701673a00df6a0c804f650caba/capsule_231x87.jpg?t=1795150596",
+   "released": "2026 年 11 月 19 日",
+   "price": "NT$ 35.00",
+   "discount": 33,
+   "platforms": [
+    "Win",
+    "Linux"
+   ]
+  },
+  {
+   "name": "Skull Survivor",
+   "id": "3008180",
+   "url": "https://store.steampowered.com/app/3008180/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2173300/7066cfcf42a256e5c3efd60af5509457120d5b5d/capsule_231x87.jpg?t=1795149859",
+   "released": "2026 年 11 月 19 日",
+   "price": "NT$ 65.00",
+   "discount": 21,
+   "platforms": [
+    "Win"
+   ]
+  },
   {
    "name": "Dice Showdown",
    "id": "5526130",
@@ -384,57 +447,6 @@
    "discount": 0,
    "platforms": [
     "Win"
-   ]
-  },
-  {
-   "name": "15日僵屍倖存者",
-   "id": "4866020",
-   "url": "https://store.steampowered.com/app/4866020/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5252040/28ebffa3673a7ddd87a8db015f3b1840589d70a3/capsule_231x87_tchinese.jpg?t=1795101871",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 62.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "推彈小子",
-   "id": "4102120",
-   "url": "https://store.steampowered.com/app/4102120/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4866020/070e2c01b4f7cfb062b97da3b7b34d39d111a1de/capsule_231x87_tchinese.jpg?t=1795101051",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 260.00",
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Linux"
-   ]
-  },
-  {
-   "name": "Resequence: The Orchard",
-   "id": "5472880",
-   "url": "https://store.steampowered.com/app/5472880/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4102120/c82acefd2a12c104247b2454f667db119b4779a8/capsule_231x87.jpg?t=1795100417",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 326.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "帝国的第99次重生",
-   "id": "4907890",
-   "url": "https://store.steampowered.com/app/4907890/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472880/45a5ff01d4ff23c4d0eafe9fbf565476596b9a87/capsule_231x87_tchinese.jpg?t=1795100282",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 108.00",
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
    ]
   }
  ]
