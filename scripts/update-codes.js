@@ -272,9 +272,9 @@ function gameCard(g) {
   const title = g.zh === g.name ? g.zh : `${g.zh} ${g.name}`;
   const lines = [];
   lines.push(`    <section class="card game-codes" id="game-${esc(g.key)}">`);
-  lines.push(`      <h2>🎁 ${esc(title)} <span class="spec-meta">${esc(countLabel)}</span></h2>`);
+  lines.push(`      <h2><span class="h2i" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="8" width="17" height="4" rx="1"/><path d="M5 12v7.5A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5V12M12 8v13"/><path d="M12 8c-4 0-5.2-2-4.6-3.6C8 2.8 10.2 3 12 5.6 13.8 3 16 2.8 16.6 4.4 17.2 6 16 8 12 8z"/></svg></span>${esc(title)} <span class="spec-meta">${esc(countLabel)}</span></h2>`);
   lines.push(`      <p class="redeem-line"><a class="redeem-btn" href="${esc(g.redeemUrl)}" target="_blank" rel="noopener">官方兌換入口 ↗</a>${g.redeemNote ? ' <span class="redeem-note">' + esc(g.redeemNote) + "</span>" : ""}</p>`);
-  lines.push(`      <p class="src-line">資料來源：<a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener">${esc(g.sourceName)}</a>${g.sourceUpdated ? "（來源頁標示更新：" + esc(g.sourceUpdated) + "）" : ""}${g.note ? "｜⚠ " + esc(g.note) : ""}${g.stale ? "｜⚠ 上次抓取失敗，以下為 " + esc(g.retrieved || "") + " 抓取之舊資料" : ""}</p>`);
+  lines.push(`      <p class="src-line">資料來源：<a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener">${esc(g.sourceName)}</a>${g.sourceUpdated ? "（來源頁標示更新：" + esc(g.sourceUpdated) + "）" : ""}${g.note ? "｜注意：" + esc(g.note) : ""}${g.stale ? "｜注意：上次抓取失敗，以下為 " + esc(g.retrieved || "") + " 抓取之舊資料" : ""}</p>`);
   if (live.length) {
     lines.push(`      <ul class="code-list">`);
     for (const c of live) lines.push(codeLi(c, false));

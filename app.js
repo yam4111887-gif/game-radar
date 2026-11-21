@@ -9,7 +9,7 @@
 
   /* 靜態清單已由更新腳本寫進 HTML（SEO 用）——直接讀 data 屬性顯示狀態 */
   if (grid && grid.children.length) {
-    status.innerHTML = `<span>📅 最近更新：<strong>${grid.dataset.updated || ""}</strong></span><span>📦 收錄 <strong>${grid.dataset.count || grid.children.length}</strong> 款最新遊戲</span><span>📡 來源：Apple 官方 iTunes RSS</span>`;
+    status.innerHTML = `<span>最近更新：<strong>${grid.dataset.updated || ""}</strong></span><span>收錄 <strong>${grid.dataset.count || grid.children.length}</strong> 款最新遊戲</span><span>來源：Apple 官方 iTunes RSS</span>`;
     note.textContent = `顯示最新 ${grid.children.length} 款（按上架時間新到舊）。清單為官方資料自動收錄，非編輯推薦。`;
     return;
   }
@@ -21,10 +21,10 @@
     if (!res.ok) throw new Error("HTTP " + res.status);
     data = await res.json();
   } catch (e) {
-    status.textContent = "❌ 資料載入失敗（" + (e.message || e) + "）——請稍後再試，或以 App Store 官方為準。";
+    status.textContent = "資料載入失敗（" + (e.message || e) + "）——請稍後再試，或以 App Store 官方為準。";
     return;
   }
-  status.innerHTML = `<span>📅 最近更新：<strong>${data.updated}</strong></span><span>📦 收錄 <strong>${data.count}</strong> 款最新遊戲</span><span>📡 來源：${data.source}</span>`;
+  status.innerHTML = `<span>最近更新：<strong>${data.updated}</strong></span><span>收錄 <strong>${data.count}</strong> 款最新遊戲</span><span>來源：${data.source}</span>`;
 
   grid.innerHTML = "";
   for (const g of data.games.slice(0, 24)) {

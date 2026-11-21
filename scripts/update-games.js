@@ -41,7 +41,8 @@ async function main() {
     games.push({
       name: e["im:name"].label,
       id: e.id && e.id.attributes && e.id.attributes["im:id"],
-      url: (e.link && e.link[0] && e.link[0].attributes && e.link[0].attributes.href) || "",
+      url: (e.link && e.link[0] && e.link[0].attributes && e.link[0].attributes.href)
+        || (e.id && e.id.attributes && e.id.attributes["im:id"] ? "https://apps.apple.com/tw/app/id" + e.id.attributes["im:id"] : ""),
       icon: icons[icons.length - 1] || "",
       price: e["im:price"] && e["im:price"].label,
       artist: e["im:artist"] && e["im:artist"].label,

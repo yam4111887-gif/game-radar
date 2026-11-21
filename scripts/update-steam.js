@@ -30,8 +30,8 @@ function priceText(rowHtml) {
 
 function cardHtml(g) {
   const plat = (g.platforms || []).join("/");
-  return `      <a class="game-card" href="${esc(g.url)}" target="_blank" rel="noopener">
-        ${g.capsule ? `<img src="${esc(g.capsule)}" alt="" loading="lazy" style="width:66px;height:37px;border-radius:6px;object-fit:cover">` : ""}
+  return `      <a class="game-card card-v" href="${esc(g.url)}" target="_blank" rel="noopener">
+        ${g.capsule ? `<img class="banner" src="${esc(g.capsule)}" alt="" loading="lazy">` : ""}
         <span class="t">
           <span class="name">${esc(g.name)}</span>
           <span class="meta">${esc(g.released)}${g.price ? " · " + esc(g.price) + (g.discount ? " -" + g.discount + "%" : "") : ""}${plat ? " · " + esc(plat) : ""}</span>
