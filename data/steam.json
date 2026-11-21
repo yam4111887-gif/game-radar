@@ -1,362 +1,38 @@
 {
- "updated": "2026-11-20 05:46",
+ "updated": "2026-11-21 05:10",
  "source": "Steam 官方商店搜尋（依上架日排序・繁中篩選）",
- "count": 36,
+ "count": 28,
  "games": [
   {
-   "name": "The Hero is too Powerful so let's Pleeeease Settle this Peacefully!",
-   "id": "5597340",
-   "url": "https://store.steampowered.com/app/5597340/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955870/deee2a46b2e946f159e4e38ec55e51c869c217fe/capsule_231x87.jpg?t=1795151288",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 197.00",
-   "discount": 17,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Find Cats 9: 賽博霓虹城",
-   "id": "5597350",
-   "url": "https://store.steampowered.com/app/5597350/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5597340/5edb11d99af6aebfae7e66fa024216766cee70bb/capsule_231x87.jpg?t=1795150649",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 18.00",
-   "discount": 25,
-   "platforms": [
-    "Win",
-    "Linux"
-   ]
-  },
-  {
-   "name": "Find Cats 9: 繪本奇遇",
-   "id": "4903900",
-   "url": "https://store.steampowered.com/app/4903900/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5597350/222a3991ed81a32ef92cdac25996b3b3d09c3c5d/capsule_231x87.jpg?t=1795150631",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 18.00",
-   "discount": 25,
-   "platforms": [
-    "Win",
-    "Linux"
-   ]
-  },
-  {
-   "name": "Find Cats 9: 隱藏的寶藏",
-   "id": "2173300",
-   "url": "https://store.steampowered.com/app/2173300/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903900/38d40c47a4b24c701673a00df6a0c804f650caba/capsule_231x87.jpg?t=1795150596",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 35.00",
-   "discount": 33,
-   "platforms": [
-    "Win",
-    "Linux"
-   ]
-  },
-  {
-   "name": "Skull Survivor",
-   "id": "3008180",
-   "url": "https://store.steampowered.com/app/3008180/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2173300/7066cfcf42a256e5c3efd60af5509457120d5b5d/capsule_231x87.jpg?t=1795149859",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 65.00",
-   "discount": 21,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Dice Showdown",
-   "id": "5526130",
-   "url": "https://store.steampowered.com/app/5526130/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008180/fd2bd077447f498ec3ccdeb333bcc6f31c76c215/capsule_231x87.jpg?t=1795147738",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 126.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "ChemLab",
-   "id": "5403190",
-   "url": "https://store.steampowered.com/app/5403190/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5526130/45018251242fb28bee727ee307ef73d20f84443a/capsule_231x87.jpg?t=1795143584",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 142.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Project Babel",
-   "id": "5559910",
-   "url": "https://store.steampowered.com/app/5559910/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403190/f07642b8984efe97c67d5daa34bcce110dc6073d/capsule_231x87.jpg?t=1795144798",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 158.00",
-   "discount": 20,
-   "platforms": [
-    "Win",
-    "Mac"
-   ]
-  },
-  {
-   "name": "俠客歸途",
-   "id": "5087750",
-   "url": "https://store.steampowered.com/app/5087750/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064300/01b01e7874ff8af8b89762eea69969b51ff15ac9/capsule_231x87.jpg?t=1795140653",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 108.00",
+   "name": "‌Super Puzzle‌",
+   "id": "5373450",
+   "url": "https://store.steampowered.com/app/5373450/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5505740/69dd3feab2ca1c97f1a39082cd03d1f02c5da976/capsule_231x87.jpg?t=1795237152",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 63.00",
    "discount": 0,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "少女派對",
-   "id": "4494800",
-   "url": "https://store.steampowered.com/app/4494800/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087750/0de72f5b8e6d276c7048a47dd5e89c1abeb7c0c7/capsule_231x87_tchinese.jpg?t=1795139421",
-   "released": "2026 年 11 月 19 日",
-   "price": "",
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Void Rhythm",
-   "id": "5595430",
-   "url": "https://store.steampowered.com/app/5595430/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4494800/e3dcdc8e7b94183f4955a07681cbe2c2bdad126d/capsule_231x87_tchinese.jpg?t=1795138714",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 105.00",
+   "name": "The Idle Witch and Her Tower of BOOOOM!",
+   "id": "5651760",
+   "url": "https://store.steampowered.com/app/5651760/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5193560/79cde399c56aaa144c393f73a60fc5d277b3950d/capsule_231x87.jpg?t=1795233956",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 134.00",
    "discount": 10,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "Widget Idle",
-   "id": "5435050",
-   "url": "https://store.steampowered.com/app/5435050/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634570/4b629468b49fc3309a1f0666671d3c3fdbce28b9/capsule_231x87.jpg?t=1795133531",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 142.00",
-   "discount": 10,
-   "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
-   ]
-  },
-  {
-   "name": "人像摄影大师",
-   "id": "5338990",
-   "url": "https://store.steampowered.com/app/5338990/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5500470/bba31e60d597c8b36f539bc8b87926e0eb8931a0/capsule_231x87.jpg?t=1795147254",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 92.00",
-   "discount": 15,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Torchline",
-   "id": "5449370",
-   "url": "https://store.steampowered.com/app/5449370/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5530980/e8e03558f02244b2e92c48c92d7e866f0d454311/capsule_231x87.jpg?t=1795130090",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 168.00",
-   "discount": 15,
-   "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
-   ]
-  },
-  {
-   "name": "Luna Star Rancher",
-   "id": "5388430",
-   "url": "https://store.steampowered.com/app/5388430/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5449370/30e551d4f4b6e5b6240f9013c0f6a5eba4e693ef/capsule_231x87.jpg?t=1795128368",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 118.00",
-   "discount": 40,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "DATAWANDER",
-   "id": "5557700",
-   "url": "https://store.steampowered.com/app/5557700/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4672370/075c0dadc9cdbcf4ad943361ba53b36a76897dad/capsule_231x87.jpg?t=1795125145",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 136.00",
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "MeloDancer",
-   "id": "5563770",
-   "url": "https://store.steampowered.com/app/5563770/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984000/fb4a75484f3e0bee650c9cb71c29c12637946b4e/capsule_231x87.jpg?t=1795130239",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 189.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Sintropia Fruits Together",
-   "id": "2702920",
-   "url": "https://store.steampowered.com/app/2702920/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5028340/7072578009632a2748f4eefdb0bb0174b8bc358b/capsule_231x87.jpg?t=1795117940",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 93.00",
-   "discount": 21,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Cozy Escapes",
-   "id": "5377070",
-   "url": "https://store.steampowered.com/app/5377070/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2702920/ce12dcef49855011694ba62f19111725836e85ff/capsule_231x87.jpg?t=1795115465",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 81.00",
-   "discount": 21,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Floatwood",
-   "id": "5196330",
-   "url": "https://store.steampowered.com/app/5196330/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377070/503cc47e039681ce65d8fad698a73728cf578c5d/capsule_231x87.jpg?t=1795111760",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 97.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "IT THINKS! - Build Your Own GPU",
-   "id": "2292800",
-   "url": "https://store.steampowered.com/app/2292800/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196330/d4dac13eb8fa81b0979c8ca7ea1774f20f7c8d84/capsule_231x87.jpg?t=1795111352",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 222.00",
-   "discount": 20,
-   "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
-   ]
-  },
-  {
-   "name": "鐵匠大師 Blacksmith Master",
-   "id": "5399320",
-   "url": "https://store.steampowered.com/app/5399320/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/379e03560d8ec08ab667d8e4a3688071d7d407ef/capsule_231x87_tchinese.jpg?t=1795111301",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 199.00",
-   "discount": 50,
-   "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
-   ]
-  },
-  {
-   "name": "Bamboo Ronin: The Last Cut",
-   "id": "5576070",
-   "url": "https://store.steampowered.com/app/5576070/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5399320/8a4320844ffb44cefec359fd0382a825962538ce/capsule_231x87.jpg?t=1795111240",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 118.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "星斬",
-   "id": "4523120",
-   "url": "https://store.steampowered.com/app/4523120/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160370/1183a9706542d71665e6fc886193c69081965435/capsule_231x87_tchinese.jpg?t=1795109722",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 190.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Volvy’s Adventure: Reslimed",
-   "id": "5488360",
-   "url": "https://store.steampowered.com/app/5488360/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/5b3e97af23691a2ae8f4238c8a18939dde9a61a5/capsule_231x87.jpg?t=1795112316",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 88.00",
-   "discount": 25,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "千變百怪",
-   "id": "5453070",
-   "url": "https://store.steampowered.com/app/5453070/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5488360/849e7eeacc4760340bb0b20064033d4852515457/capsule_231x87.jpg?t=1795108943",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 64.00",
-   "discount": 26,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "KUROSHIO: Neon Blood",
-   "id": "5539380",
-   "url": "https://store.steampowered.com/app/5539380/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5453070/a3deb999a1533d2c7249cdf68ac8b372c3a8c2ad/capsule_231x87.jpg?t=1795138030",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 295.00",
-   "discount": 15,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "自動販賣機公園：整理與補貨 | Vending Park: Sort & Stock",
-   "id": "5021760",
-   "url": "https://store.steampowered.com/app/5021760/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5496150/feeba32eabc50d74bd187432895ccba8151bc7cf/capsule_231x87.jpg?t=1795111483",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 97.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Deck Breaker - A Roguelike Deckbuilder",
-   "id": "4947470",
-   "url": "https://store.steampowered.com/app/4947470/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5021760/83b01b884a4030ec1234d631a2d367138e07215e/capsule_231x87.jpg?t=1795104902",
-   "released": "2026 年 11 月 19 日",
+   "name": "塞莉婭傳說",
+   "id": "5542430",
+   "url": "https://store.steampowered.com/app/5542430/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2894950/f0dc2bafbb42ddae6ef6cc283152c55027b75d40/capsule_231x87_tchinese.jpg?t=1795231796",
+   "released": "2026 年 11 月 20 日",
    "price": "NT$ 278.00",
    "discount": 0,
    "platforms": [
@@ -364,25 +40,37 @@
    ]
   },
   {
-   "name": "歸宿之國1：餘話",
-   "id": "5510960",
-   "url": "https://store.steampowered.com/app/5510960/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947470/679f50bb1c7315e8ced424d3d995e802de7286ef/capsule_231x87_tchinese.jpg?t=1795106980",
-   "released": "2026 年 11 月 19 日",
-   "price": "",
-   "discount": 0,
+   "name": "Swoopla: Swing Racing",
+   "id": "5140150",
+   "url": "https://store.steampowered.com/app/5140150/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542430/7e987c85f518354b9c35bf0502bfa99cd3c578bd/capsule_231x87.jpg?t=1795231286",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 91.00",
+   "discount": 16,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "ShieldMan",
-   "id": "5566360",
-   "url": "https://store.steampowered.com/app/5566360/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5510960/71c1f6910f4a249d976be278f00d8d12bf083616/capsule_231x87.jpg?t=1795117387",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 26.00",
-   "discount": 10,
+   "name": "流火 A Glimmer",
+   "id": "5476870",
+   "url": "https://store.steampowered.com/app/5476870/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5140150/cf91d947f125f086efd5f605cd6b51af08f52a5f/capsule_231x87.jpg?t=1795231091",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 134.00",
+   "discount": 15,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Boardroom Wars: Fight for Kashistan - Wallpaper Pack",
+   "id": "2114500",
+   "url": "https://store.steampowered.com/app/2114500/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5476870/e10b840fd9b512fda4f7b3d2f1fb03563ee7ad8b/capsule_231x87.jpg?t=1795230483",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 24.00",
+   "discount": 0,
    "platforms": [
     "Win",
     "Mac",
@@ -390,23 +78,49 @@
    ]
   },
   {
-   "name": "Forza Horizon 6 1983 Nissan 240RS",
-   "id": "5505310",
-   "url": "https://store.steampowered.com/app/5505310/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5104180/976a98478d1e9b6064d785a944164b149a7f1e17/capsule_231x87.jpg?t=1795103784",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 85.00",
+   "name": "伏魔天师",
+   "id": "5333360",
+   "url": "https://store.steampowered.com/app/5333360/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2114500/capsule_231x87.jpg?t=1795230424",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 129.00",
+   "discount": 15,
+   "platforms": [
+    "Win",
+    "Mac"
+   ]
+  },
+  {
+   "name": "Moonkey",
+   "id": "5264830",
+   "url": "https://store.steampowered.com/app/5264830/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465130/73192acd34348b3085aff7df5d054a1513b78ff4/capsule_231x87.jpg?t=1795229945",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 63.00",
    "discount": 0,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "Drift Wreck: Online Racing",
-   "id": "2526880",
-   "url": "https://store.steampowered.com/app/2526880/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5505310/56ea0ca17d72e7272a5449b82ae5b5a6be88cf8f/capsule_231x87.jpg?t=1795103758",
-   "released": "2026 年 11 月 19 日",
+   "name": "Boardroom Wars: Fight for Kashistan",
+   "id": "5276120",
+   "url": "https://store.steampowered.com/app/5276120/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5264830/52e25e25ec70d9f2084ae4f5c2e40356fb188a57/capsule_231x87.jpg?t=1795229502",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 175.00",
+   "discount": 0,
+   "platforms": [
+    "Win",
+    "Linux"
+   ]
+  },
+  {
+   "name": "1.76流派传奇",
+   "id": "5580420",
+   "url": "https://store.steampowered.com/app/5580420/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5276120/1a4b2a464b3c173eb7af3bd26ea6b487a32a5fc3/capsule_231x87_tchinese.jpg?t=1795228766",
+   "released": "2026 年 11 月 20 日",
    "price": "",
    "discount": 0,
    "platforms": [
@@ -414,37 +128,225 @@
    ]
   },
   {
-   "name": "Defender Bros",
-   "id": "5228540",
-   "url": "https://store.steampowered.com/app/5228540/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2526880/42bc8ea6c870f701711da2635bf8181cb42aa62c/capsule_231x87_alt_assets_1.jpg?t=1795119377",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 226.00",
+   "name": "战地风暴之第三次世界大战",
+   "id": "5616790",
+   "url": "https://store.steampowered.com/app/5616790/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4671660/708287e31cdf4e7bd3864489132e06efb86405ac/capsule_231x87.jpg?t=1795237739",
+   "released": "2026 年 11 月 20 日",
+   "price": "",
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "無盡黑洞",
+   "id": "5494270",
+   "url": "https://store.steampowered.com/app/5494270/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5540180/6fa7feb84e6697bf4675ef38a86d4160fcae2639/capsule_231x87.jpg?t=1795222063",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 38.00",
+   "discount": 21,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Jewel Reels",
+   "id": "5609140",
+   "url": "https://store.steampowered.com/app/5609140/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034850/4fba80896332ff5489a77d854d5d0a0880f826f9/capsule_231x87.jpg?t=1795210314",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 76.00",
+   "discount": 0,
+   "platforms": [
+    "Win",
+    "Mac"
+   ]
+  },
+  {
+   "name": "Coloring Voxels - Laboratory Pack",
+   "id": "5520000",
+   "url": "https://store.steampowered.com/app/5520000/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534440/464d40557e09658595407a651d29445baa3483ac/capsule_231x87_tchinese.jpg?t=1795204657",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 48.00",
+   "discount": 0,
+   "platforms": [
+    "Win",
+    "Mac",
+    "Linux"
+   ]
+  },
+  {
+   "name": "ALOES Tactics - 4K Graphics Pack",
+   "id": "5358090",
+   "url": "https://store.steampowered.com/app/5358090/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5520000/bbb92f5d805946c128784b4c5425e60ae0e08973/capsule_231x87.jpg?t=1795200631",
+   "released": "2026 年 11 月 20 日",
+   "price": "",
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Tidy Pills",
+   "id": "5646190",
+   "url": "https://store.steampowered.com/app/5646190/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358090/307089109be90a4d554cbf686a8a4f1d38eb279b/capsule_231x87.jpg?t=1795200597",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 115.00",
+   "discount": 15,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Go-Kart Simulator",
+   "id": "5613620",
+   "url": "https://store.steampowered.com/app/5613620/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3388640/c4d2b07fdbecd276d703577dba7353c9b8c3eaa7/capsule_231x87.jpg?t=1795214603",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 55.00",
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "The Nine Oaths",
+   "id": "5531790",
+   "url": "https://store.steampowered.com/app/5531790/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489070/8825719cd826e0cb373dfe07920979cabc0203d0/capsule_231x87.jpg?t=1795230297",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 236.00",
+   "discount": 15,
+   "platforms": [
+    "Win",
+    "Linux"
+   ]
+  },
+  {
+   "name": "Desert Cleaner",
+   "id": "4924900",
+   "url": "https://store.steampowered.com/app/4924900/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531790/83ddcadc0bfc259eb39ea98135db0e6d046dfdda/capsule_231x87.jpg?t=1795230788",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 65.00",
    "discount": 40,
    "platforms": [
-    "Win"
+    "Win",
+    "Mac",
+    "Linux"
    ]
   },
   {
-   "name": "Tavern Clicker",
-   "id": "5469780",
-   "url": "https://store.steampowered.com/app/5469780/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228540/537f4cc19f47320695b7a72f180f600c4b91cf82/capsule_231x87.jpg?t=1795112177",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 83.00",
-   "discount": 35,
+   "name": "TURBOCARDS",
+   "id": "5561740",
+   "url": "https://store.steampowered.com/app/5561740/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924900/8b55e52770b85ef048e3d7aebd86186938b72164/capsule_231x87.jpg?t=1795197619",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 85.00",
+   "discount": 11,
+   "platforms": [
+    "Win",
+    "Mac",
+    "Linux"
+   ]
+  },
+  {
+   "name": "Hello Doctor",
+   "id": "5485770",
+   "url": "https://store.steampowered.com/app/5485770/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5501850/fbf3e73054e4ff9baa76874dad863cd9d11c3423/capsule_231x87.jpg?t=1795197104",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 198.00",
+   "discount": 20,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "Townlet - Supporter Pack",
-   "id": "3817580",
-   "url": "https://store.steampowered.com/app/3817580/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469780/fe041905c800e70c4401d780d79e96a147843257/capsule_231x87_tchinese.jpg?t=1795103066",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 69.00",
+   "name": "Meowinks Tidy or Else",
+   "id": "5656460",
+   "url": "https://store.steampowered.com/app/5656460/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5485770/5f0df2a30018f6ca12e74b803af36ba5d618d7d1/capsule_231x87.jpg?t=1795196540",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 159.00",
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Big Fox Family Time",
+   "id": "5524170",
+   "url": "https://store.steampowered.com/app/5524170/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472530/d4a4d4024a4fb215129dedc355d0c2b4d5b0aa1e/capsule_231x87.jpg?t=1795194587",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 75.00",
+   "discount": 31,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Tidy Up the Flower Shop: Christmas",
+   "id": "5559620",
+   "url": "https://store.steampowered.com/app/5559620/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5524170/72ff5996d9ca860a01f6157ada2db28be9948bf8/capsule_231x87.jpg?t=1795208473",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 115.00",
+   "discount": 10,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Escape The Charon",
+   "id": "5654900",
+   "url": "https://store.steampowered.com/app/5654900/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2521670/capsule_231x87.jpg?t=1795193697",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 377.00",
    "discount": 0,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Kachow Kart Racing",
+   "id": "5585080",
+   "url": "https://store.steampowered.com/app/5585080/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4940850/a30875ba3570d47dc46b1897a3f4cf5620c7cb60/capsule_231x87.jpg?t=1795212594",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 55.00",
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "增量狂魔 Lucremachine",
+   "id": "5398560",
+   "url": "https://store.steampowered.com/app/5398560/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418970/def697203864298bd02b96a76c7e8503e3b07f71/capsule_231x87.jpg?t=1795236372",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 223.00",
+   "discount": 10,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Iron Reactor",
+   "id": "5384720",
+   "url": "https://store.steampowered.com/app/5384720/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398560/852b480eaffd1b4d5509479bedfd76dbb3792dd5/capsule_231x87.jpg?t=1795190420",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 233.00",
+   "discount": 15,
    "platforms": [
     "Win"
    ]

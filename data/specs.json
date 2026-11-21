@@ -1,213 +1,226 @@
 {
- "updated": "2026-11-20 05:46",
+ "updated": "2026-11-21 05:10",
  "source": "Steam appdetails API（台灣區・繁中）",
- "count": 11,
+ "count": 10,
  "specs": [
   {
-   "name": "The Hero is too Powerful so let's Pleeeease Settle this Peacefully!",
-   "id": "5597340",
-   "url": "https://store.steampowered.com/app/5597340/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 197.00",
-   "discount": 17,
+   "name": "‌Super Puzzle‌",
+   "id": "5373450",
+   "url": "https://store.steampowered.com/app/5373450/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 63.00",
+   "discount": 0,
    "minimum": [
-    "需要 64 位元的處理器及作業系統"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Find Cats 9: 賽博霓虹城",
-   "id": "5597350",
-   "url": "https://store.steampowered.com/app/5597350/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 18.00",
-   "discount": 25,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Find Cats 9: 繪本奇遇",
-   "id": "4903900",
-   "url": "https://store.steampowered.com/app/4903900/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 18.00",
-   "discount": 25,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10",
-    "處理器: Dual-core CPU",
+    "作業系統: Windows 10 (64-bit)",
+    "處理器: Dual-core 2 GHz",
     "記憶體: 4 GB 記憶體",
-    "顯示卡: Intel HD Graphics 620 / AMD Radeon Vega 3 (DirectX 11 supported)",
-    "儲存空間: 1 GB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10/11",
-    "處理器: Quad-core CPU",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: NVIDIA GTX 1050 / AMD Radeon RX 560 (DirectX 11 supported)",
-    "儲存空間: 1 GB 可用空間"
-   ]
-  },
-  {
-   "name": "Find Cats 9: 隱藏的寶藏",
-   "id": "2173300",
-   "url": "https://store.steampowered.com/app/2173300/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 35.00",
-   "discount": 33,
-   "minimum": [
-    "作業系統: Windows 10",
-    "處理器: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 2.80 GHz",
-    "記憶體: 2 GB 記憶體",
-    "儲存空間: 2 GB 可用空間",
-    "音效卡: Realtek High Definition Audio",
-    "備註: With these settings I was getting 120 fps so minimum may be lower."
+    "顯示卡: DirectX 11 compatible GPU with 1 GB VRAM",
+    "DirectX: 版本：11",
+    "儲存空間: 500 MB 可用空間",
+    "備註: Mouse required."
    ],
    "recommended": []
   },
   {
-   "name": "Skull Survivor",
-   "id": "3008180",
-   "url": "https://store.steampowered.com/app/3008180/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 65.00",
-   "discount": 21,
+   "name": "The Idle Witch and Her Tower of BOOOOM!",
+   "id": "5651760",
+   "url": "https://store.steampowered.com/app/5651760/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 134.00",
+   "discount": 10,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 64-bit",
+    "處理器: Dual-core 2.0 GHz",
+    "記憶體: 4 GB 記憶體",
+    "顯示卡: Integrated GPU (OpenGL 3.3 / Vulkan)",
+    "儲存空間: 500 MB 可用空間"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10/11 64-bit",
+    "處理器: Quad-core 2.5 GHz",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: GTX 1050 or better",
+    "儲存空間: 1 GB 可用空間"
+   ]
+  },
+  {
+   "name": "塞莉婭傳說",
+   "id": "5542430",
+   "url": "https://store.steampowered.com/app/5542430/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 278.00",
+   "discount": 0,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 64-bit",
+    "處理器: 4-core CPU, 3.0 GHz (Intel Core i5-6500 / AMD Ryzen 3 1200)",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: DirectX 11, 2 GB VRAM (NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 570)",
+    "DirectX: 版本：11",
+    "儲存空間: 1 GB 可用空間",
+    "備註: An internet connection is needed for online races and leaderboards."
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10/11 64-bit",
+    "處理器: 6-core CPU, 3.5 GHz (Intel Core i5-10600 / AMD Ryzen 5 3600)",
+    "記憶體: 16 GB 記憶體",
+    "顯示卡: 6 GB VRAM (NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT)",
+    "DirectX: 版本：12",
+    "儲存空間: 1 GB 可用空間"
+   ]
+  },
+  {
+   "name": "Swoopla: Swing Racing",
+   "id": "5140150",
+   "url": "https://store.steampowered.com/app/5140150/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 91.00",
+   "discount": 16,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10",
+    "處理器: Intel Core i3",
+    "記憶體: 4 GB 記憶體",
+    "DirectX: 版本：11",
+    "儲存空間: 30 GB 可用空間"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10/Windows 11",
+    "處理器: Intel Core i5 or AMD equivalent or above",
+    "記憶體: 16 GB 記憶體",
+    "DirectX: 版本：11",
+    "儲存空間: 40 GB 可用空間"
+   ]
+  },
+  {
+   "name": "Boardroom Wars: Fight for Kashistan - Wallpaper Pack",
+   "id": "2114500",
+   "url": "https://store.steampowered.com/app/2114500/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 24.00",
+   "discount": 0,
+   "minimum": [
+    "作業系統 *: Windows 7, 8.1, 10 x64",
+    "處理器: Intel Core2 Duo E4500 (2 * 2200) or equivalent, AMD Athlon 64 X2 Dual Core 3600+ (2 * 1910) or equivalent",
+    "記憶體: 2 GB 記憶體",
+    "顯示卡: GeForce 7300 GT (512 MB), Radeon X1300 Pro (256 MB)",
+    "儲存空間: 2 GB 可用空間"
+   ],
+   "recommended": []
+  },
+  {
+   "name": "Moonkey",
+   "id": "5264830",
+   "url": "https://store.steampowered.com/app/5264830/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 63.00",
+   "discount": 0,
+   "minimum": [
+    "作業系統: Windows 10 64-bit",
+    "處理器: Intel Core i3-6100 / AMD Ryzen 3 1200",
+    "記憶體: 4 GB 記憶體",
+    "顯示卡: Intel UHD 620 / AMD Radeon Vega 3 or equivalent",
+    "DirectX: 版本：11",
+    "儲存空間: 6 GB 可用空間",
+    "音效卡: DirectX-compatible sound card",
+    "備註: 64-bit processor and operating system required"
+   ],
+   "recommended": [
+    "作業系統: Windows 10/11 64-bit",
+    "處理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: Intel Iris Xe / NVIDIA GTX 750 Ti / AMD RX 460 or better",
+    "DirectX: 版本：11",
+    "儲存空間: 8 GB 可用空間",
+    "音效卡: DirectX-compatible sound card",
+    "備註: SSD recommended"
+   ]
+  },
+  {
+   "name": "Boardroom Wars: Fight for Kashistan",
+   "id": "5276120",
+   "url": "https://store.steampowered.com/app/5276120/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 175.00",
+   "discount": 0,
    "minimum": [
     "作業系統: Windows 10",
     "處理器: Intel Core i3",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: OpenGL 2.1 compatible graphics card, integrated graphics",
-    "儲存空間: 300 MB 可用空間"
-   ],
-   "recommended": [
-    "作業系統: Windows 10",
-    "處理器: Intel Core i5",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: OpenGL 2.1 compatible graphics card, integrated graphics",
-    "儲存空間: 300 MB 可用空間"
-   ]
-  },
-  {
-   "name": "Dice Showdown",
-   "id": "5526130",
-   "url": "https://store.steampowered.com/app/5526130/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 126.00",
-   "discount": 20,
-   "minimum": [
-    "作業系統: Windows 10 64-bit",
-    "處理器: Dual-core 2.0 GHz or better",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: OpenGL 3.3 compatible graphics",
-    "儲存空間: 1 GB 可用空間",
-    "音效卡: Windows compatible audio device"
+    "記憶體: 500 MB 記憶體",
+    "顯示卡: AMD Radeon RX 550 2GB&Intel UHD Graphics 630",
+    "網路: 寬頻網際網路連線"
    ],
    "recommended": []
   },
   {
-   "name": "ChemLab",
-   "id": "5403190",
-   "url": "https://store.steampowered.com/app/5403190/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 142.00",
-   "discount": 10,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 / 11（64 位元）",
-    "處理器: Intel Core i3 或同級 64 位元處理器，支援 SSE4.2",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: 支援 DirectX 12 的內建或獨立顯示卡（功能層級 12_0）",
-    "DirectX: 版本：12",
-    "儲存空間: 3 GB 可用空間",
-    "備註: 需要鍵盤。系統需求為發售前暫定值，低規格硬體驗證仍在進行。"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Project Babel",
-   "id": "5559910",
-   "url": "https://store.steampowered.com/app/5559910/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 158.00",
-   "discount": 20,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 22H2 (64 位元)",
-    "處理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
-    "顯示卡: NVIDIA GeForce RTX 2060 SUPER (8 GB) / AMD Radeon RX 6600 (8 GB)",
-    "備註: 需要 64 位元處理器及作業系統。建議使用 SSD。"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 11 (64 位元)",
-    "處理器: Intel Core i5-12400 / AMD Ryzen 5 5600",
-    "顯示卡: NVIDIA GeForce RTX 3060 (12 GB) / AMD Radeon RX 6700 XT (12 GB)",
-    "備註: 需要 64 位元處理器及作業系統。建議使用 SSD。"
-   ]
-  },
-  {
-   "name": "俠客歸途",
-   "id": "5087750",
-   "url": "https://store.steampowered.com/app/5087750/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 108.00",
-   "discount": 0,
-   "minimum": [
-    "作業系統: win 10/11",
-    "處理器: Intel Core i3-3240 or AMD FX-6300",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: GeForce GTX 650 Ti or AMD Radeon HD 7750",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 8 GB 可用空間"
-   ],
-   "recommended": []
-  },
-  {
-   "name": "少女派對",
-   "id": "4494800",
-   "url": "https://store.steampowered.com/app/4494800/",
-   "released": "2026 年 11 月 19 日",
+   "name": "1.76流派传奇",
+   "id": "5580420",
+   "url": "https://store.steampowered.com/app/5580420/",
+   "released": "2026 年 11 月 20 日",
    "price": "",
    "discount": 0,
    "minimum": [
-    "作業系統: Windows 11",
-    "處理器: i5-4670K @ 3.40GHz or similar",
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 64-bit",
+    "處理器: Dual-core 2.0 GHz",
     "記憶體: 4 GB 記憶體",
-    "顯示卡: GTX 1070 or better",
-    "DirectX: 版本：12",
-    "儲存空間: 1 GB 可用空間"
+    "顯示卡: OpenGL 3.3 compatible GPU (Intel HD Graphics 4000 or better)",
+    "儲存空間: 300 MB 可用空間"
    ],
    "recommended": [
-    "作業系統: Windows 11",
-    "處理器: AMD Ryzen 5 3600 @ 3.60 GHz or similar",
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10/11 64-bit",
+    "處理器: Quad-core 3.0 GHz",
     "記憶體: 8 GB 記憶體",
-    "顯示卡: GTX 2060 or better",
-    "DirectX: 版本：12",
-    "儲存空間: 1 GB 可用空間"
+    "顯示卡: OpenGL 3.3 compatible dedicated GPU (GeForce GTX 750 or better)",
+    "儲存空間: 300 MB 可用空間"
    ]
   },
   {
-   "name": "Void Rhythm",
-   "id": "5595430",
-   "url": "https://store.steampowered.com/app/5595430/",
-   "released": "2026 年 11 月 19 日",
-   "price": "NT$ 105.00",
-   "discount": 10,
+   "name": "战地风暴之第三次世界大战",
+   "id": "5616790",
+   "url": "https://store.steampowered.com/app/5616790/",
+   "released": "2026 年 11 月 20 日",
+   "price": "",
+   "discount": 0,
    "minimum": [
     "需要 64 位元的處理器及作業系統",
     "作業系統: Windows 10 64-bit",
-    "處理器: Dual-core processor with SSE4.2 support",
+    "處理器: Intel Core i3-6100 / AMD Ryzen 3 1200",
     "記憶體: 4 GB 記憶體",
-    "顯示卡: Integrated graphics with OpenGL 3.3 support"
+    "顯示卡: OpenGL 3.3, 2 GB VRAM (GeForce GTX 750 Ti / Radeon R7 260X / Intel UHD 620)",
+    "儲存空間: 7 GB 可用空間",
+    "備註: 1920×1080 recommended"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10/11 64-bit",
+    "處理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: 4 GB VRAM (GeForce GTX 1050 Ti / Radeon RX 570)",
+    "儲存空間: 7 GB 可用空間"
+   ]
+  },
+  {
+   "name": "無盡黑洞",
+   "id": "5494270",
+   "url": "https://store.steampowered.com/app/5494270/",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 38.00",
+   "discount": 21,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 64-bit",
+    "處理器: Intel Core i9-9900K",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: NVIDIA GeForce GTX 1080 (8 GB VRAM)",
+    "DirectX: 版本：11",
+    "儲存空間: 1 GB 可用空間",
+    "備註: Offline demo; no internet required."
    ],
    "recommended": [
     "需要 64 位元的處理器及作業系統"

@@ -1,14 +1,36 @@
 {
- "updated": "2026-11-20 20:23",
+ "updated": "2026-11-21 05:10",
  "source": "Steam 商店搜尋（AI 標籤 tag 7926・依上架日排序）",
  "count": 45,
  "stats": {
   "total": 45,
   "free": 0,
   "coop": 1,
-  "demo": 10
+  "demo": 9
  },
  "games": [
+  {
+   "name": "100个师兄爱上我",
+   "id": "4430890",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/4430890/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5032040/fb8c079f28081b7193dac8b3f0f7a3c6745f66f9/capsule_231x87.jpg?t=1795231163",
+   "released": "2026 年 11 月 20 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "獨立製作",
+    "模擬",
+    "運動"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
   {
    "name": "Booker Blitz - Wrestling Booker Simulator",
    "id": "5189660",
@@ -656,11 +678,7 @@
     "Win",
     "Mac"
    ],
-   "genres": [
-    "冒險",
-    "獨立製作",
-    "模擬"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -688,7 +706,7 @@
    "id": "5451260",
    "demo": false,
    "url": "https://store.steampowered.com/app/5451260/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5482350/ade9ef3f8e713749aa1f4805fb799edecd9568a6/capsule_231x87.jpg?t=1795205847",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5482350/ade9ef3f8e713749aa1f4805fb799edecd9568a6/capsule_231x87.jpg?t=1795227951",
    "released": "2026 年 11 月 16 日",
    "price": "NT$ 55.00",
    "free": false,
@@ -914,24 +932,6 @@
    "platforms": [
     "Win",
     "Mac"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "AI面接官を突破せよ Demo",
-   "id": "4484970",
-   "demo": true,
-   "url": "https://store.steampowered.com/app/4484970/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5484090/88ff62bf38126a768e0b9fcb643d3c13a1c68605/capsule_231x87.jpg?t=1794654358",
-   "released": "2026 年 11 月 14 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
    ],
    "genres": [],
    "coop": false,
