@@ -14,7 +14,7 @@
   --line-strong: rgba(148, 163, 184, .24);
   --text: #edf1f9;
   --muted: #98a1b8;
-  --muted-dim: #6d7690;
+  --muted-dim: #7d879e;
   --accent: #22d3ee;
   --accent-soft: #7dd3fc;
   --accent-2: #8b5cf6;
@@ -68,6 +68,22 @@ body {
 
 a { color: var(--accent-soft); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Skip link（無障礙：鍵盤導覽跳到主內容） */
+.skip-link {
+  position: fixed;
+  top: -60px;
+  left: 16px;
+  z-index: 100;
+  padding: 10px 18px;
+  background: var(--accent);
+  color: #06121a;
+  font-weight: 700;
+  font-size: .88rem;
+  border-radius: 0 0 10px 10px;
+  transition: top .18s ease;
+}
+.skip-link:focus { top: 0; text-decoration: none; }
 
 /* ==========================================================================
    Header — 玻璃導覽列
@@ -629,7 +645,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  background: var(--grad);
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
   color: #06121a;
   font-size: .84rem;
   font-weight: 800;
@@ -784,9 +800,19 @@ footer {
    ========================================================================== */
 
 @media (max-width: 720px) {
+  body { background-attachment: scroll; }
   .nav-inner { padding: 11px 14px; gap: 10px; }
-  .logo { font-size: .98rem; }
-  .nav-links a { font-size: .8rem; padding: 6px 8px; }
+  .logo { font-size: .98rem; flex: none; }
+  .nav-links {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 2px;
+  }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { font-size: .82rem; padding: 9px 11px; flex: none; }
   #hero { padding: 54px 16px 48px; }
   .hero-sub { font-size: .92rem; }
   main { padding: 0 14px; margin-top: 22px; }
@@ -794,6 +820,7 @@ footer {
   .game-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
   .game-card { padding: 12px; gap: 10px; }
   .game-card img { width: 48px; height: 48px; border-radius: 11px; }
+  .copy-btn { padding: 9px 14px; min-height: 40px; }
   .data-status { padding: 12px 16px 12px 38px; gap: 6px 18px; font-size: .8rem; }
   .data-status::before { left: 15px; }
   .data-status span + span { display: none; }
