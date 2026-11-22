@@ -1,19 +1,81 @@
 {
- "updated": "2026-11-21 05:10",
+ "updated": "2026-11-22 05:10",
  "source": "Steam 商店搜尋（AI 標籤 tag 7926・依上架日排序）",
- "count": 45,
+ "count": 46,
  "stats": {
-  "total": 45,
+  "total": 46,
   "free": 0,
-  "coop": 1,
+  "coop": 4,
   "demo": 9
  },
  "games": [
   {
-   "name": "100个师兄爱上我",
-   "id": "4430890",
+   "name": "mechakucha pakurion",
+   "id": "5495300",
    "demo": false,
-   "url": "https://store.steampowered.com/app/4430890/",
+   "url": "https://store.steampowered.com/app/5495300/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5029710/6b3fafdf7f34b139fe4fca5601fd2eae817ec8e3/capsule_231x87.jpg?t=1795320809",
+   "released": "2026 年 11 月 21 日",
+   "price": "NT$ 97.00",
+   "free": false,
+   "discount": 17,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "策略"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Dominion Arena Demo",
+   "id": "5528190",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5528190/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5495300/55710970cbb619e65a290256251601da3444e3b5/capsule_231x87.jpg?t=1795295103",
+   "released": "2026 年 11 月 21 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win",
+    "Linux"
+   ],
+   "genres": [
+    "休閒",
+    "模擬"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Zephyr's World",
+   "id": "5032040",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5032040/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5528190/50bc94d78f8a17b3d22e6d3dc58ab863d0939071/capsule_231x87.jpg?t=1795266253",
+   "released": "2026 年 11 月 21 日",
+   "price": "NT$ 108.00",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "免費遊玩"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "100个师兄爱上我",
+   "id": "4913070",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/4913070/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5032040/fb8c079f28081b7193dac8b3f0f7a3c6745f66f9/capsule_231x87.jpg?t=1795231163",
    "released": "2026 年 11 月 20 日",
    "price": "",
@@ -21,6 +83,29 @@
    "discount": 0,
    "platforms": [
     "Win"
+   ],
+   "genres": [
+    "動作",
+    "休閒",
+    "獨立製作"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "World of Mythos",
+   "id": "4430890",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/4430890/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4913070/c4d7256624f3ec7b0eafe803556831bfbc365b5e/capsule_231x87.jpg?t=1795209235",
+   "released": "2026 年 11 月 20 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win",
+    "Linux"
    ],
    "genres": [
     "獨立製作",
@@ -33,9 +118,9 @@
   },
   {
    "name": "Booker Blitz - Wrestling Booker Simulator",
-   "id": "5189660",
+   "id": "5472530",
    "demo": false,
-   "url": "https://store.steampowered.com/app/5189660/",
+   "url": "https://store.steampowered.com/app/5472530/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4430890/e34c95f3a93620be9d5476b08977d1bddadf0168/capsule_231x87.jpg?t=1795199266",
    "released": "2026 年 11 月 20 日",
    "price": "NT$ 282.00",
@@ -44,6 +129,28 @@
    "platforms": [
     "Win",
     "Linux"
+   ],
+   "genres": [
+    "冒險",
+    "休閒",
+    "獨立製作"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Big Fox Family Time",
+   "id": "5189660",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5189660/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472530/d4a4d4024a4fb215129dedc355d0c2b4d5b0aa1e/capsule_231x87.jpg?t=1795194587",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 75.00",
+   "free": false,
+   "discount": 31,
+   "platforms": [
+    "Win"
    ],
    "genres": [
     "休閒"
@@ -570,11 +677,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "模擬"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -592,10 +695,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "冒險",
-    "角色扮演"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -613,10 +713,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "休閒",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -626,7 +723,7 @@
    "id": "4577060",
    "demo": false,
    "url": "https://store.steampowered.com/app/4577060/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395840/18a3aa40b072d898dfb1c27caeb2c6dfc5c27fc0/capsule_231x87.jpg?t=1794908166",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395840/18a3aa40b072d898dfb1c27caeb2c6dfc5c27fc0/capsule_231x87.jpg?t=1795284329",
    "released": "2026 年 11 月 17 日",
    "price": "NT$ 183.00",
    "free": false,
@@ -635,10 +732,7 @@
     "Win",
     "Mac"
    ],
-   "genres": [
-    "休閒",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -656,10 +750,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "休閒",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -853,79 +944,6 @@
    "url": "https://store.steampowered.com/app/5186000/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2415210/965c4d945cd7fa69f92e580b1200559860bf118d/capsule_231x87.jpg?t=1794760579",
    "released": "2026 年 11 月 15 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Desktop Companion - Asiden",
-   "id": "5510250",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5510250/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130370/f7f27b362bd7f967b793e4020dc0d0cbc0b5b833/capsule_231x87.jpg?t=1795007053",
-   "released": "2026 年 11 月 15 日",
-   "price": "NT$ 194.00",
-   "free": false,
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Neural Spaceship Sandbox Demo",
-   "id": "5097300",
-   "demo": true,
-   "url": "https://store.steampowered.com/app/5097300/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5510250/6ba427b4c34ae46ed0c8282e0c9349bd075de7c1/capsule_231x87.jpg?t=1794753280",
-   "released": "2026 年 11 月 15 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "PUSH MID",
-   "id": "2772070",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/2772070/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097300/4a31fda6fc410cb669cce347d3b50c872301f46e/capsule_231x87.jpg?t=1794708920",
-   "released": "2026 年 11 月 14 日",
-   "price": "NT$ 77.00",
-   "free": false,
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "In Waiting",
-   "id": "5484090",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5484090/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772070/3658711413bdc81c527f1578df151b585b1333e3/capsule_231x87.jpg?t=1794862242",
-   "released": "2026 年 11 月 14 日",
    "price": "",
    "free": false,
    "discount": 0,

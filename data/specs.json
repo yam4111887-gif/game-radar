@@ -1,8 +1,124 @@
 {
- "updated": "2026-11-21 05:10",
+ "updated": "2026-11-22 05:10",
  "source": "Steam appdetails API（台灣區・繁中）",
- "count": 10,
+ "count": 9,
  "specs": [
+  {
+   "name": "Stormtide Skies",
+   "id": "5029710",
+   "url": "https://store.steampowered.com/app/5029710/",
+   "released": "2026 年 11 月 21 日",
+   "price": "NT$ 198.00",
+   "discount": 0,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: 11",
+    "處理器: CPU",
+    "記憶體: 42 GB 記憶體",
+    "顯示卡: 3060",
+    "儲存空間: 420 MB 可用空間"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "mechakucha pakurion",
+   "id": "3360160",
+   "url": "https://store.steampowered.com/app/3360160/",
+   "released": "2026 年 11 月 21 日",
+   "price": "NT$ 97.00",
+   "discount": 17,
+   "minimum": [
+    "作業系統: win10",
+    "處理器: i5-8500",
+    "記憶體: 4 GB 記憶體",
+    "DirectX: 版本：9.0",
+    "儲存空間: 1 GB 可用空間"
+   ],
+   "recommended": [
+    "作業系統: win10"
+   ]
+  },
+  {
+   "name": "桌面擺件魚缸",
+   "id": "5588130",
+   "url": "https://store.steampowered.com/app/5588130/",
+   "released": "2026 年 11 月 21 日",
+   "price": "NT$ 152.00",
+   "discount": 10,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "Idle Minertia",
+   "id": "5573760",
+   "url": "https://store.steampowered.com/app/5573760/",
+   "released": "2026 年 11 月 21 日",
+   "price": "",
+   "discount": 0,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "Arithmetic Arena",
+   "id": "4682120",
+   "url": "https://store.steampowered.com/app/4682120/",
+   "released": "2026 年 11 月 21 日",
+   "price": "",
+   "discount": 0,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: windows 10 x64",
+    "處理器: i3 12100f",
+    "記憶體: 4 GB 記憶體",
+    "顯示卡: 6GB VRAM",
+    "儲存空間: 1 GB 可用空間"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "无限数独",
+   "id": "5505740",
+   "url": "https://store.steampowered.com/app/5505740/",
+   "released": "2026 年 11 月 21 日",
+   "price": "NT$ 66.00",
+   "discount": 20,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 64-bit (version 1607 or later)",
+    "處理器: Intel Core i3 or equivalent dual-core",
+    "記憶體: 4 GB 記憶體",
+    "顯示卡: Any DirectX 11 compatible GPU (integrated graphics OK)",
+    "DirectX: 版本：11",
+    "網路: 寬頻網際網路連線",
+    "儲存空間: 500 MB 可用空間",
+    "音效卡: Any DirectX compatible sound card",
+    "備註: Includes .NET 8 runtime; requires Microsoft Visual C++ 2015-2022 Redistributable (x64)"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 / 11 64-bit",
+    "處理器: Intel Core i5 or equivalent quad-core",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: Any DirectX 11 compatible GPU",
+    "DirectX: 版本：11",
+    "網路: 寬頻網際網路連線",
+    "儲存空間: 1 GB 可用空間",
+    "音效卡: Any DirectX compatible sound card",
+    "備註: Includes .NET 8 runtime; requires Microsoft Visual C++ 2015-2022 Redistributable (x64)"
+   ]
+  },
   {
    "name": "‌Super Puzzle‌",
    "id": "5373450",
@@ -70,160 +186,6 @@
     "顯示卡: 6 GB VRAM (NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT)",
     "DirectX: 版本：12",
     "儲存空間: 1 GB 可用空間"
-   ]
-  },
-  {
-   "name": "Swoopla: Swing Racing",
-   "id": "5140150",
-   "url": "https://store.steampowered.com/app/5140150/",
-   "released": "2026 年 11 月 20 日",
-   "price": "NT$ 91.00",
-   "discount": 16,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10",
-    "處理器: Intel Core i3",
-    "記憶體: 4 GB 記憶體",
-    "DirectX: 版本：11",
-    "儲存空間: 30 GB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10/Windows 11",
-    "處理器: Intel Core i5 or AMD equivalent or above",
-    "記憶體: 16 GB 記憶體",
-    "DirectX: 版本：11",
-    "儲存空間: 40 GB 可用空間"
-   ]
-  },
-  {
-   "name": "Boardroom Wars: Fight for Kashistan - Wallpaper Pack",
-   "id": "2114500",
-   "url": "https://store.steampowered.com/app/2114500/",
-   "released": "2026 年 11 月 20 日",
-   "price": "NT$ 24.00",
-   "discount": 0,
-   "minimum": [
-    "作業系統 *: Windows 7, 8.1, 10 x64",
-    "處理器: Intel Core2 Duo E4500 (2 * 2200) or equivalent, AMD Athlon 64 X2 Dual Core 3600+ (2 * 1910) or equivalent",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: GeForce 7300 GT (512 MB), Radeon X1300 Pro (256 MB)",
-    "儲存空間: 2 GB 可用空間"
-   ],
-   "recommended": []
-  },
-  {
-   "name": "Moonkey",
-   "id": "5264830",
-   "url": "https://store.steampowered.com/app/5264830/",
-   "released": "2026 年 11 月 20 日",
-   "price": "NT$ 63.00",
-   "discount": 0,
-   "minimum": [
-    "作業系統: Windows 10 64-bit",
-    "處理器: Intel Core i3-6100 / AMD Ryzen 3 1200",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: Intel UHD 620 / AMD Radeon Vega 3 or equivalent",
-    "DirectX: 版本：11",
-    "儲存空間: 6 GB 可用空間",
-    "音效卡: DirectX-compatible sound card",
-    "備註: 64-bit processor and operating system required"
-   ],
-   "recommended": [
-    "作業系統: Windows 10/11 64-bit",
-    "處理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: Intel Iris Xe / NVIDIA GTX 750 Ti / AMD RX 460 or better",
-    "DirectX: 版本：11",
-    "儲存空間: 8 GB 可用空間",
-    "音效卡: DirectX-compatible sound card",
-    "備註: SSD recommended"
-   ]
-  },
-  {
-   "name": "Boardroom Wars: Fight for Kashistan",
-   "id": "5276120",
-   "url": "https://store.steampowered.com/app/5276120/",
-   "released": "2026 年 11 月 20 日",
-   "price": "NT$ 175.00",
-   "discount": 0,
-   "minimum": [
-    "作業系統: Windows 10",
-    "處理器: Intel Core i3",
-    "記憶體: 500 MB 記憶體",
-    "顯示卡: AMD Radeon RX 550 2GB&Intel UHD Graphics 630",
-    "網路: 寬頻網際網路連線"
-   ],
-   "recommended": []
-  },
-  {
-   "name": "1.76流派传奇",
-   "id": "5580420",
-   "url": "https://store.steampowered.com/app/5580420/",
-   "released": "2026 年 11 月 20 日",
-   "price": "",
-   "discount": 0,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64-bit",
-    "處理器: Dual-core 2.0 GHz",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: OpenGL 3.3 compatible GPU (Intel HD Graphics 4000 or better)",
-    "儲存空間: 300 MB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10/11 64-bit",
-    "處理器: Quad-core 3.0 GHz",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: OpenGL 3.3 compatible dedicated GPU (GeForce GTX 750 or better)",
-    "儲存空間: 300 MB 可用空間"
-   ]
-  },
-  {
-   "name": "战地风暴之第三次世界大战",
-   "id": "5616790",
-   "url": "https://store.steampowered.com/app/5616790/",
-   "released": "2026 年 11 月 20 日",
-   "price": "",
-   "discount": 0,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64-bit",
-    "處理器: Intel Core i3-6100 / AMD Ryzen 3 1200",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: OpenGL 3.3, 2 GB VRAM (GeForce GTX 750 Ti / Radeon R7 260X / Intel UHD 620)",
-    "儲存空間: 7 GB 可用空間",
-    "備註: 1920×1080 recommended"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10/11 64-bit",
-    "處理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: 4 GB VRAM (GeForce GTX 1050 Ti / Radeon RX 570)",
-    "儲存空間: 7 GB 可用空間"
-   ]
-  },
-  {
-   "name": "無盡黑洞",
-   "id": "5494270",
-   "url": "https://store.steampowered.com/app/5494270/",
-   "released": "2026 年 11 月 20 日",
-   "price": "NT$ 38.00",
-   "discount": 21,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64-bit",
-    "處理器: Intel Core i9-9900K",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: NVIDIA GeForce GTX 1080 (8 GB VRAM)",
-    "DirectX: 版本：11",
-    "儲存空間: 1 GB 可用空間",
-    "備註: Offline demo; no internet required."
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
    ]
   }
  ]
