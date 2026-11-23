@@ -468,7 +468,7 @@
     var s = document.getElementById("data-status");
     if (root && s) {
       var n = root.querySelectorAll(".code-item:not(.code-item-expired)").length;
-      s.innerHTML = "<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7M12 8v12"/><path d="M12 8H8.5a2.5 2.5 0 1 1 0-5C11 3 12 8 12 8z"/><path d="M12 8h3.5a2.5 2.5 0 1 0 0-5C13 3 12 8 12 8z"/></svg> 兌換碼雷達最後更新：<strong>" + (root.dataset.updated || "—") + "</strong>｜本頁收錄 <strong>" + n + "</strong> 個未過期碼（每碼附來源）";
+      s.innerHTML = "<svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><rect x='3' y='8' width='18' height='4' rx='1'/><path d='M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7M12 8v12'/><path d='M12 8H8.5a2.5 2.5 0 1 1 0-5C11 3 12 8 12 8z'/><path d='M12 8h3.5a2.5 2.5 0 1 0 0-5C13 3 12 8 12 8z'/></svg> 兌換碼雷達最後更新：<strong>" + (root.dataset.updated || "—") + "</strong>｜本頁收錄 <strong>" + n + "</strong> 個未過期碼（每碼附來源）";
     }
   })();
   (function () {

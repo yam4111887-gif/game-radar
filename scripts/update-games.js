@@ -8,6 +8,7 @@ const { spawnSync } = require("child_process");
 /* ⛓️ 串接其他分區更新（每日 cron 只叫這支：games → steam → specs → codes）
    各腳本獨立 fail-soft：單一來源掛掉不影響其他分區的收錄 */
 function chain(name) {
+  if (process.env.GAME_RADAR_NO_CHAIN) return;
   const r = spawnSync(process.execPath, [path.join(__dirname, name)], { encoding: "utf8" });
   const last = (arr) => arr.filter(Boolean).pop() || "";
   if (r.status !== 0) console.error(`[chain] ${name} 失敗：${last((r.stderr || "").trim().split("\n"))}`);
@@ -16,12 +17,16 @@ function chain(name) {
 
 function cardHtml(g) {
   const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const free = /^(取得|免費|Free)/i.test(g.price || "");
   return `      <a class="game-card" href="${esc(g.url)}" target="_blank" rel="noopener">
         ${g.icon ? `<img src="${esc(g.icon)}" alt="" loading="lazy">` : ""}
         <span class="t">
           <span class="name">${esc(g.name)}</span>
-          <span class="meta">${esc(g.artist) || "獨立開發"} · ${esc(g.price) || "免費"}</span>
-          <span class="go">在 App Store 查看 →</span>
+          <span class="meta">${esc(g.artist) || "獨立開發"}</span>
+          <span class="foot">
+            <b class="price-chip${free ? "" : " paid"}">${esc(g.price || "免費")}</b>
+            <span class="go">App Store →</span>
+          </span>
         </span>
       </a>`;
 }
@@ -43,7 +48,7 @@ async function main() {
       id: e.id && e.id.attributes && e.id.attributes["im:id"],
       url: (e.link && e.link[0] && e.link[0].attributes && e.link[0].attributes.href)
         || (e.id && e.id.attributes && e.id.attributes["im:id"] ? "https://apps.apple.com/tw/app/id" + e.id.attributes["im:id"] : ""),
-      icon: icons[icons.length - 1] || "",
+      icon: (icons[icons.length - 1] || "").replace(/\/\d+x\d+bb(\.png|\.jpg)?$/, "/256x256bb.png"),
       price: e["im:price"] && e["im:price"].label,
       artist: e["im:artist"] && e["im:artist"].label,
     });

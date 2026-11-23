@@ -33,12 +33,16 @@
     a.href = g.url || "#";
     a.target = "_blank";
     a.rel = "noopener";
+    const free = /^(取得|免費|Free)/i.test(g.price || "");
     a.innerHTML = `
       ${g.icon ? `<img src="${g.icon}" alt="" loading="lazy">` : ""}
       <span class="t">
         <span class="name">${g.name.replace(/</g, "&lt;")}</span>
-        <span class="meta">${(g.artist || "").replace(/</g, "&lt;") || "獨立開發"} · ${g.price || "免費"}</span>
-        <span class="go">在 App Store 查看 →</span>
+        <span class="meta">${(g.artist || "").replace(/</g, "&lt;") || "獨立開發"}</span>
+        <span class="foot">
+          <b class="price-chip${free ? "" : " paid"}">${(g.price || "免費").replace(/</g, "&lt;")}</b>
+          <span class="go">App Store →</span>
+        </span>
       </span>`;
     grid.appendChild(a);
   }

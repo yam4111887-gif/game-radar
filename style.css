@@ -2,6 +2,7 @@
    遊戲前哨站 GAME RADAR — Design System v2 (2026-11-21)
    深空導航風：玻璃導覽、雷達光暈、雙色漸層強調（cyan → violet）
    所有既有 class 名保留（每日更新腳本依賴 .game-card / .code-item 等）
+   v3.1（2026-11-23）：自架字體層 + 卡片內容層（詳見檔尾 V3.1 區段）
    ========================================================================== */
 
 :root {
@@ -27,7 +28,8 @@
   --radius-sm: 8px;
   --shadow-card: 0 1px 0 rgba(255, 255, 255, .03) inset, 0 16px 40px -24px rgba(0, 0, 0, .65);
   --shadow-pop: 0 16px 40px -20px rgba(0, 0, 0, .7);
-  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  --font: "Noto Sans TC Web", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  --dfont: "Chakra Petch Web", "Noto Sans TC Web", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
   --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
   color-scheme: dark;
 }
@@ -1018,4 +1020,166 @@ footer.site-footer {
 @media (prefers-reduced-motion: reduce) {
   .btn-cta, .f-col a, .to-top { transition: none; }
   .btn-cta:hover { transform: none; }
+}
+
+/* ==========================================================================
+   V3.1 TYPE & CARD LAYER — 2026-11-23
+   自架字體（fonts/，皆 OFL 授權，附授權檔）：
+   · Noto Sans TC 子集（可變字重 100–900）→ CJK 真粗體、跨平台一致
+   · Chakra Petch（Medium/SemiBold/Bold）→ 英文/數字顯示字體（資料感）
+   ========================================================================== */
+
+@font-face {
+  font-family: "Noto Sans TC Web";
+  src: url("fonts/NotoSansTC-sub.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chakra Petch Web";
+  src: url("fonts/ChakraPetch-Medium.woff2") format("woff2");
+  font-weight: 400 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chakra Petch Web";
+  src: url("fonts/ChakraPetch-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chakra Petch Web";
+  src: url("fonts/ChakraPetch-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 顯示字體：標籤、數據、代碼等「機器感」元素（CJK 自動退回 Noto） */
+.hero-eyebrow,
+.stats-band b,
+.data-status,
+.badge,
+.page-date,
+.tier-label,
+.code-chip,
+.st,
+.game-card .meta,
+.day-label { font-family: var(--dfont); }
+.stats-band b,
+.data-status,
+.price,
+.price-chip,
+.off-tag,
+.code-chip { font-variant-numeric: tabular-nums; }
+
+/* ---------- App Store 橫式卡 v3.1：大圖示、兩行夾名、價格 chip 底列 ---------- */
+.game-card:not(.card-v) > img { width: 64px; height: 64px; border-radius: 14px; }
+.game-card:not(.promo):not(.card-v) .name {
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.8em;
+}
+.game-card .foot {
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.game-card .foot .go { margin-top: 0; }
+.price-chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--dfont);
+  font-weight: 700;
+  font-size: .8125rem;
+  letter-spacing: .02em;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(52, 211, 153, .3);
+  background: rgba(52, 211, 153, .1);
+  color: #6ee7b7;
+}
+.price-chip.paid {
+  border-color: rgba(34, 211, 238, .3);
+  background: rgba(34, 211, 238, .08);
+  color: #7dd3fc;
+}
+
+/* ---------- Steam 直式卡 v3.1：header 大圖 + 標籤列 + 價格列 ---------- */
+.game-card.card-v .banner { aspect-ratio: 460 / 215; }
+.game-card.card-v .t { padding: 13px 15px 15px; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 9px; }
+.tag {
+  font-size: .8125rem;
+  font-weight: 600;
+  color: #aeb8cf;
+  background: rgba(148, 163, 184, .07);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1.5px 8px;
+  white-space: nowrap;
+}
+.price-row { margin-top: auto; padding-top: 10px; display: flex; align-items: center; gap: 8px; }
+.price { font-family: var(--dfont); font-weight: 700; font-size: .9375rem; color: var(--text); }
+.price.free { color: #6ee7b7; }
+.off-tag {
+  font-family: var(--dfont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: .8125rem;
+  background: rgba(74, 222, 128, .16);
+  color: #4ade80;
+  border-radius: 5px;
+  padding: 1px 7px;
+}
+.game-card.card-v .go {
+  margin-top: 8px;
+  padding-top: 9px;
+  border-top: 1px solid var(--line);
+}
+
+/* ---------- Steam 依日期分組 ---------- */
+#steam-grid { margin-top: 4px; }
+.day-group { margin-top: 24px; }
+.day-group:first-child { margin-top: 14px; }
+.day-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: .01em;
+}
+.day-label em { font-style: normal; font-size: .8125rem; font-weight: 600; color: var(--muted); letter-spacing: .04em; }
+.day-label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.day-group .game-grid { margin-top: 13px; }
+
+/* ---------- 導流卡 v3.1：圖示勳章（消除純文字牆） ---------- */
+.game-card.promo { align-items: center; padding: 16px 18px; gap: 14px; }
+.game-card.promo .pic {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(34, 211, 238, .13), rgba(139, 92, 246, .16));
+  border: 1px solid rgba(34, 211, 238, .26);
+  color: var(--accent-soft);
+}
+.game-card.promo .pic svg { width: 22px; height: 22px; display: block; }
+.game-card.promo .name { min-height: 0; }
+
+/* ---------- 手機微調 ---------- */
+@media (max-width: 720px) {
+  .game-card:not(.card-v) > img { width: 56px; height: 56px; }
+  .game-card:not(.card-v) { padding: 13px; gap: 11px; }
+  .day-group { margin-top: 20px; }
+  .game-card.card-v .t { padding: 11px 13px 13px; }
 }

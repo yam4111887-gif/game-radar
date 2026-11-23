@@ -29,15 +29,38 @@ function priceText(rowHtml) {
 }
 
 function cardHtml(g) {
-  const plat = (g.platforms || []).join("/");
+  const img = g.header || g.capsule;
+  const tags = [...(g.platforms || []), ...(g.genres || [])].slice(0, 4);
+  const free = /^(免費|Free)/i.test(g.price || "");
   return `      <a class="game-card card-v" href="${esc(g.url)}" target="_blank" rel="noopener">
-        ${g.capsule ? `<img class="banner" src="${esc(g.capsule)}" alt="" loading="lazy">` : ""}
+        ${img ? `<img class="banner" src="${esc(img)}" alt="" loading="lazy">` : ""}
         <span class="t">
           <span class="name">${esc(g.name)}</span>
-          <span class="meta">${esc(g.released)}${g.price ? " · " + esc(g.price) + (g.discount ? " -" + g.discount + "%" : "") : ""}${plat ? " · " + esc(plat) : ""}</span>
+          <span class="meta">${esc(g.released)}</span>
+          ${tags.length ? `<span class="tag-row">${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span>` : ""}
+          <span class="price-row">
+            <b class="price${free ? " free" : ""}">${esc(g.price || "—")}</b>
+            ${g.discount ? `<em class="off-tag">-${g.discount}%</em>` : ""}
+          </span>
           <span class="go">在 Steam 查看 →</span>
         </span>
       </a>`;
+}
+
+/* appdetails：抓 header 大圖（460×215，搜尋結果只给 231×87 小圖且 hash 常錯位）+ 分類標籤。fail-soft */
+async function enrich(g) {
+  try {
+    const res = await fetch(`https://store.steampowered.com/api/appdetails?appids=${g.id}&l=tchinese`, {
+      headers: { "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) game-radar-updater/1.0", "Accept-Language": "zh-TW,zh;q=0.9" },
+      signal: AbortSignal.timeout(12000),
+    });
+    if (!res.ok) return;
+    const j = await res.json();
+    const d = j && j[g.id] && j[g.id].data;
+    if (!d) return;
+    if (d.header_image) g.header = d.header_image;
+    if (Array.isArray(d.genres)) g.genres = d.genres.map((x) => x && x.description).filter(Boolean).slice(0, 3);
+  } catch (e) { /* 退回搜尋結果的 capsule */ }
 }
 
 async function main() {
@@ -78,13 +101,34 @@ async function main() {
   }
   if (games.length < 5) throw new Error("解析結果異常（僅 " + games.length + " 筆）");
 
+  /* appdetails 補大圖 + 分類（前 30 筆即靜態清單所需；限速經驗值 ~3 筆/秒内安全） */
+  for (const g of games.slice(0, 30)) {
+    await enrich(g);
+    await new Promise((r) => setTimeout(r, 350));
+  }
+
   const updated = new Date().toISOString().slice(0, 16).replace("T", " ");
 
   /* ① JSON */
   const jsonFile = path.join(__dirname, "..", "data", "steam.json");
   fs.writeFileSync(jsonFile, JSON.stringify({ updated, source: "Steam 官方商店搜尋（依上架日排序・繁中篩選）", count: games.length, games }, null, 1));
 
-  /* ② steam.html 靜態清單（STEAM-START/END 標記之間，前 30 筆） */
+  /* ② steam.html 靜態清單（STEAM-START/END 標記之間，前 30 筆，依上架日分組） */
+  const shown = games.slice(0, 30);
+  const groups = [];
+  for (const g of shown) {
+    const last = groups[groups.length - 1];
+    if (last && last.date === g.released) last.games.push(g);
+    else groups.push({ date: g.released, games: [g] });
+  }
+  const groupHtml = groups
+    .map((gr) => `        <div class="day-group">
+          <h3 class="day-label">${esc(gr.date || "最新上架")}<em>${gr.games.length} 款</em></h3>
+          <div class="game-grid">
+${gr.games.map(cardHtml).join("\n")}
+          </div>
+        </div>`)
+    .join("\n");
   const pageFile = path.join(__dirname, "..", "steam.html");
   let html = fs.readFileSync(pageFile, "utf8");
   const OPEN = "<!--STEAM-START-->";
@@ -93,8 +137,8 @@ async function main() {
   const closeIdx = html.indexOf(CLOSE);
   if (openIdx < 0 || closeIdx < 0) throw new Error("steam.html 找不到 STEAM 標記");
   const staticBlock = `${OPEN}
-      <div class="game-grid" id="steam-grid" data-updated="${updated}" data-count="${games.length}">
-${games.slice(0, 30).map(cardHtml).join("\n")}
+      <div id="steam-grid" data-updated="${updated}" data-count="${games.length}">
+${groupHtml}
       </div>
       ${CLOSE}`;
   html = html.slice(0, openIdx) + staticBlock + html.slice(closeIdx + CLOSE.length);
