@@ -53,20 +53,16 @@ async function enrich(id) {
 }
 
 function cardHtml(g) {
-  const plat = (g.platforms || []).join("/");
   const tags = [];
   if (g.demo) tags.push('<span class="chip chip-demo">試玩版</span>');
   if (g.coop) tags.push('<span class="chip chip-coop">雙人同樂</span>');
   if (g.free) tags.push('<span class="chip chip-free">免費</span>');
-  return `      <a class="game-card card-v" href="${esc(g.url)}" target="_blank" rel="noopener">
-        ${g.capsule ? `<img class="banner" src="${esc(g.capsule)}" alt="" loading="lazy">` : ""}
-        <span class="t">
-          <span class="name">${esc(g.name)}</span>
-          <span class="meta">${esc(g.released)}${g.price ? " · " + esc(g.price) : ""}${g.genres.length ? " · " + esc(g.genres.join("／")) : ""}${plat ? " · " + esc(plat) : ""}</span>
-          <span class="chips">${tags.join("")}</span>
-          <span class="go">在 Steam 查看 →</span>
-        </span>
-      </a>`;
+  const sub = [g.released, g.price, (g.genres || []).slice(0, 2).join("・")].filter(Boolean).join(" · ");
+  return `        <tr>
+          <td class="art">${g.capsule ? `<img src="${esc(g.capsule)}" alt="" loading="lazy">` : ""}</td>
+          <td class="title"><a href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(sub || "—")}</span></a></td>
+          <td class="num">${tags.join("")}</td>
+        </tr>`;
 }
 
 async function main() {
@@ -141,8 +137,13 @@ async function main() {
   const closeIdx = html.indexOf(CLOSE);
   if (openIdx < 0 || closeIdx < 0) throw new Error("ai-games.html 找不到 AI-GAMES 標記");
   const block = `${OPEN}
-      <div class="game-grid" id="ai-grid" data-updated="${updated}" data-count="${games.length}">
+      <div class="rows" id="ai-grid" data-updated="${updated}" data-count="${games.length}">
+      <table>
+        <colgroup><col class="c-art"><col class="c-title"><col class="c-num" style="width:230px"></colgroup>
+        <tbody>
 ${games.slice(0, 30).map(cardHtml).join("\n")}
+        </tbody>
+      </table>
       </div>
       ${CLOSE}`;
   html = html.slice(0, openIdx) + block + html.slice(closeIdx + CLOSE.length);

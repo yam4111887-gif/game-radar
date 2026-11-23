@@ -18,17 +18,11 @@ function chain(name) {
 function cardHtml(g) {
   const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   const free = /^(取得|免費|Free)/i.test(g.price || "");
-  return `      <a class="game-card" href="${esc(g.url)}" target="_blank" rel="noopener">
-        ${g.icon ? `<img src="${esc(g.icon)}" alt="" loading="lazy">` : ""}
-        <span class="t">
-          <span class="name">${esc(g.name)}</span>
-          <span class="meta">${esc(g.artist) || "獨立開發"}</span>
-          <span class="foot">
-            <b class="price-chip${free ? "" : " paid"}">${esc(g.price || "免費")}</b>
-            <span class="go">App Store →</span>
-          </span>
-        </span>
-      </a>`;
+  return `        <tr>
+          <td class="art"><img class="ico" src="${esc(g.icon)}" alt="" loading="lazy"></td>
+          <td class="title"><a href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(g.artist) || "獨立開發"}</span></a></td>
+          <td class="num"><b class="${free ? "free" : ""}">${esc(g.price || "免費")}</b></td>
+        </tr>`;
 }
 
 async function main() {
@@ -68,8 +62,13 @@ async function main() {
   const closeIdx = html.indexOf(CLOSE);
   if (openIdx < 0 || closeIdx < 0) throw new Error("index.html 找不到 GAMES 標記");
   const staticBlock = `${OPEN}
-      <div class="game-grid" id="game-grid" data-updated="${updated}" data-count="${games.length}">
+      <div class="rows" id="game-grid" data-updated="${updated}" data-count="${games.length}">
+      <table>
+        <colgroup><col class="c-art"><col class="c-title"><col class="c-num"></colgroup>
+        <tbody>
 ${games.slice(0, 24).map(cardHtml).join("\n")}
+        </tbody>
+      </table>
       </div>
       ${CLOSE}`;
   html = html.slice(0, openIdx) + staticBlock + html.slice(closeIdx + CLOSE.length);

@@ -30,21 +30,14 @@ function priceText(rowHtml) {
 
 function cardHtml(g) {
   const img = g.header || g.capsule;
-  const tags = [...(g.platforms || []), ...(g.genres || [])].slice(0, 4);
+  const tags = [...(g.platforms || []), ...(g.genres || [])].slice(0, 3);
   const free = /^(免費|Free)/i.test(g.price || "");
-  return `      <a class="game-card card-v" href="${esc(g.url)}" target="_blank" rel="noopener">
-        ${img ? `<img class="banner" src="${esc(img)}" alt="" loading="lazy">` : ""}
-        <span class="t">
-          <span class="name">${esc(g.name)}</span>
-          <span class="meta">${esc(g.released)}</span>
-          ${tags.length ? `<span class="tag-row">${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span>` : ""}
-          <span class="price-row">
-            <b class="price${free ? " free" : ""}">${esc(g.price || "—")}</b>
-            ${g.discount ? `<em class="off-tag">-${g.discount}%</em>` : ""}
-          </span>
-          <span class="go">在 Steam 查看 →</span>
-        </span>
-      </a>`;
+  return `        <tr>
+          <td class="art"><img src="${esc(img)}" alt="" loading="lazy"></td>
+          <td class="title"><a href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(tags.join("・") || "—")}</span></a></td>
+          <td class="plat">${(g.platforms || []).map((p) => `<i>${esc(p)}</i>`).join("")}</td>
+          <td class="num">${g.discount ? `<em>-${g.discount}%</em>` : ""}<b class="${free ? "free" : ""}">${esc(g.price || "—")}</b></td>
+        </tr>`;
 }
 
 /* appdetails：抓 header 大圖（460×215，搜尋結果只给 231×87 小圖且 hash 常錯位）+ 分類標籤。fail-soft */
@@ -122,11 +115,14 @@ async function main() {
     else groups.push({ date: g.released, games: [g] });
   }
   const groupHtml = groups
-    .map((gr) => `        <div class="day-group">
-          <h3 class="day-label">${esc(gr.date || "最新上架")}<em>${gr.games.length} 款</em></h3>
-          <div class="game-grid">
+    .map((gr) => `        <h3 class="day-cap">${esc(gr.date || "最新上架")}<span>${gr.games.length} 款</span></h3>
+        <div class="rows">
+        <table>
+          <colgroup><col class="c-art"><col class="c-title"><col class="c-plat"><col class="c-num"></colgroup>
+          <tbody>
 ${gr.games.map(cardHtml).join("\n")}
-          </div>
+          </tbody>
+        </table>
         </div>`)
     .join("\n");
   const pageFile = path.join(__dirname, "..", "steam.html");

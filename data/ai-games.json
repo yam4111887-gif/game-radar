@@ -1,20 +1,64 @@
 {
- "updated": "2026-11-23 05:10",
+ "updated": "2026-11-23 15:23",
  "source": "Steam 商店搜尋（AI 標籤 tag 7926・依上架日排序）",
  "count": 46,
  "stats": {
   "total": 46,
   "free": 0,
   "coop": 7,
-  "demo": 10
+  "demo": 12
  },
  "games": [
+  {
+   "name": "Psst! Demo",
+   "id": "5598460",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5598460/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5342980/7a2fcc093977aa9c6ca52e151873800a307a997b/capsule_231x87.jpg?t=1795445751",
+   "released": "2026 年 11 月 23 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "獨立製作",
+    "模擬",
+    "策略"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "THE MODEL WAR Demo",
+   "id": "5179700",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5179700/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5598460/ca8a10078ce55a2cc1fad5b71df6c376c8b9da4f/capsule_231x87.jpg?t=1795435447",
+   "released": "2026 年 11 月 23 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "獨立製作",
+    "角色扮演",
+    "策略"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
   {
    "name": "Auto Squad RPG",
    "id": "5629380",
    "demo": false,
    "url": "https://store.steampowered.com/app/5629380/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179700/e1978df4cceab831f502b4445e843a3755883279/capsule_231x87.jpg?t=1795356460",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179700/e1978df4cceab831f502b4445e843a3755883279/capsule_231x87.jpg?t=1795414514",
    "released": "2026 年 11 月 22 日",
    "price": "NT$ 86.00",
    "free": false,
@@ -291,7 +335,7 @@
    "id": "4793780",
    "demo": true,
    "url": "https://store.steampowered.com/app/4793780/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189660/a3651435e2dec7cd6280378eb9beb8b367550a93/capsule_231x87.jpg?t=1795192504",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189660/a3651435e2dec7cd6280378eb9beb8b367550a93/capsule_231x87.jpg?t=1795425402",
    "released": "2026 年 11 月 20 日",
    "price": "",
    "free": false,
@@ -628,10 +672,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "動作",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -649,11 +690,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "獨立製作",
-    "競速",
-    "模擬"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -771,9 +808,9 @@
   },
   {
    "name": "Unhistorical Warfare",
-   "id": "5486590",
+   "id": "5340870",
    "demo": false,
-   "url": "https://store.steampowered.com/app/5486590/",
+   "url": "https://store.steampowered.com/app/5340870/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292120/0f4355e299121b3cdd73c87876c9f542a5d1586a/capsule_231x87.jpg?t=1795043452",
    "released": "2026 年 11 月 17 日",
    "price": "NT$ 126.00",
@@ -781,6 +818,25 @@
    "discount": 20,
    "platforms": [
     "Win"
+   ],
+   "genres": [],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Underbloom",
+   "id": "5486590",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5486590/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5340870/33438890a6cc234016b92d5cb628580fc771b819/capsule_231x87.jpg?t=1794940251",
+   "released": "2026 年 11 月 17 日",
+   "price": "NT$ 45.00",
+   "free": false,
+   "discount": 41,
+   "platforms": [
+    "Win",
+    "Linux"
    ],
    "genres": [],
    "coop": false,
@@ -888,61 +944,6 @@
    "price": "",
    "free": false,
    "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "PROJECT: MIRROR",
-   "id": "5482350",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5482350/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4914420/d403dfd804b0d01e2e7a25e2c594c275c101725e/capsule_231x87_tchinese.jpg?t=1795339855",
-   "released": "2026 年 11 月 16 日",
-   "price": "NT$ 194.00",
-   "free": false,
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Touhou Chess",
-   "id": "5451260",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5451260/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5482350/ade9ef3f8e713749aa1f4805fb799edecd9568a6/capsule_231x87.jpg?t=1795227951",
-   "released": "2026 年 11 月 16 日",
-   "price": "NT$ 55.00",
-   "free": false,
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Code Market",
-   "id": "4957380",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/4957380/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451260/8b7afcc07b0d0b1fbc30050e52ce1261888ae2ff/capsule_231x87.jpg?t=1795368612",
-   "released": "2026 年 11 月 16 日",
-   "price": "NT$ 126.00",
-   "free": false,
-   "discount": 20,
    "platforms": [
     "Win",
     "Mac"
