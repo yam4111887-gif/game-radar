@@ -1,14 +1,99 @@
 {
- "updated": "2026-11-22 05:10",
+ "updated": "2026-11-23 05:10",
  "source": "Steam 商店搜尋（AI 標籤 tag 7926・依上架日排序）",
  "count": 46,
  "stats": {
   "total": 46,
   "free": 0,
-  "coop": 4,
-  "demo": 9
+  "coop": 7,
+  "demo": 10
  },
  "games": [
+  {
+   "name": "Auto Squad RPG",
+   "id": "5629380",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5629380/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179700/e1978df4cceab831f502b4445e843a3755883279/capsule_231x87.jpg?t=1795356460",
+   "released": "2026 年 11 月 22 日",
+   "price": "NT$ 86.00",
+   "free": false,
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "冒險",
+    "獨立製作"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "ウソツキカメラ Demo",
+   "id": "5352510",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5352510/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5629380/dd51a8d9872d26158ba5573b521fca120c278ef5/capsule_231x87.jpg?t=1795348897",
+   "released": "2026 年 11 月 22 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "工具"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Game Translation",
+   "id": "5191120",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5191120/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352510/3cadd72a89b5ccd1a2102f69b7ff5c0cc3f66b11/capsule_231x87.jpg?t=1795340125",
+   "released": "2026 年 11 月 22 日",
+   "price": "NT$ 149.00",
+   "free": false,
+   "discount": 30,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "動作",
+    "冒險",
+    "休閒"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "PERI.CO",
+   "id": "5029710",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5029710/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191120/da37a321cf041e33d02a32ca5e867c8a5264660b/capsule_231x87.jpg?t=1795337421",
+   "released": "2026 年 11 月 22 日",
+   "price": "NT$ 103.00",
+   "free": false,
+   "discount": 30,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "角色扮演"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
   {
    "name": "mechakucha pakurion",
    "id": "5495300",
@@ -53,12 +138,33 @@
   },
   {
    "name": "Zephyr's World",
-   "id": "5032040",
+   "id": "5198440",
    "demo": false,
-   "url": "https://store.steampowered.com/app/5032040/",
+   "url": "https://store.steampowered.com/app/5198440/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5528190/50bc94d78f8a17b3d22e6d3dc58ab863d0939071/capsule_231x87.jpg?t=1795266253",
    "released": "2026 年 11 月 21 日",
    "price": "NT$ 108.00",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "角色扮演",
+    "免費遊玩"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "位于平行世界的我们 ~ Parallel Hearts ~",
+   "id": "5032040",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5032040/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5198440/bc69f7f756a8b4e3051962857f07dcb99269d171/capsule_231x87.jpg?t=1795237018",
+   "released": "2026 年 11 月 20 日",
+   "price": "",
    "free": false,
    "discount": 0,
    "platforms": [
@@ -95,9 +201,9 @@
   },
   {
    "name": "World of Mythos",
-   "id": "4430890",
+   "id": "5526720",
    "demo": false,
-   "url": "https://store.steampowered.com/app/4430890/",
+   "url": "https://store.steampowered.com/app/5526720/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4913070/c4d7256624f3ec7b0eafe803556831bfbc365b5e/capsule_231x87.jpg?t=1795209235",
    "released": "2026 年 11 月 20 日",
    "price": "",
@@ -106,6 +212,27 @@
    "platforms": [
     "Win",
     "Linux"
+   ],
+   "genres": [
+    "獨立製作",
+    "模擬"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Dispatch Simulator",
+   "id": "4430890",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/4430890/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5526720/dbb5b83704db5993a4cd534e871e1f4b803e2ba5/capsule_231x87.jpg?t=1795208542",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 278.00",
+   "free": false,
+   "discount": 20,
+   "platforms": [
+    "Win"
    ],
    "genres": [
     "獨立製作",
@@ -227,10 +354,31 @@
   },
   {
    "name": "Silicon Empire: Chip Tycoon Demo",
+   "id": "5609590",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5609590/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318600/3b9c54a95ba3423ed4965b74fa60ef1bea91395a/capsule_231x87.jpg?t=1795167619",
+   "released": "2026 年 11 月 20 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "角色扮演",
+    "模擬"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "归墟行：人界篇 Demo",
    "id": "4899530",
    "demo": true,
    "url": "https://store.steampowered.com/app/4899530/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318600/3b9c54a95ba3423ed4965b74fa60ef1bea91395a/capsule_231x87.jpg?t=1795167619",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5609590/b3de3b8b5244ead753636f7b0a60eb1bd95c809b/capsule_231x87.jpg?t=1795165205",
    "released": "2026 年 11 月 20 日",
    "price": "",
    "free": false,
@@ -523,11 +671,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "獨立製作",
-    "模擬",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -547,9 +691,7 @@
     "Mac",
     "Linux"
    ],
-   "genres": [
-    "工具"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -567,11 +709,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "模擬"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -590,11 +728,7 @@
     "Win",
     "Linux"
    ],
-   "genres": [
-    "動作",
-    "冒險",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -612,10 +746,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "角色扮演",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -633,11 +764,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "休閒",
-    "模擬",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -655,11 +782,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "獨立製作",
-    "模擬",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -779,7 +902,7 @@
    "id": "5482350",
    "demo": false,
    "url": "https://store.steampowered.com/app/5482350/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4914420/d403dfd804b0d01e2e7a25e2c594c275c101725e/capsule_231x87_tchinese.jpg?t=1794894672",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4914420/d403dfd804b0d01e2e7a25e2c594c275c101725e/capsule_231x87_tchinese.jpg?t=1795339855",
    "released": "2026 年 11 月 16 日",
    "price": "NT$ 194.00",
    "free": false,
@@ -815,138 +938,11 @@
    "id": "4957380",
    "demo": false,
    "url": "https://store.steampowered.com/app/4957380/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451260/8b7afcc07b0d0b1fbc30050e52ce1261888ae2ff/capsule_231x87.jpg?t=1795037440",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451260/8b7afcc07b0d0b1fbc30050e52ce1261888ae2ff/capsule_231x87.jpg?t=1795368612",
    "released": "2026 年 11 月 16 日",
    "price": "NT$ 126.00",
    "free": false,
    "discount": 20,
-   "platforms": [
-    "Win",
-    "Mac"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Demockracy",
-   "id": "5447560",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5447560/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4957380/09ebb3e67ad0a25a7813f395783090952979bc25/capsule_231x87.jpg?t=1794851995",
-   "released": "2026 年 11 月 16 日",
-   "price": "NT$ 86.00",
-   "free": false,
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Pizzarian: Tidy Up the Arcane Shop Demo",
-   "id": "5016130",
-   "demo": true,
-   "url": "https://store.steampowered.com/app/5016130/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5447560/5e45fc677e4cbf3543dbca3128a04868ce5fe5cb/capsule_231x87.jpg?t=1794844043",
-   "released": "2026 年 11 月 16 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Warpack",
-   "id": "5342450",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5342450/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016130/e771a7b2192342d9b87942cccfd67981d202c630/capsule_231x87.jpg?t=1794969924",
-   "released": "2026 年 11 月 16 日",
-   "price": "NT$ 222.00",
-   "free": false,
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "VPet Sort Together: Cozy Tidy Up",
-   "id": "5379220",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5379220/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5342450/fee36702d46c305b7ee6bf27518b30a76387cbed/capsule_231x87.jpg?t=1794863018",
-   "released": "2026 年 11 月 16 日",
-   "price": "NT$ 93.00",
-   "free": false,
-   "discount": 21,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Welcome Home, Resident",
-   "id": "5441840",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5441840/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379220/830bdc76b19f62aedb0fcba6cb742d96533a60b8/capsule_231x87.jpg?t=1794822600",
-   "released": "2026 年 11 月 15 日",
-   "price": "NT$ 275.00",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "执笔人 The Inkwright",
-   "id": "2415210",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/2415210/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5441840/aa9a4d2dace3a2c00712c4611f1fbc94a748ba9c/capsule_231x87.jpg?t=1794813620",
-   "released": "2026 年 11 月 15 日",
-   "price": "NT$ 28.00",
-   "free": false,
-   "discount": 42,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Okey Online",
-   "id": "5186000",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5186000/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2415210/965c4d945cd7fa69f92e580b1200559860bf118d/capsule_231x87.jpg?t=1794760579",
-   "released": "2026 年 11 月 15 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
    "platforms": [
     "Win",
     "Mac"
