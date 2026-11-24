@@ -1,14 +1,58 @@
 {
- "updated": "2026-11-23 15:23",
+ "updated": "2026-11-24 05:11",
  "source": "Steam 商店搜尋（AI 標籤 tag 7926・依上架日排序）",
  "count": 46,
  "stats": {
   "total": 46,
   "free": 0,
-  "coop": 7,
-  "demo": 12
+  "coop": 8,
+  "demo": 11
  },
  "games": [
+  {
+   "name": "AI Park",
+   "id": "5326680",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5326680/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305200/1bc42f80ce0a80005a209c37bfd5b2083fa90b49/capsule_231x87.jpg?t=1795491947",
+   "released": "2026 年 11 月 23 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "模擬"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Career Manager 27",
+   "id": "5496940",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5496940/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326680/149355192c61a1fb32d681fbb2df5dfff611f530/capsule_231x87.jpg?t=1795485189",
+   "released": "2026 年 11 月 23 日",
+   "price": "NT$ 238.00",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "冒險",
+    "休閒",
+    "模擬"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
   {
    "name": "Psst! Demo",
    "id": "5598460",
@@ -223,12 +267,34 @@
   },
   {
    "name": "100个师兄爱上我",
-   "id": "4913070",
+   "id": "5539980",
    "demo": false,
-   "url": "https://store.steampowered.com/app/4913070/",
+   "url": "https://store.steampowered.com/app/5539980/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5032040/fb8c079f28081b7193dac8b3f0f7a3c6745f66f9/capsule_231x87.jpg?t=1795231163",
    "released": "2026 年 11 月 20 日",
    "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "策略"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Knights & Squires",
+   "id": "4913070",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/4913070/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5539980/b6ed91f328e6b5c803924f933c4c5d4a88d6525b/capsule_231x87.jpg?t=1795269644",
+   "released": "2026 年 11 月 20 日",
+   "price": "NT$ 108.00",
    "free": false,
    "discount": 0,
    "platforms": [
@@ -379,13 +445,15 @@
    "id": "5318600",
    "demo": false,
    "url": "https://store.steampowered.com/app/5318600/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243460/c895a98bc676c60228a9376ece8f031afc7214f3/capsule_231x87.jpg?t=1795170503",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243460/c895a98bc676c60228a9376ece8f031afc7214f3/capsule_231x87.jpg?t=1795448606",
    "released": "2026 年 11 月 20 日",
    "price": "NT$ 105.00",
    "free": false,
    "discount": 10,
    "platforms": [
-    "Win"
+    "Win",
+    "Mac",
+    "Linux"
    ],
    "genres": [
     "獨立製作",
@@ -606,11 +674,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "冒險",
-    "休閒",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -628,11 +692,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "動作",
-    "冒險",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -650,11 +710,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "動作",
-    "休閒",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -891,62 +947,6 @@
    "discount": 0,
    "platforms": [
     "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "MOO",
-   "id": "4577060",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/4577060/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395840/18a3aa40b072d898dfb1c27caeb2c6dfc5c27fc0/capsule_231x87.jpg?t=1795284329",
-   "released": "2026 年 11 月 17 日",
-   "price": "NT$ 183.00",
-   "free": false,
-   "discount": 15,
-   "platforms": [
-    "Win",
-    "Mac"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Desktop Maid Haru",
-   "id": "5559630",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5559630/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4577060/c9c32a8d2efbb507648905f90bcf5b30685280f7/capsule_231x87.jpg?t=1794911237",
-   "released": "2026 年 11 月 17 日",
-   "price": "NT$ 242.00",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "星里由花 with my heart Demo",
-   "id": "4914420",
-   "demo": true,
-   "url": "https://store.steampowered.com/app/4914420/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5559630/28afc4116ee4ce8c7c1e21761f8ffbe7e3c89ff3/capsule_231x87.jpg?t=1794900166",
-   "released": "2026 年 11 月 16 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac"
    ],
    "genres": [],
    "coop": false,
