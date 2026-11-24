@@ -7,13 +7,13 @@
 
 @font-face {
   font-family: "Noto Sans TC Web";
-  src: url("fonts/NotoSansTC-sub.woff2") format("woff2-variations");
+  src: url("https://cdn.jsdelivr.net/gh/yam4111887-gif/game-radar@main/fonts/NotoSansTC-sub.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-display: swap;
 }
-@font-face { font-family: "Chakra Petch Web"; src: url("fonts/ChakraPetch-Medium.woff2") format("woff2"); font-weight: 400 500; font-display: swap; }
-@font-face { font-family: "Chakra Petch Web"; src: url("fonts/ChakraPetch-SemiBold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
-@font-face { font-family: "Chakra Petch Web"; src: url("fonts/ChakraPetch-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Chakra Petch Web"; src: url("https://cdn.jsdelivr.net/gh/yam4111887-gif/game-radar@main/fonts/ChakraPetch-Medium.woff2") format("woff2"); font-weight: 400 500; font-display: swap; }
+@font-face { font-family: "Chakra Petch Web"; src: url("https://cdn.jsdelivr.net/gh/yam4111887-gif/game-radar@main/fonts/ChakraPetch-SemiBold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Chakra Petch Web"; src: url("https://cdn.jsdelivr.net/gh/yam4111887-gif/game-radar@main/fonts/ChakraPetch-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
 
 :root {
   --bg: #0e1116;
