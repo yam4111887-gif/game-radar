@@ -1,0 +1,551 @@
+{
+  "version": "26.23",
+  "nextVersion": "26.24",
+  "patchLive": "2026/11/17",
+  "datePublished": "2026-11-20",
+  "updated": "2026-11-20",
+  "ogDescription": "職業賽季結束後的解放之版：五路 S/A/B 分層＋本版改動中文整理。",
+  "summary": [
+    "<strong>「職業監獄」解放潮</strong>：世界大賽結束後，Riot 集中加強整年被職業賽壓制的英雄——安妮、阿祈爾、巴德、伊澤瑞爾、加里歐、納爾、K'Sante、菲艾都在名單上。",
+    "<strong>削弱</strong>：勒布朗（Q 比例下修）、易大師（Q 主要打暴擊流）、星朵拉（E 暈眩變貴變慢）；物理刺客愛裝「伏打旋風劍」觸發傷害下調。",
+    "<strong>冬季地圖回歸</strong>＋冬季經典皮回商店；Team Voice（隊內語音）在 NA／OCE 測試。",
+    "<strong>2027 大改版「New Dawn」預告</strong>已放出，2027 年 1 月完整揭曉。",
+    "League Classic 模式加入舊版塔隆、烏迪爾、厄薩斯前身的舊烏戈、舊齊勒斯（2011～2017 年版本）。"
+  ],
+  "roles": [
+    {
+      "title": "上路 Top",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "版本加強直接受益＋賽季後生態穩定強權",
+          "champs": [
+            {
+              "id": "Gnar",
+              "zh": "納爾",
+              "en": "Gnar",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": null
+            },
+            {
+              "id": "KSante",
+              "zh": "",
+              "en": "K'Sante",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": null
+            },
+            {
+              "id": "Aatrox",
+              "zh": "亞托克斯",
+              "en": "Aatrox",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Camille",
+              "zh": "卡蜜兒",
+              "en": "Camille",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "穩定好用，特定對線強",
+          "champs": [
+            {
+              "id": "Galio",
+              "zh": "加里歐",
+              "en": "Galio",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": "可中上"
+            },
+            {
+              "id": "Jayce",
+              "zh": "杰西",
+              "en": "Jayce",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Sett",
+              "zh": "賽特",
+              "en": "Sett",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Shen",
+              "zh": "慎",
+              "en": "Shen",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Fiora",
+              "zh": "菲歐拉",
+              "en": "Fiora",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": "能玩，但需要更多功夫或隊伍配合",
+          "champs": [
+            {
+              "id": "Darius",
+              "zh": "達瑞斯",
+              "en": "Darius",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Jax",
+              "zh": "賈克斯",
+              "en": "Jax",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Malphite",
+              "zh": "墨菲特",
+              "en": "Malphite",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Olaf",
+              "zh": "歐拉夫",
+              "en": "Olaf",
+              "delta": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "打野 Jungle",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "菲艾本版直接加強，版本之子候選",
+          "champs": [
+            {
+              "id": "Vi",
+              "zh": "菲艾",
+              "en": "Vi",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": null
+            },
+            {
+              "id": "Viego",
+              "zh": "佛耶戈",
+              "en": "Viego",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "LeeSin",
+              "zh": "李星",
+              "en": "Lee Sin",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "易大師削弱後降半級，仍是低分段大殺器",
+          "champs": [
+            {
+              "id": "MasterYi",
+              "zh": "易大師",
+              "en": "Master Yi",
+              "delta": {
+                "dir": "down",
+                "text": "↘削弱"
+              },
+              "note": null
+            },
+            {
+              "id": "XinZhao",
+              "zh": "趙信",
+              "en": "Xin Zhao",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Nocturne",
+              "zh": "夜曲",
+              "en": "Nocturne",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "MonkeyKing",
+              "zh": "悟空",
+              "en": "Wukong",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "JarvanIV",
+              "zh": "嘉文四世",
+              "en": "Jarvan IV",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": null,
+          "champs": [
+            {
+              "id": "Shaco",
+              "zh": "薩科",
+              "en": "Shaco",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "RekSai",
+              "zh": "雷珂煞",
+              "en": "Rek'Sai",
+              "delta": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "中路 Mid",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "勒布朗削一點還是壓制力頂尖；阿祈爾連兩版加強值得投資練習",
+          "champs": [
+            {
+              "id": "Leblanc",
+              "zh": "勒布朗",
+              "en": "LeBlanc",
+              "delta": {
+                "dir": "down",
+                "text": "↘削弱"
+              },
+              "note": null
+            },
+            {
+              "id": "Ahri",
+              "zh": "阿璃",
+              "en": "Ahri",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Orianna",
+              "zh": "奧莉安娜",
+              "en": "Orianna",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Azir",
+              "zh": "阿祈爾",
+              "en": "Azir",
+              "delta": {
+                "dir": "up",
+                "text": "↗連兩版加強"
+              },
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "星朵拉 E 削後降半級；Mel 改版修完緩步上升",
+          "champs": [
+            {
+              "id": "Syndra",
+              "zh": "星朵拉",
+              "en": "Syndra",
+              "delta": {
+                "dir": "down",
+                "text": "↘削弱"
+              },
+              "note": null
+            },
+            {
+              "id": "Mel",
+              "zh": "",
+              "en": "Mel",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": null
+            },
+            {
+              "id": "Galio",
+              "zh": "加里歐",
+              "en": "Galio",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": null
+            },
+            {
+              "id": "Viktor",
+              "zh": "維克特",
+              "en": "Viktor",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Velkoz",
+              "zh": "威寇茲",
+              "en": "Vel'Koz",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": "刺客流派受伏打旋風劍削弱連帶影響",
+          "champs": [
+            {
+              "id": "Talon",
+              "zh": "塔隆",
+              "en": "Talon",
+              "delta": {
+                "dir": "down",
+                "text": "↘裝備削弱"
+              },
+              "note": null
+            },
+            {
+              "id": "Zed",
+              "zh": "劫",
+              "en": "Zed",
+              "delta": {
+                "dir": "down",
+                "text": "↘裝備削弱"
+              },
+              "note": null
+            },
+            {
+              "id": "Yasuo",
+              "zh": "犽宿",
+              "en": "Yasuo",
+              "delta": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "下路 ADC",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "伊澤瑞爾是本版最大受惠者之一——全年偏弱但職業愛用，賽後補強幅度有感",
+          "champs": [
+            {
+              "id": "Ezreal",
+              "zh": "伊澤瑞爾",
+              "en": "Ezreal",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": null
+            },
+            {
+              "id": "Kaisa",
+              "zh": "凱莎",
+              "en": "Kai'Sa",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Jinx",
+              "zh": "吉茵珂絲",
+              "en": "Jinx",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": null,
+          "champs": [
+            {
+              "id": "Caitlyn",
+              "zh": "凱特琳",
+              "en": "Caitlyn",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Ashe",
+              "zh": "艾希",
+              "en": "Ashe",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Varus",
+              "zh": "法洛士",
+              "en": "Varus",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Lucian",
+              "zh": "路西恩",
+              "en": "Lucian",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": null,
+          "champs": [
+            {
+              "id": "Tristana",
+              "zh": "崔絲塔娜",
+              "en": "Tristana",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Sivir",
+              "zh": "希維爾",
+              "en": "Sivir",
+              "delta": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "輔助 Support",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "巴德 Q 傷害大幅回補，遊走流派回歸",
+          "champs": [
+            {
+              "id": "Bard",
+              "zh": "巴德",
+              "en": "Bard",
+              "delta": {
+                "dir": "up",
+                "text": "↗加強"
+              },
+              "note": null
+            },
+            {
+              "id": "Leona",
+              "zh": "雷歐娜",
+              "en": "Leona",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Rakan",
+              "zh": "銳空",
+              "en": "Rakan",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": null,
+          "champs": [
+            {
+              "id": "Thresh",
+              "zh": "瑟雷西",
+              "en": "Thresh",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Morgana",
+              "zh": "魔甘娜",
+              "en": "Morgana",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Lulu",
+              "zh": "露璐",
+              "en": "Lulu",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Sona",
+              "zh": "索娜",
+              "en": "Sona",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": null,
+          "champs": [
+            {
+              "id": "Soraka",
+              "zh": "索拉卡",
+              "en": "Soraka",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": "Blitzcrank",
+              "zh": "布里茨",
+              "en": "Blitzcrank",
+              "delta": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "patchNotes": {
+    "buffs": "安妮（提伯斯全面強化）、阿祈爾（攻距＋W 比例）、巴德（Q 傷害與係數）、伊澤瑞爾（W／R）、加里歐（W 護盾比例大幅上调）、納爾（Q 比例）、K'Sante（W 基礎傷害）、Mel（Q／W）、菲艾（E 傷害）。",
+    "nerfs": "勒布朗（Q AP 係數 40%→35%）、易大師（Q AD 係數，針對暴擊流）、星朵拉（E 魔力＋冷卻）、伏打旋風劍（觸發傷害 9%/7%→8%/6%）。",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-23-notes",
+    "sourceLabel": "Riot 官方 Patch 26.23 Notes"
+  }
+}
