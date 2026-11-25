@@ -1,0 +1,374 @@
+{
+  "version": "7.3",
+  "datePublished": "2026-11-20",
+  "updated": "2026-11-20",
+  "ogDescription": "只列 Wild Rift 實際開放英雄的五路 S/A/B 分層，每版跟版更新。",
+  "summary": [
+    "<strong>現行版本 7.3</strong>：平衡調整以 Riot 官方版更公告為準。",
+    "<strong>角色池超過百位</strong>：多數與 PC 版同名英雄對應，但技能組與數值為手遊端獨立調整，不能直接套 PC 版理解。",
+    "<strong>對局節奏快</strong>：單場約 15～20 分鐘，滾雪球速度快，中期會戰權重高——本排行因此偏重會戰泛用度。",
+    "本排行以<strong>一般對局（非電競）泛用度</strong>為準，屬編輯觀點。"
+  ],
+  "roles": [
+    {
+      "title": "上路 Baron Lane",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "線權穩、會戰存在感高",
+          "champs": [
+            {
+              "id": null,
+              "zh": "達瑞斯",
+              "en": "Darius",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "雷尼克頓",
+              "en": "Renekton",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "穩定好用，特定對線強",
+          "champs": [
+            {
+              "id": null,
+              "zh": "菲歐拉",
+              "en": "Fiora",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "蓋倫",
+              "en": "Garen",
+              "delta": null,
+              "note": "平民友善"
+            },
+            {
+              "id": null,
+              "zh": "納瑟斯",
+              "en": "Nasus",
+              "delta": null,
+              "note": "後期成長"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": "能玩，但需要更多功夫或隊伍配合",
+          "champs": [
+            {
+              "id": null,
+              "zh": "墨菲特",
+              "en": "Malphite",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "賈克斯",
+              "en": "Jax",
+              "delta": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "打野 Jungle",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "前期帶動節奏的能力頂尖",
+          "champs": [
+            {
+              "id": null,
+              "zh": "趙信",
+              "en": "Xin Zhao",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "李星",
+              "en": "Lee Sin",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "穩定carry，低分段也很好用",
+          "champs": [
+            {
+              "id": null,
+              "zh": "易大師",
+              "en": "Master Yi",
+              "delta": null,
+              "note": "平民"
+            },
+            {
+              "id": null,
+              "zh": "悟空",
+              "en": "Wukong",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "嘉文四世",
+              "en": "Jarvan IV",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": "簡單可靠的坦克打野",
+          "champs": [
+            {
+              "id": null,
+              "zh": "阿姆姆",
+              "en": "Amumu",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "拉姆斯",
+              "en": "Rammus",
+              "delta": null,
+              "note": "簡單上手"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "中路 Mid",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "爆發與支援兩頭賺",
+          "champs": [
+            {
+              "id": null,
+              "zh": "阿璃",
+              "en": "Ahri",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "亞索",
+              "en": "Yasuo",
+              "delta": null,
+              "note": "操作上限高"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "強度高，吃進場判斷",
+          "champs": [
+            {
+              "id": null,
+              "zh": "阿卡莉",
+              "en": "Akali",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "黛安娜",
+              "en": "Diana",
+              "delta": null,
+              "note": "可打野"
+            },
+            {
+              "id": null,
+              "zh": "逆命",
+              "en": "Twisted Fate",
+              "delta": null,
+              "note": "支援流"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": "好上手的功能法師",
+          "champs": [
+            {
+              "id": null,
+              "zh": "安妮",
+              "en": "Annie",
+              "delta": null,
+              "note": "平民友善"
+            },
+            {
+              "id": null,
+              "zh": "希格斯",
+              "en": "Ziggs",
+              "delta": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "下路 ADC",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "會戰輸出穩定的雙核心",
+          "champs": [
+            {
+              "id": null,
+              "zh": "燼",
+              "en": "Jhin",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "吉茵珂絲",
+              "en": "Jinx",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "線上壓制或後期成長各有擅場",
+          "champs": [
+            {
+              "id": null,
+              "zh": "凱特琳",
+              "en": "Caitlyn",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "路西恩",
+              "en": "Lucian",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "汎",
+              "en": "Vayne",
+              "delta": null,
+              "note": "吃操作"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": "功能型射手，團隊取向",
+          "champs": [
+            {
+              "id": null,
+              "zh": "艾希",
+              "en": "Ashe",
+              "delta": null,
+              "note": "功能型"
+            },
+            {
+              "id": null,
+              "zh": "好運姐",
+              "en": "Miss Fortune",
+              "delta": null,
+              "note": "平民友善"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "輔助 Support",
+      "tiers": [
+        {
+          "tier": "S",
+          "note": "開戰能力頂尖，會戰影響力大",
+          "champs": [
+            {
+              "id": null,
+              "zh": "雷歐娜",
+              "en": "Leona",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "銳空",
+              "en": "Rakan",
+              "delta": null,
+              "note": "開戰靈活"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "note": "保排與控場均衡",
+          "champs": [
+            {
+              "id": null,
+              "zh": "魔甘娜",
+              "en": "Morgana",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "布朗姆",
+              "en": "Braum",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "娜米",
+              "en": "Nami",
+              "delta": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "note": "好上手的保排輔助",
+          "champs": [
+            {
+              "id": null,
+              "zh": "索娜",
+              "en": "Sona",
+              "delta": null,
+              "note": null
+            },
+            {
+              "id": null,
+              "zh": "索拉卡",
+              "en": "Soraka",
+              "delta": null,
+              "note": "平民"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
