@@ -100,6 +100,13 @@ async function main() {
     await new Promise((r) => setTimeout(r, 350));
   }
 
+  /* capsule 防護：搜尋結果的 capsule hash 常指向其他 app（DLC/同系列錯位）；
+     id 對不上的一律丟棄，僅在 enrich 失敗時才 fallback capsule，避免秀錯圖 */
+  for (const g of games) {
+    const m = (g.capsule || "").match(/\/apps\/(\d+)\//);
+    if (g.capsule && m && m[1] !== g.id) g.capsule = "";
+  }
+
   const updated = new Date().toISOString().slice(0, 16).replace("T", " ");
 
   /* ① JSON */
