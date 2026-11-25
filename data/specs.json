@@ -1,261 +1,222 @@
 {
- "updated": "2026-11-24 05:10",
+ "updated": "2026-11-25 05:10",
  "source": "Steam appdetails API（台灣區・繁中）",
- "count": 12,
+ "count": 10,
  "specs": [
   {
-   "name": "Muv-Luv 少女庭園",
-   "id": "5624100",
-   "url": "https://store.steampowered.com/app/5624100/",
-   "released": "2026 年 11 月 23 日",
-   "price": "",
+   "name": "我們不用很麻煩很累就可以變強！支持者包",
+   "id": "5062970",
+   "url": "https://store.steampowered.com/app/5062970/",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 24.00",
    "discount": 0,
    "minimum": [
     "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64-bit (21H2 or later)",
-    "處理器: Intel Core i5-6500 / AMD Ryzen 3 1200 or equivalent",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: NVIDIA GeForce GTX 1050 / AMD Radeon RX 560 (DirectX 12 compatible, 2 GB VRAM)",
-    "DirectX: 版本：12",
-    "儲存空間: 2 GB 可用空間",
-    "音效卡: DirectX compatible sound card"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64-bit / Windows 11 64-bit",
-    "處理器: Intel Core i5-10400 / AMD Ryzen 5 3600 or equivalent",
-    "記憶體: 16 GB 記憶體",
-    "顯示卡: NVIDIA GeForce GTX 1650 / AMD Radeon RX 570 or equivalent",
-    "DirectX: 版本：12",
-    "儲存空間: 3 GB 可用空間",
-    "音效卡: DirectX compatible sound card"
-   ]
-  },
-  {
-   "name": "魔能機兵：蒼焰的鎮魂曲",
-   "id": "5471120",
-   "url": "https://store.steampowered.com/app/5471120/",
-   "released": "2026 年 11 月 23 日",
-   "price": "",
-   "discount": 0,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統"
+    "作業系統: Windows10",
+    "處理器: 2.0 GHz Dual Core",
+    "記憶體: 4 GB 記憶體",
+    "儲存空間: 1 GB 可用空間"
    ],
    "recommended": [
     "需要 64 位元的處理器及作業系統"
    ]
   },
   {
-   "name": "Deck of Dynasties",
-   "id": "5305200",
-   "url": "https://store.steampowered.com/app/5305200/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 159.00",
-   "discount": 15,
+   "name": "Incremental Pachinko Heaven",
+   "id": "5629560",
+   "url": "https://store.steampowered.com/app/5629560/",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 91.00",
+   "discount": 16,
    "minimum": [
-    "作業系統: Windows 11",
-    "處理器: Intel N100 or equivalent",
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 (64-bit)",
+    "處理器: 64-bit dual-core CPU with SSE4.2 support",
     "記憶體: 2 GB 記憶體",
-    "顯示卡: Intel UHD Graphics or equivalent",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 2 GB 可用空間",
-    "音效卡: Windows-compatible audio device",
-    "備註: Internet connection is required for Steam Workshop and online community features. Local AI generation is optional and is not required for browsing, viewing, creating, or sharing content."
+    "顯示卡: GPU with OpenGL 3.3 support",
+    "儲存空間: 250 MB 可用空間"
    ],
    "recommended": [
-    "作業系統: Windows 11",
-    "處理器: Intel i3 or equivalent",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: Intel UHD Graphics or equivalent",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 3 GB 可用空間",
-    "音效卡: Windows-compatible audio device",
-    "備註: Optional local AI generation may require a compatible NVIDIA GPU, additional VRAM, memory, and disk space depending on the AI model used."
+    "需要 64 位元的處理器及作業系統"
    ]
   },
   {
-   "name": "AI Park",
-   "id": "5189040",
-   "url": "https://store.steampowered.com/app/5189040/",
-   "released": "2026 年 11 月 23 日",
+   "name": "Chalk Thrower Simulator",
+   "id": "5683640",
+   "url": "https://store.steampowered.com/app/5683640/",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 97.00",
+   "discount": 10,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10",
+    "處理器: Core i3-4600f",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: GTX 1660 Ti",
+    "儲存空間: 200 MB 可用空間"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10",
+    "處理器: Core i5-10600k",
+    "記憶體: 16 GB 記憶體",
+    "顯示卡: GTX 2060 Ti",
+    "儲存空間: 200 MB 可用空間"
+   ]
+  },
+  {
+   "name": "CatchCatch: Casual Customization",
+   "id": "5031150",
+   "url": "https://store.steampowered.com/app/5031150/",
+   "released": "2026 年 11 月 24 日",
    "price": "",
    "discount": 0,
    "minimum": [
     "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64-bit",
-    "處理器: Intel Core i3-6100 / AMD FX-6300 or equivalent",
+    "作業系統: WIndows10",
+    "處理器: Intel Core i3",
     "記憶體: 4 GB 記憶體",
-    "顯示卡: Intel HD Graphics 520 / NVIDIA GeForce GTX 650 or equivalent",
+    "顯示卡: 独立显卡",
     "DirectX: 版本：11",
     "網路: 寬頻網際網路連線",
-    "儲存空間: 1 GB 可用空間",
-    "音效卡: DirectX compatible sound card",
-    "備註: Requires a 64-bit processor and operating system"
+    "儲存空間: 40 GB 可用空間"
    ],
    "recommended": [
     "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10/11 64-bit",
-    "處理器: Intel Core i5-8400 / AMD Ryzen 3 1200 or equivalent",
+    "作業系統: Windows10/Windows11",
+    "處理器: Intel Core i5",
     "記憶體: 8 GB 記憶體",
-    "顯示卡: NVIDIA GeForce GTX 750 Ti / Intel Iris Xe Graphics or better",
+    "顯示卡: 独立显卡",
     "DirectX: 版本：11",
     "網路: 寬頻網際網路連線",
-    "儲存空間: 2 GB 可用空間",
-    "音效卡: DirectX compatible sound card",
-    "備註: SSD recommended"
+    "儲存空間: 40 GB 可用空間"
    ]
   },
   {
-   "name": "Cooking Adventure : Hotel Street 01",
-   "id": "5189470",
-   "url": "https://store.steampowered.com/app/5189470/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 115.00",
-   "discount": 15,
+   "name": "你好！我们还有场恋爱没谈2",
+   "id": "5603830",
+   "url": "https://store.steampowered.com/app/5603830/",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 259.00",
+   "discount": 10,
    "minimum": [
-    "需要 64 位元的處理器及作業系統"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Cooking Adventure : Norma Style Pack 01",
-   "id": "5617130",
-   "url": "https://store.steampowered.com/app/5617130/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 99.00",
-   "discount": 15,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64 位元",
-    "處理器: x86_64 雙核心，2.4 GHz",
-    "顯示卡: 支援 Vulkan 1.0 的顯示卡（Intel HD 520 / GeForce GTX 750 / Radeon R7 260 或更高）",
-    "音效卡: 任何音效卡"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 11 64 位元",
-    "處理器: x86_64 四核心，3.5 GHz",
-    "顯示卡: GeForce GTX 1060 / Radeon RX 580 或更高"
-   ]
-  },
-  {
-   "name": "再來億竿",
-   "id": "5577750",
-   "url": "https://store.steampowered.com/app/5577750/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 75.00",
-   "discount": 31,
-   "minimum": [
-    "作業系統: Windows 10 (64-bit) or later"
+    "作業系統: Windows8"
    ],
    "recommended": []
   },
   {
-   "name": "ASCENT: MASKLINGS",
-   "id": "5453830",
-   "url": "https://store.steampowered.com/app/5453830/",
-   "released": "2026 年 11 月 23 日",
+   "name": "山海幻境：無限篇",
+   "id": "5353560",
+   "url": "https://store.steampowered.com/app/5353560/",
+   "released": "2026 年 11 月 24 日",
+   "price": "",
+   "discount": 0,
+   "minimum": [
+    "作業系統: windows10",
+    "處理器: Intel Core i3-8100 / AMD Ryzen 5 3600",
+    "顯示卡: NVIDIA GTX 1060 / AMD RX 580",
+    "DirectX: 版本：11",
+    "網路: 寬頻網際網路連線",
+    "儲存空間: 2 GB 可用空間",
+    "音效卡: Standard audio equipment",
+    "VR 支援: not supported"
+   ],
+   "recommended": [
+    "作業系統: windows10",
+    "處理器: Intel Core i5-12400F / AMD Ryzen 5 5600X",
+    "顯示卡: NVIDIA RTX 3060 / AMD RX 6600",
+    "DirectX: 版本：11",
+    "網路: 寬頻網際網路連線",
+    "儲存空間: 2 GB 可用空間",
+    "音效卡: Standard audio equipment",
+    "VR 支援: not supported"
+   ]
+  },
+  {
+   "name": "擺攤之王",
+   "id": "5611760",
+   "url": "https://store.steampowered.com/app/5611760/",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 159.00",
+   "discount": 15,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 (64-bit)",
+    "處理器: Quad-core 2.5 GHz",
+    "記憶體: 4 GB 記憶體",
+    "顯示卡: DirectX 12 or Vulkan capable GPU with 2 GB VRAM",
+    "DirectX: 版本：12",
+    "儲存空間: 500 MB 可用空間"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "Tiny Trains",
+   "id": "5628950",
+   "url": "https://store.steampowered.com/app/5628950/",
+   "released": "2026 年 11 月 24 日",
    "price": "NT$ 198.00",
    "discount": 0,
    "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 11 64-bit",
-    "處理器: Intel Core i7-4790K @ 4.00 GHz",
-    "記憶體: 16 GB 記憶體",
-    "顯示卡: NVIDIA GeForce RTX 5060 Ti, 8 GB VRAM",
-    "DirectX: 版本：12",
-    "儲存空間: 10 GB 可用空間",
-    "備註: SSD; keyboard and mouse required. Tested PC."
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Conspiracy at Headquarters",
-   "id": "4346860",
-   "url": "https://store.steampowered.com/app/4346860/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 466.00",
-   "discount": 0,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
     "作業系統: Windows 10",
-    "處理器: Dual-core CPU @ 2GHz",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: GeForce GT 630 or AMD Radeon HD 7450",
-    "儲存空間: 200 MB 可用空間"
+    "處理器: Intel Core i3 8100",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: GTX 1060",
+    "DirectX: 版本：11",
+    "儲存空間: 6 GB 可用空間"
    ],
    "recommended": [
-    "需要 64 位元的處理器及作業系統"
+    "作業系統: Windows 11",
+    "處理器: Ryzen 7 3700",
+    "記憶體: 32 GB 記憶體",
+    "顯示卡: RTX 3070",
+    "DirectX: 版本：12",
+    "儲存空間: 6 GB 可用空間"
    ]
   },
   {
-   "name": "愛麗絲與花坊：Lo-Fi",
-   "id": "5444450",
-   "url": "https://store.steampowered.com/app/5444450/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 86.00",
-   "discount": 20,
-   "minimum": [
-    "作業系統: Windows 10 64-bit",
-    "處理器: Intel Core i3-4130 / AMD FX-4300",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: DirectX 11 GPU, Shader Model 4.5 (Intel HD 4600 / GeForce GT 730 / Radeon R7 240)",
-    "DirectX: 版本：11",
-    "儲存空間: 1 GB 可用空間",
-    "備註: Minimum resolution 1280x720"
-   ],
-   "recommended": [
-    "作業系統: Windows 11 64-bit",
-    "處理器: Quad-core, 3.0 GHz or better",
-    "顯示卡: GeForce GTX 1050 / Radeon RX 560 or better",
-    "DirectX: 版本：11",
-    "儲存空間: 1 GB 可用空間",
-    "備註: 1920x1080 or higher"
-   ]
-  },
-  {
-   "name": "Tchenovstok",
-   "id": "4698540",
-   "url": "https://store.steampowered.com/app/4698540/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 114.00",
+   "name": "Bird Game 3",
+   "id": "5534310",
+   "url": "https://store.steampowered.com/app/5534310/",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 136.00",
    "discount": 0,
    "minimum": [
-    "需要 64 位元的處理器及作業系統",
     "作業系統: Windows 10 64-bit",
-    "處理器: Dual core 2 GHz",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: OpenGL 3.3 capable GPU with 1 GB VRAM",
-    "儲存空間: 400 MB 可用空間"
+    "處理器: 4 cores, 3.0 GHz",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: GTX 1050 Ti or RX 560, 4 GB VRAM",
+    "DirectX: 版本：11",
+    "儲存空間: 2 GB 可用空間"
    ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
+   "recommended": []
   },
   {
-   "name": "Doorstep Days",
-   "id": "4906740",
-   "url": "https://store.steampowered.com/app/4906740/",
-   "released": "2026 年 11 月 23 日",
-   "price": "NT$ 58.00",
-   "discount": 16,
+   "name": "Find The Needle: Haystack Hunt",
+   "id": "4949800",
+   "url": "https://store.steampowered.com/app/4949800/",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 134.00",
+   "discount": 15,
    "minimum": [
     "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10, 11",
-    "處理器: Pentium 4 1.7GHz and above",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: Graphics Card with 256 MB and above",
-    "DirectX: 版本：9.0c",
-    "儲存空間: 1650 MB 可用空間"
+    "作業系統: Windows 10 64-bit",
+    "處理器: Dual-core 2.0 GHz (Intel Core i3-4130 / AMD FX-4300 or equivalent)",
+    "記憶體: 2048 MB 記憶體",
+    "顯示卡: OpenGL 3.3 compatible GPU (Intel HD 4000 or better)",
+    "儲存空間: 300 MB 可用空間",
+    "音效卡: Any"
    ],
    "recommended": [
-    "需要 64 位元的處理器及作業系統"
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 / 11 64-bit",
+    "處理器: Dual-core 2.4 GHz (Intel Core i3 or equivalent)",
+    "記憶體: 4096 MB 記憶體",
+    "顯示卡: Any dedicated GPU or Intel UHD 620+",
+    "儲存空間: 500 MB 可用空間",
+    "音效卡: Any"
    ]
   }
  ]

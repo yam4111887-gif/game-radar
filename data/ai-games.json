@@ -1,14 +1,191 @@
 {
- "updated": "2026-11-24 05:11",
+ "updated": "2026-11-25 05:10",
  "source": "Steam 商店搜尋（AI 標籤 tag 7926・依上架日排序）",
  "count": 46,
  "stats": {
   "total": 46,
   "free": 0,
-  "coop": 8,
-  "demo": 11
+  "coop": 9,
+  "demo": 10
  },
  "games": [
+  {
+   "name": "fogpost Demo",
+   "id": "5683460",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5683460/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5629560/9f7e9bb5012bb0344718b12e99e0b1df7bbc2ef7/capsule_231x87.jpg?t=1795580386",
+   "released": "2026 年 11 月 24 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "模擬"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Desktop Bonsai Towns Demo",
+   "id": "5527800",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5527800/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5683460/ab5fa7cd3f0de97a9c97887f89ac0f31fcd92ef0/capsule_231x87.jpg?t=1795562585",
+   "released": "2026 年 11 月 24 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "模擬"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "No Asteroids",
+   "id": "4275900",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/4275900/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/4035626db4bbe9b8fb5140e6815c9d08665e67c9/capsule_231x87.jpg?t=1795542925",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 126.00",
+   "free": false,
+   "discount": 20,
+   "platforms": [
+    "Win",
+    "Mac"
+   ],
+   "genres": [
+    "獨立製作",
+    "角色扮演",
+    "模擬"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Last State",
+   "id": "5365010",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5365010/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4275900/82a50bed424458851e664be0cf3032573186adef/capsule_231x87.jpg?t=1795541425",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 166.00",
+   "free": false,
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "冒險",
+    "獨立製作",
+    "角色扮演"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Crônicas Improváveis",
+   "id": "3424800",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/3424800/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5365010/40cf4256d21cedad6b4d3f19ce9d51969c5ffaf5/capsule_231x87.jpg?t=1795532766",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 958.00",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "動作",
+    "獨立製作",
+    "角色扮演"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Code of Shadows",
+   "id": "5449760",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5449760/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3424800/e13ae6cd052d41295fa2b4f601d403de0fcf4c13/capsule_231x87.jpg?t=1795530854",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 118.00",
+   "free": false,
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "獨立製作",
+    "設計和繪圖",
+    "圖像編輯"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "MYTHOS: Local Media Intelligence",
+   "id": "5561030",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5561030/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5449760/cb42e294b8b0d0c9802afdbd54a83181cce9f790/capsule_231x87.jpg?t=1795506491",
+   "released": "2026 年 11 月 23 日",
+   "price": "NT$ 142.00",
+   "free": false,
+   "discount": 28,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "獨立製作",
+    "模擬",
+    "免費遊玩"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "1000王子: ChouChou Condo（甜心公寓）- 桌面小工具",
+   "id": "5305200",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5305200/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5561030/ed679269a1a90cbe40b0a96738ab60f3cc3cfd2b/capsule_231x87.jpg?t=1795503950",
+   "released": "2026 年 11 月 23 日",
+   "price": "NT$ 24.00",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "免費遊玩",
+    "動畫和建模",
+    "設計和繪圖"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
   {
    "name": "AI Park",
    "id": "5326680",
@@ -55,9 +232,9 @@
   },
   {
    "name": "Psst! Demo",
-   "id": "5598460",
+   "id": "4241440",
    "demo": true,
-   "url": "https://store.steampowered.com/app/5598460/",
+   "url": "https://store.steampowered.com/app/4241440/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5342980/7a2fcc093977aa9c6ca52e151873800a307a997b/capsule_231x87.jpg?t=1795445751",
    "released": "2026 年 11 月 23 日",
    "price": "",
@@ -65,6 +242,29 @@
    "discount": 0,
    "platforms": [
     "Win"
+   ],
+   "genres": [
+    "模擬",
+    "策略"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Stellaris: Willpower",
+   "id": "5598460",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5598460/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4241440/5995fd9d365c0cd706ed7a558ffbd1a38968f063/capsule_231x87.jpg?t=1795442236",
+   "released": "2026 年 4 月 29 日",
+   "price": "NT$ 638.00",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win",
+    "Mac",
+    "Linux"
    ],
    "genres": [
     "獨立製作",
@@ -477,10 +677,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "角色扮演",
-    "模擬"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -498,11 +695,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "競速",
-    "模擬",
-    "運動"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -520,21 +713,17 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "獨立製作",
-    "模擬",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
   },
   {
-   "name": "Myriadgen Demo",
+   "name": "一生萬我",
    "id": "5196330",
-   "demo": true,
+   "demo": false,
    "url": "https://store.steampowered.com/app/5196330/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489330/37ced2549b7e326d44b0f167a33c579984b83e6c/capsule_231x87.jpg?t=1795137411",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489330/74dc7219cb27b2c3132a242e71593653b560405b/capsule_231x87.jpg?t=1795556026",
    "released": "2026 年 11 月 19 日",
    "price": "",
    "free": false,
@@ -542,11 +731,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "獨立製作",
-    "模擬",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -566,10 +751,7 @@
     "Mac",
     "Linux"
    ],
-   "genres": [
-    "冒險",
-    "獨立製作"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -587,11 +769,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "冒險",
-    "休閒",
-    "角色扮演"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -609,11 +787,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "模擬"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -632,11 +806,8 @@
     "Win",
     "Mac"
    ],
-   "genres": [
-    "休閒",
-    "獨立製作"
-   ],
-   "coop": true,
+   "genres": [],
+   "coop": false,
    "single": false,
    "multi": false
   },
@@ -653,10 +824,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "獨立製作",
-    "模擬"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -783,170 +951,6 @@
     "Win",
     "Mac",
     "Linux"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "HOT DOG AI 即時翻譯",
-   "id": "4858530",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/4858530/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5301630/feb25b583af6a6a6aaef5d6f040fe48e4efb280c/capsule_231x87.jpg?t=1795142329",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 158.00",
-   "free": false,
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Cubersum",
-   "id": "5110520",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5110520/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4858530/26353ccd6dbd96418d946199342273dcd3420492/capsule_231x87.jpg?t=1794992490",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 128.00",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Linux"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Monster Girls Survival & Craft 2040",
-   "id": "5600450",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5600450/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5110520/c1e0e6e65c4f4cddd749487e1ad9b443e4d3884a/capsule_231x87.jpg?t=1794990834",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 223.00",
-   "free": false,
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Large Language Mercenaries Demo",
-   "id": "5292120",
-   "demo": true,
-   "url": "https://store.steampowered.com/app/5292120/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5600450/e78076b82fcd56deca2d76e93e963d1f1d5a10e1/capsule_231x87.jpg?t=1794981252",
-   "released": "2026 年 11 月 17 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Unhistorical Warfare",
-   "id": "5340870",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5340870/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292120/0f4355e299121b3cdd73c87876c9f542a5d1586a/capsule_231x87.jpg?t=1795043452",
-   "released": "2026 年 11 月 17 日",
-   "price": "NT$ 126.00",
-   "free": false,
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Underbloom",
-   "id": "5486590",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5486590/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5340870/33438890a6cc234016b92d5cb628580fc771b819/capsule_231x87.jpg?t=1794940251",
-   "released": "2026 年 11 月 17 日",
-   "price": "NT$ 45.00",
-   "free": false,
-   "discount": 41,
-   "platforms": [
-    "Win",
-    "Linux"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Tryll Colony",
-   "id": "5381310",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5381310/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5486590/e3bd2813c5ac22fc1a38f69a7a09807093e27460/capsule_231x87.jpg?t=1794993296",
-   "released": "2026 年 11 月 17 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "デスクトップフレンズ",
-   "id": "5369680",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5369680/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381310/ce21edd25518787bd7b3638931630bf623372fde/capsule_231x87.jpg?t=1794924766",
-   "released": "2026 年 11 月 17 日",
-   "price": "NT$ 194.00",
-   "free": false,
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Eruin Demo",
-   "id": "5579820",
-   "demo": true,
-   "url": "https://store.steampowered.com/app/5579820/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5369680/f3bec920c493384e49271bfb8d5b703225c80021/capsule_231x87.jpg?t=1794920965",
-   "released": "2026 年 11 月 17 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
    ],
    "genres": [],
    "coop": false,
