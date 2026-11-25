@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 05:10",
+ "updated": "2026-11-25 08:10",
  "games": [
   {
    "key": "genshin",
@@ -13,75 +13,82 @@
    "codes": [
     {
      "code": "PJ2KEBRAYSRM",
-     "reward": "原石 ×60, 冒險家的經驗 ×5",
+     "reward": "原石 ×60、冒險家的經驗 ×5",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
+     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/",
+     "verified": "official"
     },
     {
      "code": "OKTCV81F9H8D",
-     "reward": "摩拉 ×10,000, 冒險家的經驗 ×10, Fine Enhancement Ore ×5, Stir-Fried Fish Noodles ×5, Jueyun Chili Chicken ×5",
+     "reward": "摩拉 ×10,000、冒險家的經驗 ×10、精鍛用良礦 ×5＋其餘獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
+     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "6LS3F3LS5K87",
-     "reward": "原石 ×20, Geode of Replication ×160",
+     "reward": "原石 ×20＋其餘獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
+     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "DATG5HG1PL89",
-     "reward": "摩拉 ×10,000, 冒險家的經驗 ×10, Fine Enhancement Ore ×5, Stir-Fried Fish Noodles ×5, Jueyun Chili Chicken ×5",
+     "reward": "摩拉 ×10,000、冒險家的經驗 ×10、精鍛用良礦 ×5＋其餘獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
+     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "PNKZ3WLNN8G6",
-     "reward": "Teachings of Charity ×5, Teachings of Fortitude ×5, Teachings of Glory ×5",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
+     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "OPERACOLLAB",
-     "reward": "原石 ×30, 摩拉 ×20,000, 大英雄的經驗 ×2",
+     "reward": "原石 ×30、摩拉 ×20,000、大英雄的經驗 ×2",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
     },
     {
      "code": "EPIC2026",
-     "reward": "原石 ×40, 摩拉 ×20,000, 大英雄的經驗 ×5",
+     "reward": "原石 ×40、摩拉 ×20,000、大英雄的經驗 ×5",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
     },
     {
      "code": "GS71XAVWDS",
-     "reward": "摩拉 ×30,000, 大英雄的經驗 ×3, Mystic Enhancement Ore ×5",
+     "reward": "摩拉 ×30,000、大英雄的經驗 ×3、精鍛用魔礦 ×5",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
     },
     {
      "code": "Y6JYMKV6JKSL",
-     "reward": "原石 ×60, 冒險家的經驗 ×5",
+     "reward": "原石 ×60、冒險家的經驗 ×5",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
     },
     {
      "code": "DUGODWKRHAKDNJ",
-     "reward": "原石 ×30, 摩拉 ×10,000, 大英雄的經驗 ×3, Mystic Enhancement Ore ×3",
+     "reward": "原石 ×30、摩拉 ×10,000、大英雄的經驗 ×3、精鍛用魔礦 ×3",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
     },
     {
      "code": "Snezhnaya",
-     "reward": "摩拉 ×30,000, 大英雄的經驗, ×3, Fine Enhancement Ore ×5（亞洲服限定）",
+     "reward": "摩拉 ×30,000、大英雄的經驗、精鍛用良礦 ×5＋其餘獎勵請於兌換時確認（亞洲服限定）",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
+     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "UIVIBUQM6Q8A",
-     "reward": "摩拉 ×10,000, 冒險家的經驗 ×10, Fine Enhancement Ore ×5, Jueyun Chili Chicken ×5, Stir-Fried Fish Noodles ×5",
+     "reward": "摩拉 ×10,000、冒險家的經驗 ×10、精鍛用良礦 ×5＋其餘獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/"
+     "sourceUrl": "https://www.pocketgamer.com/genshin-impact/genshin-impact-codes/",
+     "rewardUnresolved": true
     }
    ]
   },
@@ -97,73 +104,89 @@
    "codes": [
     {
      "code": "STARRAILGIFT",
-     "reward": "50x 星瓊, 2x 旅行者的指引, 5x Bottled Soda, 10,000 信用點",
+     "reward": "星瓊 ×50、漫遊指南 ×2、信用點 ×10,000＋其餘獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "4TKSX77Y58QK",
-     "reward": "見官方兌換頁說明",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "5S6ZHRWTDNJB",
-     "reward": "見官方兌換頁說明",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "CREATIONNYMPH",
-     "reward": "見官方兌換頁說明",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "FAREWELL",
-     "reward": "見官方兌換頁說明",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "IFYOUAREREADINGTHIS",
-     "reward": "見官方兌換頁說明",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "NS4DU8AAGXBP",
-     "reward": "見官方兌換頁說明",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "OMEGA",
-     "reward": "見官方兌換頁說明",
+     "reward": "獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
+     "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/",
+     "verified": "official",
+     "rewardUnresolved": true
     },
     {
      "code": "DTJ7CVACLBGF",
-     "reward": "100x 星瓊, 4x 精煉的以太",
+     "reward": "星瓊 ×100、精煉的以太 ×4",
      "status": "expired",
      "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
     },
     {
      "code": "ZS36CVBUMTZB",
-     "reward": "100x 星瓊, 5x 旅行者的指引",
+     "reward": "星瓊 ×100、漫遊指南 ×5",
      "status": "expired",
      "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
     },
     {
      "code": "FTJ6CVTULSXP",
-     "reward": "100x 星瓊, 50,000 信用點",
+     "reward": "星瓊 ×100、信用點 ×50,000",
      "status": "expired",
      "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
     },
     {
      "code": "HSRNEWYEAR2025",
-     "reward": "3x 旅行者的指引, 20,000 信用點",
+     "reward": "漫遊指南 ×3、信用點 ×20,000",
      "status": "expired",
      "sourceUrl": "https://www.oneesports.gg/honkai-star-rail/honkai-star-rail-codes-redeem/"
     }
@@ -181,33 +204,35 @@
    "codes": [
     {
      "code": "REMIELLE0729",
-     "reward": "120 菲林（亞洲服限定）",
+     "reward": "菲林 ×120（亞洲服限定）",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/zenless-zone-zero/codes/"
     },
     {
      "code": "CBW0884678",
-     "reward": "20k Denny（亞洲服限定）",
+     "reward": "丁尼 ×20,000（亞洲服限定）",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/zenless-zone-zero/codes/"
     },
     {
      "code": "ZZZSUSHIRO",
-     "reward": "30k Denny（亞洲服限定）",
+     "reward": "丁尼 ×30,000（亞洲服限定）",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/zenless-zone-zero/codes/"
     },
     {
      "code": "ZZZ30BANGBOO",
-     "reward": "60 菲林",
+     "reward": "菲林 ×60",
      "status": "active",
      "sourceUrl": "https://www.pocketgamer.com/zenless-zone-zero/codes/"
     },
     {
      "code": "ZENLESSGIFT",
-     "reward": "50 菲林, 2 Official Investigator Log, 3 W-Engine Power Supply, 1 Bangboo Algorithm Module",
+     "reward": "菲林 ×50、音擎能源模組 ×3、邦布算法模組 ×1＋其餘獎勵請於兌換時確認",
      "status": "active",
-     "sourceUrl": "https://www.pocketgamer.com/zenless-zone-zero/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/zenless-zone-zero/codes/",
+     "verified": "official",
+     "rewardUnresolved": true
     }
    ]
   },
@@ -224,63 +249,73 @@
    "codes": [
     {
      "code": "F5F4D3B2A2",
-     "reward": "Escape from Duckov livery (expires August 19th)",
+     "reward": "獎勵請於兌換時確認（expires August 19th）",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "FACEALEPH1",
-     "reward": "星聲 ×100, Premium Resonance Potion ×4, Advanced Energy Core ×5 (valid until April 19th)",
+     "reward": "星聲 ×100、高級能量核 ×5＋其餘獎勵請於兌換時確認（valid until April 19th）",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "2NDANNIVERSARY",
-     "reward": "星聲 ×100, Forgery Premium Supply ? ×2, Shell 信用點 ×40000 (valid until April 19th)",
+     "reward": "星聲 ×100＋其餘獎勵請於兌換時確認（valid until April 19th）",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "EVERSHINE",
-     "reward": "星聲 ×100, Premium Tuner ×20, Advanced Sealed Tubes ×5 (valid until April 19th)",
+     "reward": "星聲 ×100＋其餘獎勵請於兌換時確認（valid until April 19th）",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "SOLARISSUPERCUP",
-     "reward": "80 星聲 FASTERHIGHERSTRONGER - 80 星聲",
+     "reward": "獎勵請於兌換時確認",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "THISISFINALE",
-     "reward": "x100 Astride, ×3 Advanced Enclosure Tanks, 20k Shell 信用點",
+     "reward": "獎勵請於兌換時確認",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "DREAMSPERSIST",
-     "reward": "x100 星聲, ×3 Advanced Energy Core, ×2 Medium Nutrient Block",
+     "reward": "星聲 ×100、高級能量核 ×3＋其餘獎勵請於兌換時確認",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "ILLUSIONHAUNTS",
-     "reward": "x100 星聲, ×3 Advanced Resonance Potion, ×2 Medium Revival Inhaler",
+     "reward": "星聲 ×100＋其餘獎勵請於兌換時確認",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "WUWA4PC",
-     "reward": "50 星聲, 20,000 Shell (PC only)",
+     "reward": "星聲 ×50＋其餘獎勵請於兌換時確認（PC only）",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     },
     {
      "code": "SHADOWOFGLORY",
-     "reward": "100 星聲, 4 Gold Resonator EXP, 5 Purple Weapon EXP",
+     "reward": "星聲 ×100＋其餘獎勵請於兌換時確認",
      "status": "expired",
-     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/"
+     "sourceUrl": "https://www.pocketgamer.com/wuthering-waves/codes/",
+     "rewardUnresolved": true
     }
    ]
   },
@@ -415,7 +450,8 @@
      "status": "unverified",
      "sourceUrl": "https://www.followchain.org/roblox-promo-codes/"
     }
-   ]
+   ],
+   "stale": true
   }
  ]
 }

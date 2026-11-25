@@ -554,3 +554,120 @@ footer.site-footer, footer { border-top: 1px solid var(--line); background: var(
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ==========================================================================
+   兌換碼分頁系統（2026-11-25：hub 卡＋分頁摘要卡＋教學步驟＋FAQ＋驗證徽章）
+   全部附加於檔尾，不動既有規則；字級一律 ≥13px。
+   ========================================================================== */
+
+/* --- hub 卡（codes.html 每遊戲一張） --- */
+.game-hub-card h2 { margin: 0; }
+.game-hub-card h2 a { color: var(--text); text-decoration: none; }
+.game-hub-card h2 a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.hub-en { color: var(--muted-dim); font-family: var(--dfont); font-size: 13px; font-weight: 600; letter-spacing: .02em; }
+.hub-meta {
+  color: var(--muted-dim); font-size: 13px; margin: 6px 0 12px; line-height: 1.7;
+}
+.hub-meta a { color: var(--link); }
+.hub-meta a:hover { color: #c3d6ee; }
+.code-preview { margin-top: 8px; }
+.code-preview .reward {
+  flex: 1 1 160px; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.code-preview .src-mini { display: none; }
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: var(--surface-2); color: var(--text);
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+  font-size: 13px; font-weight: 700; padding: 7px 15px;
+  text-decoration: none !important;
+}
+.btn-ghost:hover { border-color: #3a4452; color: #fff; background: var(--surface-3); }
+
+/* --- 分頁摘要卡（有效碼數／驗證數／更新時間） --- */
+.code-sum { padding: 18px 20px 16px; }
+.sum-grid { display: flex; flex-wrap: wrap; gap: 10px; margin: 2px 0 4px; }
+.sum-cell {
+  background: var(--surface-2); border: 1px solid var(--line-soft); border-radius: var(--radius-sm);
+  padding: 9px 18px 8px; min-width: 88px;
+}
+.sum-cell b {
+  display: block; font-family: var(--dfont); font-size: 21px; font-weight: 700;
+  color: var(--text); font-variant-numeric: tabular-nums; line-height: 1.25;
+}
+.sum-cell span { font-size: 13px; color: var(--muted-dim); }
+.sum-cell.ok b { color: var(--ok); }
+.sum-cell.warn b { color: var(--warn); }
+.sum-cell.ver b { color: #6ec3d8; }
+.sum-updated { margin-top: 12px; color: var(--muted-dim); font-size: 13px; }
+.code-sum .redeem-line { margin-bottom: 0; }
+
+/* --- 官方渠道驗證徽章（內嵌 SVG 勾，青色系） --- */
+.v-badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 13px; font-weight: 700; white-space: nowrap;
+  color: #6ec3d8; border: 1px solid rgba(110, 195, 216, .28);
+  background: rgba(110, 195, 216, .07); border-radius: 3px; padding: 1px 8px 1px 6px;
+}
+.v-badge svg { width: 12px; height: 12px; flex: none; }
+
+/* --- 每碼來源小連結 --- */
+.src-mini {
+  font-size: 13px; color: var(--muted-dim); white-space: nowrap;
+  text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px;
+}
+.src-mini:hover { color: var(--link); }
+.code-item .reward a,
+.reward-src { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+.code-item .reward a:hover,
+.reward-src:hover { color: #c3d6ee; }
+
+/* --- 兌換教學步驟 --- */
+.steps { list-style: none; counter-reset: step; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
+.steps li {
+  counter-increment: step; position: relative;
+  background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--radius-sm);
+  padding: 11px 16px 11px 54px; font-size: 14px; line-height: 1.75; color: var(--muted);
+}
+.steps li b { color: var(--text); }
+.steps li::before {
+  content: counter(step, decimal-leading-zero);
+  position: absolute; left: 16px; top: 12px;
+  font-family: var(--dfont); font-weight: 700; font-size: 15px; color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.steps-alt { margin: 14px 0 0; color: var(--muted); font-size: 13.5px; line-height: 1.75; }
+
+/* --- FAQ 折疊 --- */
+.faq { display: grid; gap: 8px; margin-top: 12px; }
+.faq details { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--radius-sm); }
+.faq summary {
+  cursor: pointer; padding: 11px 16px; font-size: 14px; font-weight: 700; color: var(--text);
+  list-style: none; display: flex; align-items: baseline; gap: 9px; line-height: 1.6;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::before { content: "＋"; font-family: var(--dfont); color: var(--muted-dim); font-weight: 700; flex: none; }
+.faq details[open] summary::before { content: "－"; }
+.faq details[open] summary { border-bottom: 1px solid var(--line-soft); }
+.faq details[open] summary:hover { color: var(--accent); }
+.faq summary:hover { color: #fff; }
+.faq .faq-a { padding: 10px 16px 13px; color: var(--muted); font-size: 13.5px; line-height: 1.8; }
+
+/* --- 分頁互連導覽 --- */
+.game-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.game-nav a {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--surface); border: 1px solid var(--line-soft); border-radius: 3px;
+  padding: 6px 14px; font-size: 13.5px; font-weight: 600; color: var(--muted);
+  text-decoration: none !important;
+}
+.game-nav a:hover { border-color: #3a4452; color: #fff; background: var(--surface-2); }
+
+@media (max-width: 720px) {
+  .sum-cell { padding: 8px 14px 7px; min-width: 76px; }
+  .sum-cell b { font-size: 18px; }
+  .steps li { padding-left: 46px; }
+  .steps li::before { left: 13px; }
+  .code-preview .st { display: none; }
+}

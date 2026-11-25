@@ -1,0 +1,40 @@
+{
+  "_meta": "獎勵名詞繁中字典（update-codes.js 渲染層用）。items = 來源獎勵文字的 item 名稱 → 官方繁中譯名；只收官方繁中確定者，其餘一律走 fallback（「獎勵請於兌換時確認」＋來源連結），不猜不編。passThrough = 已是自寫繁中格式的整句（原樣保留）。此檔由人類維護，腳本只讀不寫。",
+  "items": [
+    { "en": "Primogem", "zh": "原石" },
+    { "en": "Primogems", "zh": "原石" },
+    { "en": "Mora", "zh": "摩拉" },
+    { "en": "Hero's Wit", "zh": "大英雄的經驗" },
+    { "en": "Adventurer's Experience", "zh": "冒險家的經驗" },
+    { "en": "Wanderer's Advice", "zh": "流浪者的經驗" },
+    { "en": "Enhancement Ore", "zh": "精鍛用雜礦" },
+    { "en": "Fine Enhancement Ore", "zh": "精鍛用良礦" },
+    { "en": "Mystic Enhancement Ore", "zh": "精鍛用魔礦" },
+    { "en": "Stellar Jade", "zh": "星瓊" },
+    { "en": "Stellar Jades", "zh": "星瓊" },
+    { "en": "Credit", "zh": "信用點" },
+    { "en": "Credits", "zh": "信用點" },
+    { "en": "Traveler's Guide", "zh": "漫遊指南" },
+    { "en": "Adventure Log", "zh": "冒險紀錄" },
+    { "en": "Star Rail Pass", "zh": "星軌通票" },
+    { "en": "Star Rail Special Pass", "zh": "星軌專票" },
+    { "en": "Refined Aether", "zh": "精煉的以太" },
+    { "en": "Polychrome", "zh": "菲林" },
+    { "en": "Polychromes", "zh": "菲林" },
+    { "en": "Denny", "zh": "丁尼" },
+    { "en": "W-Engine Power Supply", "zh": "音擎能源模組" },
+    { "en": "Bangboo Algorithm Module", "zh": "邦布算法模組" },
+    { "en": "Astrite", "zh": "星聲" },
+    { "en": "Astrites", "zh": "星聲" },
+    { "en": "Shell Credit", "zh": "貝幣" },
+    { "en": "Shell Credits", "zh": "貝幣" },
+    { "en": "Energy Core", "zh": "能量核" },
+    { "en": "Advanced Energy Core", "zh": "高級能量核" },
+    { "en": "Resonance Potion", "zh": "共鳴藥劑" }
+  ],
+  "passThrough": [
+    "免費虛擬物品（肩寵・配件等，依各活動而定）"
+  ],
+  "fallback": "獎勵請於兌換時確認",
+  "fallbackRest": "其餘獎勵請於兌換時確認"
+}

@@ -64,7 +64,9 @@ function mountRows(grid, games) {
       for (const gm of (data.games || []).slice(0, 5)) {
         const c = (gm.codes || []).find((x) => x.status !== "expired");
         if (!c) continue;
-        lis.push(`<li><span class="dot ${c.status === "active" ? "ok" : "warn"}"></span><div><b>${escHtml(gm.game)}</b><code>${escHtml(c.code)}</code></div></li>`);
+        const gmName = escHtml(gm.zh || gm.name || "");
+        const page = "codes/" + (gm.key || "") + ".html";
+        lis.push(`<li><span class="dot ${c.status === "active" ? "ok" : "warn"}"></span><div><b>${gm.key ? `<a href="${escHtml(page)}">${gmName}</a>` : gmName}</b><code>${escHtml(c.code)}</code></div></li>`);
         if (lis.length >= 5) break;
       }
       if (lis.length) side.innerHTML = lis.join("");
