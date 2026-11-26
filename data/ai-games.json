@@ -1,14 +1,99 @@
 {
- "updated": "2026-11-25 05:10",
+ "updated": "2026-11-26 05:10",
  "source": "Steam 商店搜尋（AI 標籤 tag 7926・依上架日排序）",
- "count": 46,
+ "count": 45,
  "stats": {
-  "total": 46,
+  "total": 45,
   "free": 0,
   "coop": 9,
-  "demo": 10
+  "demo": 11
  },
  "games": [
+  {
+   "name": "Network & Cyber Security Simulator",
+   "id": "5250930",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5250930/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986050/f8b6e4ce46058bb700ae9edfee8ec9070063846d/capsule_231x87.jpg?t=1795651838",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 193.00",
+   "free": false,
+   "discount": 25,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "獨立製作",
+    "搶先體驗"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Heaps: Special Interest Sandbox",
+   "id": "4905830",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/4905830/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5250930/0c94f3f9316eb5d48bc4e86f66dd433ac372e679/capsule_231x87.jpg?t=1795641793",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 308.00",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒",
+    "模擬"
+   ],
+   "coop": true,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Nothing Goes Right: Bad Business Demo",
+   "id": "5561810",
+   "demo": true,
+   "url": "https://store.steampowered.com/app/5561810/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905830/ee30c80fb01d54c72eccde07e9501754075f450c/capsule_231x87.jpg?t=1795614812",
+   "released": "2026 年 11 月 25 日",
+   "price": "",
+   "free": false,
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "獨立製作",
+    "工具",
+    "影片製作"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "亡灵苏生",
+   "id": "5629560",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5629560/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5172860/b67fc8b1e597d7af734a0079d58ad249f57c13b6/capsule_231x87.jpg?t=1795603467",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 135.00",
+   "free": false,
+   "discount": 15,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒",
+    "獨立製作"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
   {
    "name": "fogpost Demo",
    "id": "5683460",
@@ -78,14 +163,34 @@
   },
   {
    "name": "Last State",
-   "id": "5365010",
+   "id": "3220460",
    "demo": false,
-   "url": "https://store.steampowered.com/app/5365010/",
+   "url": "https://store.steampowered.com/app/3220460/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4275900/82a50bed424458851e664be0cf3032573186adef/capsule_231x87.jpg?t=1795541425",
    "released": "2026 年 11 月 24 日",
    "price": "NT$ 166.00",
    "free": false,
    "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "genres": [
+    "休閒"
+   ],
+   "coop": false,
+   "single": false,
+   "multi": false
+  },
+  {
+   "name": "Lucky Scoop",
+   "id": "5365010",
+   "demo": false,
+   "url": "https://store.steampowered.com/app/5365010/",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3220460/8b5a2dee0dc3df229a9bc494aa99d6c8ebb92b94/capsule_231x87.jpg?t=1795543792",
+   "released": "2026 年 11 月 24 日",
+   "price": "NT$ 56.00",
+   "free": false,
+   "discount": 25,
    "platforms": [
     "Win"
    ],
@@ -567,12 +672,8 @@
     "Win",
     "Linux"
    ],
-   "genres": [
-    "冒險",
-    "休閒",
-    "獨立製作"
-   ],
-   "coop": true,
+   "genres": [],
+   "coop": false,
    "single": false,
    "multi": false
   },
@@ -589,9 +690,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "休閒"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -609,11 +708,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "冒險",
-    "獨立製作",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -631,11 +726,7 @@
    "platforms": [
     "Win"
    ],
-   "genres": [
-    "獨立製作",
-    "免費遊玩",
-    "動畫和建模"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -655,11 +746,7 @@
     "Mac",
     "Linux"
    ],
-   "genres": [
-    "獨立製作",
-    "模擬",
-    "策略"
-   ],
+   "genres": [],
    "coop": false,
    "single": false,
    "multi": false
@@ -799,9 +886,9 @@
    "url": "https://store.steampowered.com/app/5386100/",
    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395920/600849a7a71601725ae574499d40743ebe26fc12/capsule_231x87.jpg?t=1795065978",
    "released": "2026 年 11 月 18 日",
-   "price": "NT$ 122.00",
+   "price": "NT$ 136.00",
    "free": false,
-   "discount": 10,
+   "discount": 0,
    "platforms": [
     "Win",
     "Mac"
@@ -816,7 +903,7 @@
    "id": "5580210",
    "demo": false,
    "url": "https://store.steampowered.com/app/5580210/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386100/4742f72527d2cb195a8e1ecaef1a32f725085c8f/capsule_231x87.jpg?t=1795054496",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386100/4742f72527d2cb195a8e1ecaef1a32f725085c8f/capsule_231x87.jpg?t=1795596550",
    "released": "2026 年 11 月 18 日",
    "price": "NT$ 85.00",
    "free": false,
@@ -841,116 +928,6 @@
    "discount": 0,
    "platforms": [
     "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Solis Chronicles",
-   "id": "5293240",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5293240/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5302340/1aa9bf569302d1606a56740bae45eb466a9f0cc5/capsule_231x87.jpg?t=1795051883",
-   "released": "2026 年 11 月 18 日",
-   "price": "",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Minus Zero",
-   "id": "2983530",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/2983530/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5293240/3edfec2abb95f39b647c63ea74db7afc62c533ea/capsule_231x87.jpg?t=1795049797",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 240.00",
-   "free": false,
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "Neo Light",
-   "id": "2930250",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/2930250/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2983530/6731feddc09a16eca56bba0829c59fa0b657e659/capsule_231x87.jpg?t=1795046787",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 158.00",
-   "free": false,
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "幻想郷大激突 : Touhou Impact",
-   "id": "5383000",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5383000/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2930250/1df86b07b99048e7382beeb17678f490a3540194/capsule_231x87.jpg?t=1795046743",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 115.00",
-   "free": false,
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "RCSIM - Radio Control & Sim-Racing Bridge",
-   "id": "5015590",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5015590/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383000/314499eb6fbd12e90ff5b47fa685cf37c0819789/capsule_231x87.jpg?t=1795021275",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 1,557.00",
-   "free": false,
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "genres": [],
-   "coop": false,
-   "single": false,
-   "multi": false
-  },
-  {
-   "name": "AI Lab Tycoon",
-   "id": "5301630",
-   "demo": false,
-   "url": "https://store.steampowered.com/app/5301630/",
-   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015590/80767f5a160f5c3464319c1b33f8328f141d2ce1/capsule_231x87.jpg?t=1795012512",
-   "released": "2026 年 11 月 18 日",
-   "price": "NT$ 342.00",
-   "free": false,
-   "discount": 20,
-   "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
    ],
    "genres": [],
    "coop": false,

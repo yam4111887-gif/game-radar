@@ -1,222 +1,195 @@
 {
- "updated": "2026-11-25 05:10",
+ "updated": "2026-11-26 05:10",
  "source": "Steam appdetails API（台灣區・繁中）",
- "count": 10,
+ "count": 8,
  "specs": [
   {
-   "name": "我們不用很麻煩很累就可以變強！支持者包",
-   "id": "5062970",
-   "url": "https://store.steampowered.com/app/5062970/",
-   "released": "2026 年 11 月 24 日",
-   "price": "NT$ 24.00",
-   "discount": 0,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows10",
-    "處理器: 2.0 GHz Dual Core",
-    "記憶體: 4 GB 記憶體",
-    "儲存空間: 1 GB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Incremental Pachinko Heaven",
-   "id": "5629560",
-   "url": "https://store.steampowered.com/app/5629560/",
-   "released": "2026 年 11 月 24 日",
-   "price": "NT$ 91.00",
-   "discount": 16,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 (64-bit)",
-    "處理器: 64-bit dual-core CPU with SSE4.2 support",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: GPU with OpenGL 3.3 support",
-    "儲存空間: 250 MB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Chalk Thrower Simulator",
-   "id": "5683640",
-   "url": "https://store.steampowered.com/app/5683640/",
-   "released": "2026 年 11 月 24 日",
-   "price": "NT$ 97.00",
-   "discount": 10,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10",
-    "處理器: Core i3-4600f",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: GTX 1660 Ti",
-    "儲存空間: 200 MB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10",
-    "處理器: Core i5-10600k",
-    "記憶體: 16 GB 記憶體",
-    "顯示卡: GTX 2060 Ti",
-    "儲存空間: 200 MB 可用空間"
-   ]
-  },
-  {
-   "name": "CatchCatch: Casual Customization",
-   "id": "5031150",
-   "url": "https://store.steampowered.com/app/5031150/",
-   "released": "2026 年 11 月 24 日",
-   "price": "",
-   "discount": 0,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: WIndows10",
-    "處理器: Intel Core i3",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: 独立显卡",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 40 GB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows10/Windows11",
-    "處理器: Intel Core i5",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: 独立显卡",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 40 GB 可用空間"
-   ]
-  },
-  {
-   "name": "你好！我们还有场恋爱没谈2",
-   "id": "5603830",
-   "url": "https://store.steampowered.com/app/5603830/",
-   "released": "2026 年 11 月 24 日",
-   "price": "NT$ 259.00",
-   "discount": 10,
-   "minimum": [
-    "作業系統: Windows8"
-   ],
-   "recommended": []
-  },
-  {
-   "name": "山海幻境：無限篇",
-   "id": "5353560",
-   "url": "https://store.steampowered.com/app/5353560/",
-   "released": "2026 年 11 月 24 日",
-   "price": "",
-   "discount": 0,
-   "minimum": [
-    "作業系統: windows10",
-    "處理器: Intel Core i3-8100 / AMD Ryzen 5 3600",
-    "顯示卡: NVIDIA GTX 1060 / AMD RX 580",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 2 GB 可用空間",
-    "音效卡: Standard audio equipment",
-    "VR 支援: not supported"
-   ],
-   "recommended": [
-    "作業系統: windows10",
-    "處理器: Intel Core i5-12400F / AMD Ryzen 5 5600X",
-    "顯示卡: NVIDIA RTX 3060 / AMD RX 6600",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 2 GB 可用空間",
-    "音效卡: Standard audio equipment",
-    "VR 支援: not supported"
-   ]
-  },
-  {
-   "name": "擺攤之王",
-   "id": "5611760",
-   "url": "https://store.steampowered.com/app/5611760/",
-   "released": "2026 年 11 月 24 日",
-   "price": "NT$ 159.00",
-   "discount": 15,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 (64-bit)",
-    "處理器: Quad-core 2.5 GHz",
-    "記憶體: 4 GB 記憶體",
-    "顯示卡: DirectX 12 or Vulkan capable GPU with 2 GB VRAM",
-    "DirectX: 版本：12",
-    "儲存空間: 500 MB 可用空間"
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統"
-   ]
-  },
-  {
-   "name": "Tiny Trains",
-   "id": "5628950",
-   "url": "https://store.steampowered.com/app/5628950/",
-   "released": "2026 年 11 月 24 日",
-   "price": "NT$ 198.00",
-   "discount": 0,
-   "minimum": [
-    "作業系統: Windows 10",
-    "處理器: Intel Core i3 8100",
-    "記憶體: 8 GB 記憶體",
-    "顯示卡: GTX 1060",
-    "DirectX: 版本：11",
-    "儲存空間: 6 GB 可用空間"
-   ],
-   "recommended": [
-    "作業系統: Windows 11",
-    "處理器: Ryzen 7 3700",
-    "記憶體: 32 GB 記憶體",
-    "顯示卡: RTX 3070",
-    "DirectX: 版本：12",
-    "儲存空間: 6 GB 可用空間"
-   ]
-  },
-  {
-   "name": "Bird Game 3",
-   "id": "5534310",
-   "url": "https://store.steampowered.com/app/5534310/",
-   "released": "2026 年 11 月 24 日",
+   "name": "QuizForge",
+   "id": "5534320",
+   "url": "https://store.steampowered.com/app/5534320/",
+   "released": "2026 年 11 月 25 日",
    "price": "NT$ 136.00",
-   "discount": 0,
+   "discount": 11,
    "minimum": [
-    "作業系統: Windows 10 64-bit",
-    "處理器: 4 cores, 3.0 GHz",
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows11",
+    "處理器:",
     "記憶體: 8 GB 記憶體",
-    "顯示卡: GTX 1050 Ti or RX 560, 4 GB VRAM",
+    "顯示卡:",
     "DirectX: 版本：11",
     "儲存空間: 2 GB 可用空間"
    ],
-   "recommended": []
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
   },
   {
-   "name": "Find The Needle: Haystack Hunt",
-   "id": "4949800",
-   "url": "https://store.steampowered.com/app/4949800/",
-   "released": "2026 年 11 月 24 日",
-   "price": "NT$ 134.00",
+   "name": "如果這個世界有神明大人存在的話",
+   "id": "5463390",
+   "url": "https://store.steampowered.com/app/5463390/",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 984.00",
    "discount": 15,
    "minimum": [
     "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64-bit",
-    "處理器: Dual-core 2.0 GHz (Intel Core i3-4130 / AMD FX-4300 or equivalent)",
-    "記憶體: 2048 MB 記憶體",
-    "顯示卡: OpenGL 3.3 compatible GPU (Intel HD 4000 or better)",
-    "儲存空間: 300 MB 可用空間",
-    "音效卡: Any"
+    "作業系統: Windows 10 64 位（19045 及以上）",
+    "處理器: Intel Core i3-8100 / AMD Ryzen 3 1200",
+    "記憶體: 8 MB 記憶體",
+    "顯示卡: 支援 DirectX 11 的整合顯示卡",
+    "DirectX: 版本：11",
+    "網路: 寬頻網際網路連線",
+    "儲存空間: 6 MB 可用空間",
+    "音效卡: 相容 Windows 的音訊設備",
+    "備註: 遊戲內的1080P 影片，對顯示卡影片解碼有一定要求；2015 年以前的舊整合顯示卡（如 HD Graphics 4600）可能出現卡頓。需螢幕解析度 1366×768 以上。"
    ],
    "recommended": [
     "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 / 11 64-bit",
-    "處理器: Dual-core 2.4 GHz (Intel Core i3 or equivalent)",
+    "作業系統: Windows 11 64 位",
+    "處理器: Intel Core i5-10400 及以上",
+    "記憶體: 16 MB 記憶體",
+    "顯示卡: GTX 1650 / RTX 3050 及以上",
+    "DirectX: 版本：11",
+    "網路: 寬頻網際網路連線",
+    "儲存空間: 10 MB 可用空間",
+    "音效卡: 相容 Windows 的音訊設備",
+    "備註: 建議安裝於 SSD，搭配耳機或獨立音響體驗更佳。"
+   ]
+  },
+  {
+   "name": "鋼鐵海戰：飽和打擊",
+   "id": "5421790",
+   "url": "https://store.steampowered.com/app/5421790/",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 198.00",
+   "discount": 0,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 (64-bit)",
+    "處理器: Dual-core 2.0 GHz processor",
     "記憶體: 4096 MB 記憶體",
-    "顯示卡: Any dedicated GPU or Intel UHD 620+",
+    "顯示卡: OpenGL 3.3 compatible graphics",
     "儲存空間: 500 MB 可用空間",
-    "音效卡: Any"
+    "音效卡: Windows-compatible audio device",
+    "備註: Mouse input required. Internet connection not required."
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 11 (64-bit)",
+    "處理器: Quad-core 2.5 GHz processor",
+    "記憶體: 8192 MB 記憶體",
+    "顯示卡: OpenGL 3.3 compatible graphics",
+    "儲存空間: 500 MB 可用空間",
+    "音效卡: Windows-compatible audio device",
+    "備註: Mouse input required. Internet connection not required."
+   ]
+  },
+  {
+   "name": "喵神社",
+   "id": "5497040",
+   "url": "https://store.steampowered.com/app/5497040/",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 50.00",
+   "discount": 0,
+   "minimum": [
+    "作業系統: Windows 10 64 bit",
+    "處理器: Intel Core i3 4000 series or equivalent",
+    "記憶體: 2 GB 記憶體",
+    "顯示卡: Nvidia GTX 750 or equivalent, integrated graphics not supported",
+    "DirectX: 版本：11",
+    "儲存空間: 2 GB 可用空間",
+    "備註: 64-bit Recommended, 32-bit Supported"
+   ],
+   "recommended": [
+    "作業系統: Windows 10 64 bit",
+    "處理器: Intel Core i5 4000 series or equivalent",
+    "記憶體: 2 GB 記憶體",
+    "顯示卡: Nvidia GTX 750 or equivalent, integrated graphics not supported",
+    "DirectX: 版本：11",
+    "儲存空間: 2 GB 可用空間",
+    "備註: 64-bit Recommended, 32-bit Supported"
+   ]
+  },
+  {
+   "name": "掛機伏魔錄",
+   "id": "5200470",
+   "url": "https://store.steampowered.com/app/5200470/",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 102.00",
+   "discount": 20,
+   "minimum": [
+    "儲存空間: 53 MB 可用空間",
+    "儲存空間（高音質音訊）: 額外 574MB 可用空間"
+   ],
+   "recommended": []
+  },
+  {
+   "name": "大戰略SSB2 - 強化包",
+   "id": "3830590",
+   "url": "https://store.steampowered.com/app/3830590/",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 820.00",
+   "discount": 0,
+   "minimum": [
+    "作業系統: Windows 10 / 11",
+    "記憶體: 2 GB 記憶體",
+    "DirectX: 版本：9.0",
+    "儲存空間: 4 GB 可用空間",
+    "音效卡: DirectSound"
+   ],
+   "recommended": [
+    "作業系統: Windows 10 / 11",
+    "記憶體: 2 GB 記憶體",
+    "DirectX: 版本：9.0",
+    "儲存空間: 4 GB 可用空間",
+    "音效卡: DirectSound"
+   ]
+  },
+  {
+   "name": "奪人所愛才是愛",
+   "id": "5287640",
+   "url": "https://store.steampowered.com/app/5287640/",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 278.00",
+   "discount": 20,
+   "minimum": [
+    "作業系統: Windows®11",
+    "處理器: Intel Core i3-10100 or more",
+    "記憶體: 4 GB 記憶體",
+    "DirectX: 版本：11",
+    "儲存空間: 4 GB 可用空間"
+   ],
+   "recommended": [
+    "作業系統: Windows®11",
+    "處理器: Intel Core i3-10100 or more",
+    "記憶體: 8 GB 記憶體",
+    "顯示卡: GeForce GT 1030 or more",
+    "DirectX: 版本：11",
+    "儲存空間: 4 GB 可用空間",
+    "備註: マウス対応"
+   ]
+  },
+  {
+   "name": "大戰略SSB2 - 季票2特典「YF-23 黑寡婦Ⅱ」",
+   "id": "5423890",
+   "url": "https://store.steampowered.com/app/5423890/",
+   "released": "2026 年 11 月 25 日",
+   "price": "NT$ 1,308.00",
+   "discount": 20,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: WINDOWS® 10（需要 64 位元系統）",
+    "處理器: Intel® Core™ i5-4460，2.70GHz，或 AMD FX™-6300 或更高",
+    "記憶體: 16 GB 記憶體",
+    "顯示卡: NVIDIA® GeForce® GTX 960 或 AMD Radeon™ RX 460",
+    "DirectX: 版本：11",
+    "儲存空間: 13 GB 可用空間",
+    "音效卡: 相容 DirectSound（須支援 DirectX® 9.0c 或更新版本）"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "記憶體: 16 GB 記憶體",
+    "DirectX: 版本：11",
+    "儲存空間: 13 GB 可用空間"
    ]
   }
  ]
