@@ -1,6 +1,6 @@
 /* 兌換碼雷達：每遊戲一個 fetcher（Node 內建 fetch，無 npm 依賴）
    → ①data/codes.json ②codes.html hub 靜態區塊（<!--CODES-START-->/<!--CODES-END-->）
-     ③五個分頁 /codes/<game>.html（<!--SUMMARY-<KEY>--> / <!--CODES-<KEY>--> / <!--EXPIRED-<KEY>-->）
+     ③七個分頁 /codes/<game>.html（<!--SUMMARY-<KEY>--> / <!--CODES-<KEY>--> / <!--EXPIRED-<KEY>-->）
    鐵律：只收真實存在的碼（來源頁面實際列出才收錄），每碼必附 sourceUrl；
          單一來源失敗 fail-soft（保留上次成功資料，標 stale 續跑其他遊戲）。
    渲染層（2026-11-25 起）：
@@ -61,6 +61,23 @@ const GAMES = [
     sourceName: "Followchain（Roblox promo codes 整理）",
     sourceUrl: "https://www.followchain.org/roblox-promo-codes/",
     type: "followchain",
+  },
+  {
+    key: "ml", name: "Mobile Legends: Bang Bang", zh: "Mobile Legends: Bang Bang",
+    redeemUrl: "https://m.mobilelegends.com/en/codexchange",
+    redeemNote: "需遊戲內帳號 ID＋兌換驗證信（驗證碼 30 分鐘內有效）",
+    sourceName: "Pocket Gamer（Mobile Legends codes）",
+    sourceUrl: "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+    type: "pocketgamer2",
+    activeStatus: "unverified", /* 來源以「might currently be available」列示＋各碼設有兌換次數上限 → 誠實標未驗證 */
+  },
+  {
+    key: "crk", name: "Cookie Run: Kingdom", zh: "薑餅人王國",
+    redeemUrl: "https://game.devplay.com/coupon/ck/zh-Hant",
+    redeemNote: "輸入 DevPlay 帳號（遊戲內設定→Info 可查）；每序號一帳號限用一次",
+    sourceName: "Pocket Gamer（Cookie Run: Kingdom codes）",
+    sourceUrl: "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+    type: "pocketgamer2",
   },
 ];
 
@@ -243,6 +260,65 @@ function parsePocketgamer(html, game) {
     ],
     sourceUpdated: dateRaw || "",
     note: retired ? "來源頁面已停止維護（article retired），碼狀態僅供參考" : "",
+  };
+}
+
+/* ---------- Fetcher：Pocket Gamer 變體（「Active …」標題制；Mobile Legends / 薑餅人王國用）
+   與常駐頁（genshin/zzz/wuwa）差異：
+   ① 有效區標題是「Active …」而非「Newest / … working」→ 現有 parser 抓不到
+   ② 過期區常不是 <li> 清單而是「code I code | code」流水文字 → 需解析分隔符
+   ③ 更新日期被 <strong> 切碎（如「November 26</strong><strong>th, 2026」）→ 先 decode 再抓 */
+function parsePocketgamerList(html, game) {
+  const heads = headings(html);
+  const plain = decode(html);
+  /* 日期常被 <strong> 切碎（如「November 26</strong><strong>th, 2026」→ 解碼後變「26 th」），被切開的序數補回 */
+  const dateM = plain.match(/Updated on ([A-Z][a-z]+ \d{1,2}\s*(?:st|nd|rd|th)?\s*,?\s*\d{0,4})/);
+  const dateRaw = dateM
+    ? dateM[1].replace(/\s+/g, " ").replace(/(\d)\s+(st|nd|rd|th)/i, "$1$2").replace(/\s*,\s*/, ", ").replace(/,\s*$/, "").trim()
+    : "";
+  const activeH = heads.find((h) => /\bactive\b|newest|working/i.test(h.text) && !/expired|not working/i.test(h.text));
+  const expiredH = heads.find((h) => /expired|not working/i.test(h.text));
+  if (!activeH && !expiredH) throw new Error("找不到 codes 分區標題");
+
+  const active = activeH ? liEntries(segment(html, heads, activeH)) : [];
+  let expired = expiredH ? liEntries(segment(html, heads, expiredH)) : [];
+  /* 過期區無 <li> → 解析「 I 」「 | 」分隔的流水文字（與有效碼去重，最多留檔 MAX_EXPIRED）。
+     段落後方常接文章配圖/嵌入腳本（非碼內容）→ 先在 <picture>/<img>/<script> 處截斷；
+     導言與首碼會黏在同一 token → 用尾端比對救回 */
+  if (expiredH && !expired.length) {
+    let segHtml = segment(html, heads, expiredH).replace(/^<h[23][^>]*>[\s\S]*?<\/h[23]>/, "");
+    const cut = segHtml.search(/<(?:picture|img|script|iframe)\b/i);
+    if (cut > 0) segHtml = segHtml.slice(0, cut);
+    const seg = decode(segHtml);
+    const seen = new Set(active.map((e) => e.code.toUpperCase()));
+    for (const tok of seg.split(/\s*[|｜]\s*|\s+I\s+/)) {
+      /* 整 token 是碼，或結尾在非字母數字邊界後接一個碼（救回黏在導言後的首碼） */
+      const m = tok.trim().match(/^[A-Za-z0-9]{4,20}$|[^A-Za-z0-9]([A-Za-z0-9]{4,20})$/);
+      const code = m ? (m[1] || tok.trim()) : "";
+      if (!code) continue;
+      if (seen.has(code.toUpperCase())) continue;
+      seen.add(code.toUpperCase());
+      expired.push({ code, reward: "" });
+      if (expired.length >= MAX_EXPIRED) break;
+    }
+  }
+
+  const activeStatus = game.activeStatus || "active";
+  const mk = (e, status) => ({
+    code: e.code,
+    reward: zhReward(e.reward),
+    status,
+    sourceUrl: game.sourceUrl,
+  });
+  return {
+    codes: [
+      ...active.slice(0, MAX_ACTIVE).map((e) => mk(e, activeStatus)),
+      ...expired.slice(0, MAX_EXPIRED).map((e) => mk(e, "expired")),
+    ],
+    sourceUpdated: dateRaw,
+    note: activeStatus === "unverified"
+      ? "來源以「目前可能可用」列示，且部分碼設有總兌換次數上限（先搶先贏）；一律標「未驗證」，領取失敗即已過期或額滿"
+      : "",
   };
 }
 
@@ -469,6 +545,7 @@ async function main() {
     try {
       const html = await fetchHtml(game.sourceUrl);
       const parsed = game.type === "pocketgamer" ? parsePocketgamer(html, game)
+        : game.type === "pocketgamer2" ? parsePocketgamerList(html, game)
         : game.type === "oneesports" ? await fetchOneesports(game, html)
         : parseFollowchain(html, game);
       const result = {
@@ -537,7 +614,7 @@ async function main() {
   hub = hub.replace(/<div id="codes-root"[^>]*>/, `<div id="codes-root" data-updated="${updated}" data-total="${totalLive}">`);
   fs.writeFileSync(hubFile, hub);
 
-  /* ---- 渲染 2：五個分頁（各自 marker；單頁失敗 fail-soft 不炸其他頁） ---- */
+  /* ---- 渲染 2：各分頁（各自 marker；單頁失敗 fail-soft 不炸其他頁） ---- */
   for (const game of GAMES) {
     const g = results.find((r) => r.key === game.key);
     if (!g) continue;
@@ -559,7 +636,7 @@ async function main() {
   }
 
   const totalVerified = results.reduce((n, g) => n + gameStats(g).verified, 0);
-  console.log(`OK ${updated} — ${results.length} 遊戲 — 收錄 ${totalLive} 碼（官方渠道驗證 ${totalVerified}）— data/codes.json + codes.html + 5 分頁已更新`);
+  console.log(`OK ${updated} — ${results.length} 遊戲 — 收錄 ${totalLive} 碼（官方渠道驗證 ${totalVerified}）— data/codes.json + codes.html + ${results.length} 分頁已更新`);
 }
 
 main().catch((e) => {

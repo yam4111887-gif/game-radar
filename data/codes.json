@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 05:10",
+ "updated": "2026-11-27 07:15",
  "games": [
   {
    "key": "genshin",
@@ -449,6 +449,202 @@
      "reward": "免費虛擬物品（肩寵・配件等，依各活動而定）",
      "status": "unverified",
      "sourceUrl": "https://www.followchain.org/roblox-promo-codes/"
+    }
+   ],
+   "stale": true
+  },
+  {
+   "key": "ml",
+   "name": "Mobile Legends: Bang Bang",
+   "zh": "Mobile Legends: Bang Bang",
+   "redeemUrl": "https://m.mobilelegends.com/en/codexchange",
+   "redeemNote": "需遊戲內帳號 ID＋兌換驗證信（驗證碼 30 分鐘內有效）",
+   "sourceName": "Pocket Gamer（Mobile Legends codes）",
+   "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+   "sourceUpdated": "November 26th, 2026",
+   "note": "來源以「目前可能可用」列示，且部分碼設有總兌換次數上限（先搶先贏）；一律標「未驗證」，領取失敗即已過期或額滿",
+   "retrieved": "2026-11-27",
+   "codes": [
+    {
+     "code": "se237hey1",
+     "reward": "鑽石 ×1000＋其餘獎勵請於兌換時確認",
+     "status": "unverified",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "es721azy3",
+     "reward": "鑽石 ×1000＋其餘獎勵請於兌換時確認",
+     "status": "unverified",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "k0m3fvyza",
+     "reward": "鑽石 ×1000＋其餘獎勵請於兌換時確認",
+     "status": "unverified",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "fa79ta3xz",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "ds720ayz9",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "e3144rgx2",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "60310eyz9",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "2y3vo2r3x",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "0nc9lhok9",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "3r83efok9",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "MRO20241209",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "HOLAMLBB",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "oojms4okc",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/mobile-legends-bang-bang/redeem-codes/",
+     "rewardUnresolved": true
+    }
+   ]
+  },
+  {
+   "key": "crk",
+   "name": "Cookie Run: Kingdom",
+   "zh": "薑餅人王國",
+   "redeemUrl": "https://game.devplay.com/coupon/ck/zh-Hant",
+   "redeemNote": "輸入 DevPlay 帳號（遊戲內設定→Info 可查）；每序號一帳號限用一次",
+   "sourceName": "Pocket Gamer（Cookie Run: Kingdom codes）",
+   "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+   "sourceUpdated": "November 21st, 2026",
+   "retrieved": "2026-11-27",
+   "codes": [
+    {
+     "code": "MISSEARTHBREAD26",
+     "reward": "水晶 ×1500＋其餘獎勵請於兌換時確認",
+     "status": "active",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "CRKREBIRTHLIVE",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "SCOOPVOICEACTORS",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "CRKCHRONOSLIVE26",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "HAPPYSONGKRANCRK",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "TODEARESTFROMIHWAN",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "COOKIERUNXIDUS",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "CRKINTAIWAN2026",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "HAPPY5THANNIVERSARY",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "CRKINTAIPEI2026",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
+    },
+    {
+     "code": "BACK2BASICS2026",
+     "reward": "獎勵請於兌換時確認",
+     "status": "expired",
+     "sourceUrl": "https://www.pocketgamer.com/cookie-run-kingdom/codes/",
+     "rewardUnresolved": true
     }
    ]
   }

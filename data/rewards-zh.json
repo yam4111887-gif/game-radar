@@ -30,7 +30,11 @@
     { "en": "Shell Credits", "zh": "貝幣" },
     { "en": "Energy Core", "zh": "能量核" },
     { "en": "Advanced Energy Core", "zh": "高級能量核" },
-    { "en": "Resonance Potion", "zh": "共鳴藥劑" }
+    { "en": "Resonance Potion", "zh": "共鳴藥劑" },
+    { "en": "Diamond", "zh": "鑽石" },
+    { "en": "Diamonds", "zh": "鑽石" },
+    { "en": "Crystal", "zh": "水晶" },
+    { "en": "Crystals", "zh": "水晶" }
   ],
   "passThrough": [
     "免費虛擬物品（肩寵・配件等，依各活動而定）"
