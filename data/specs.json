@@ -1,195 +1,207 @@
 {
- "updated": "2026-11-26 05:10",
+ "updated": "2026-11-27 05:10",
  "source": "Steam appdetails API（台灣區・繁中）",
- "count": 8,
+ "count": 11,
  "specs": [
   {
-   "name": "QuizForge",
-   "id": "5534320",
-   "url": "https://store.steampowered.com/app/5534320/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 136.00",
-   "discount": 11,
+   "name": "債務與戀愛相連",
+   "id": "4992770",
+   "url": "https://store.steampowered.com/app/4992770/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 143.00",
+   "discount": 10,
+   "minimum": [
+    "作業系統 *: Windows 7 or later (64 bit)",
+    "處理器: Intel Core i3 (2.0 GHz) or equivalent",
+    "記憶體: 512 MB 記憶體",
+    "顯示卡: DirectX 11 compatible",
+    "DirectX: 版本：11",
+    "儲存空間: 512 MB 可用空間"
+   ],
+   "recommended": [
+    "作業系統: Windows 10 or later (64-bit)",
+    "處理器: Intel Core i5 (2.5 GHz) or equivalent",
+    "記憶體: 1024 MB 記憶體",
+    "顯示卡: DirectX 11 compatible",
+    "DirectX: 版本：11",
+    "儲存空間: 512 MB 可用空間"
+   ]
+  },
+  {
+   "name": "Infinite Loop: Incremental",
+   "id": "5417370",
+   "url": "https://store.steampowered.com/app/5417370/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 89.00",
+   "discount": 10,
    "minimum": [
     "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows11",
-    "處理器:",
+    "作業系統: Windows 10",
+    "處理器: 64-bit x86 processor with SSE4.2 support",
     "記憶體: 8 GB 記憶體",
-    "顯示卡:",
-    "DirectX: 版本：11",
-    "儲存空間: 2 GB 可用空間"
+    "顯示卡: OpenGL 3.3 compatible graphics",
+    "儲存空間: 3 GB 可用空間"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 11",
+    "記憶體: 16 GB 記憶體"
+   ]
+  },
+  {
+   "name": "东方自走棋",
+   "id": "5559780",
+   "url": "https://store.steampowered.com/app/5559780/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 62.00",
+   "discount": 10,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統 *: Windows 7, Windows 8.1",
+    "處理器: Intel Core i3 2.00 GHz 或 AMD A10",
+    "記憶體: 2 GB 記憶體",
+    "顯示卡: Intel® HD Graphics 3000"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10",
+    "處理器: Intel Core i3 2.00 GHz 或 AMD A10",
+    "記憶體: 4 GB 記憶體",
+    "顯示卡: Intel® HD Graphics 3000"
+   ]
+  },
+  {
+   "name": "哀鴻：數位美術設定集",
+   "id": "4613550",
+   "url": "https://store.steampowered.com/app/4613550/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 94.00",
+   "discount": 0,
+   "minimum": [
+    "作業系統: Windows 11"
+   ],
+   "recommended": [
+    "作業系統: Windows 11"
+   ]
+  },
+  {
+   "name": "Dice Tiny Town",
+   "id": "5491150",
+   "url": "https://store.steampowered.com/app/5491150/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 148.00",
+   "discount": 15,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統"
    ],
    "recommended": [
     "需要 64 位元的處理器及作業系統"
    ]
   },
   {
-   "name": "如果這個世界有神明大人存在的話",
-   "id": "5463390",
-   "url": "https://store.steampowered.com/app/5463390/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 984.00",
+   "name": "Just a Villager MMORPG",
+   "id": "5578950",
+   "url": "https://store.steampowered.com/app/5578950/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 159.00",
    "discount": 15,
    "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 64 位（19045 及以上）",
-    "處理器: Intel Core i3-8100 / AMD Ryzen 3 1200",
-    "記憶體: 8 MB 記憶體",
-    "顯示卡: 支援 DirectX 11 的整合顯示卡",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 6 MB 可用空間",
-    "音效卡: 相容 Windows 的音訊設備",
-    "備註: 遊戲內的1080P 影片，對顯示卡影片解碼有一定要求；2015 年以前的舊整合顯示卡（如 HD Graphics 4600）可能出現卡頓。需螢幕解析度 1366×768 以上。"
+    "需要 64 位元的處理器及作業系統"
    ],
    "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 11 64 位",
-    "處理器: Intel Core i5-10400 及以上",
-    "記憶體: 16 MB 記憶體",
-    "顯示卡: GTX 1650 / RTX 3050 及以上",
-    "DirectX: 版本：11",
-    "網路: 寬頻網際網路連線",
-    "儲存空間: 10 MB 可用空間",
-    "音效卡: 相容 Windows 的音訊設備",
-    "備註: 建議安裝於 SSD，搭配耳機或獨立音響體驗更佳。"
+    "需要 64 位元的處理器及作業系統"
    ]
   },
   {
-   "name": "鋼鐵海戰：飽和打擊",
-   "id": "5421790",
-   "url": "https://store.steampowered.com/app/5421790/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 198.00",
-   "discount": 0,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 10 (64-bit)",
-    "處理器: Dual-core 2.0 GHz processor",
-    "記憶體: 4096 MB 記憶體",
-    "顯示卡: OpenGL 3.3 compatible graphics",
-    "儲存空間: 500 MB 可用空間",
-    "音效卡: Windows-compatible audio device",
-    "備註: Mouse input required. Internet connection not required."
-   ],
-   "recommended": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: Windows 11 (64-bit)",
-    "處理器: Quad-core 2.5 GHz processor",
-    "記憶體: 8192 MB 記憶體",
-    "顯示卡: OpenGL 3.3 compatible graphics",
-    "儲存空間: 500 MB 可用空間",
-    "音效卡: Windows-compatible audio device",
-    "備註: Mouse input required. Internet connection not required."
-   ]
-  },
-  {
-   "name": "喵神社",
-   "id": "5497040",
-   "url": "https://store.steampowered.com/app/5497040/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 50.00",
-   "discount": 0,
-   "minimum": [
-    "作業系統: Windows 10 64 bit",
-    "處理器: Intel Core i3 4000 series or equivalent",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: Nvidia GTX 750 or equivalent, integrated graphics not supported",
-    "DirectX: 版本：11",
-    "儲存空間: 2 GB 可用空間",
-    "備註: 64-bit Recommended, 32-bit Supported"
-   ],
-   "recommended": [
-    "作業系統: Windows 10 64 bit",
-    "處理器: Intel Core i5 4000 series or equivalent",
-    "記憶體: 2 GB 記憶體",
-    "顯示卡: Nvidia GTX 750 or equivalent, integrated graphics not supported",
-    "DirectX: 版本：11",
-    "儲存空間: 2 GB 可用空間",
-    "備註: 64-bit Recommended, 32-bit Supported"
-   ]
-  },
-  {
-   "name": "掛機伏魔錄",
-   "id": "5200470",
-   "url": "https://store.steampowered.com/app/5200470/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 102.00",
+   "name": "叛逆神魂靈汐泳裝換裝",
+   "id": "4442580",
+   "url": "https://store.steampowered.com/app/4442580/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 40.00",
    "discount": 20,
    "minimum": [
-    "儲存空間: 53 MB 可用空間",
-    "儲存空間（高音質音訊）: 額外 574MB 可用空間"
-   ],
-   "recommended": []
-  },
-  {
-   "name": "大戰略SSB2 - 強化包",
-   "id": "3830590",
-   "url": "https://store.steampowered.com/app/3830590/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 820.00",
-   "discount": 0,
-   "minimum": [
-    "作業系統: Windows 10 / 11",
-    "記憶體: 2 GB 記憶體",
-    "DirectX: 版本：9.0",
-    "儲存空間: 4 GB 可用空間",
-    "音效卡: DirectSound"
+    "作業系統: Windows10/Windows11/Windows7",
+    "處理器: Intel Core i3-2130 / AMD A8-7670k",
+    "記憶體: 512 MB 記憶體",
+    "顯示卡: NVIDIA GTX-460 / AMD HD 6850",
+    "儲存空間: 512 MB 可用空間"
    ],
    "recommended": [
-    "作業系統: Windows 10 / 11",
-    "記憶體: 2 GB 記憶體",
-    "DirectX: 版本：9.0",
-    "儲存空間: 4 GB 可用空間",
-    "音效卡: DirectSound"
+    "作業系統: Windows10/Windows11/Windows7",
+    "處理器: Intel Core i5-8400 / AMD A8-7670k",
+    "記憶體: 1024 MB 記憶體",
+    "顯示卡: NVIDIA GTX-750 / AMD RX 550",
+    "儲存空間: 1024 MB 可用空間"
    ]
   },
   {
-   "name": "奪人所愛才是愛",
-   "id": "5287640",
-   "url": "https://store.steampowered.com/app/5287640/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 278.00",
+   "name": "混亂符文：英雄",
+   "id": "5589110",
+   "url": "https://store.steampowered.com/app/5589110/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 86.00",
    "discount": 20,
    "minimum": [
-    "作業系統: Windows®11",
-    "處理器: Intel Core i3-10100 or more",
-    "記憶體: 4 GB 記憶體",
-    "DirectX: 版本：11",
-    "儲存空間: 4 GB 可用空間"
+    "需要 64 位元的處理器及作業系統"
    ],
    "recommended": [
-    "作業系統: Windows®11",
-    "處理器: Intel Core i3-10100 or more",
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "叛逆神魂-特別幻靈泳裝VOL2",
+   "id": "5578940",
+   "url": "https://store.steampowered.com/app/5578940/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 81.00",
+   "discount": 21,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "叛逆神魂靈汐公主裙洋裝換裝",
+   "id": "5578960",
+   "url": "https://store.steampowered.com/app/5578960/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 40.00",
+   "discount": 20,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統"
+   ],
+   "recommended": [
+    "需要 64 位元的處理器及作業系統"
+   ]
+  },
+  {
+   "name": "叛逆神魂星夢泳裝換裝",
+   "id": "5320350",
+   "url": "https://store.steampowered.com/app/5320350/",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 40.00",
+   "discount": 20,
+   "minimum": [
+    "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10 64 位元",
+    "處理器: 四核心 x64 處理器，3.0 GHz 或以上",
     "記憶體: 8 GB 記憶體",
-    "顯示卡: GeForce GT 1030 or more",
-    "DirectX: 版本：11",
-    "儲存空間: 4 GB 可用空間",
-    "備註: マウス対応"
-   ]
-  },
-  {
-   "name": "大戰略SSB2 - 季票2特典「YF-23 黑寡婦Ⅱ」",
-   "id": "5423890",
-   "url": "https://store.steampowered.com/app/5423890/",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 1,308.00",
-   "discount": 20,
-   "minimum": [
-    "需要 64 位元的處理器及作業系統",
-    "作業系統: WINDOWS® 10（需要 64 位元系統）",
-    "處理器: Intel® Core™ i5-4460，2.70GHz，或 AMD FX™-6300 或更高",
-    "記憶體: 16 GB 記憶體",
-    "顯示卡: NVIDIA® GeForce® GTX 960 或 AMD Radeon™ RX 460",
-    "DirectX: 版本：11",
-    "儲存空間: 13 GB 可用空間",
-    "音效卡: 相容 DirectSound（須支援 DirectX® 9.0c 或更新版本）"
+    "顯示卡: NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 580 8 GB 或以上",
+    "儲存空間: 3 GB 可用空間",
+    "音效卡: 相容 Windows 的音效裝置",
+    "備註: 需要支援 OpenGL 3.3 的顯示卡驅動程式。3–4人本地遊玩建議使用控制器。"
    ],
    "recommended": [
     "需要 64 位元的處理器及作業系統",
+    "作業系統: Windows 10/11 64 位元",
+    "處理器: 六核心 x64 處理器，3.0 GHz 或以上",
     "記憶體: 16 GB 記憶體",
-    "DirectX: 版本：11",
-    "儲存空間: 13 GB 可用空間"
+    "顯示卡: NVIDIA GeForce RTX 2060 6 GB 或以上",
+    "儲存空間: 3 GB 可用空間",
+    "音效卡: 相容 Windows 的音效裝置",
+    "備註: 3–4人本地遊玩建議使用控制器。"
    ]
   }
  ]

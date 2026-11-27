@@ -1,90 +1,75 @@
 {
- "updated": "2026-11-26 05:10",
+ "updated": "2026-11-27 05:10",
  "source": "Steam 官方商店搜尋（依上架日排序・繁中篩選）",
- "count": 40,
+ "count": 38,
  "games": [
   {
-   "name": "QuizForge",
-   "id": "5534320",
-   "url": "https://store.steampowered.com/app/5534320/",
+   "name": "債務與戀愛相連",
+   "id": "4992770",
+   "url": "https://store.steampowered.com/app/4992770/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 136.00",
-   "discount": 11,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 143.00",
+   "discount": 10,
    "platforms": [
-    "Win"
+    "Win",
+    "Mac"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534320/19e4423d2f6c6e718b90087f7aa549a6a816bde5/header.jpg?t=1795664185",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992770/7904b6b353e655800236ef5a4712876417a5a86d/header.jpg?t=1795751990",
    "genres": [
-    "休閒",
-    "競速",
-    "模擬"
-   ]
-  },
-  {
-   "name": "내일의 챔피언 (Tomorrow's Champion)",
-   "id": "5603880",
-   "url": "https://store.steampowered.com/app/5603880/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 86.00",
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5603880/2d6f97c91dd1fa54ba00872cc52ccbfa990811d2/header.jpg?t=1795662368",
-   "genres": [
-    "動作",
+    "冒險",
     "獨立製作",
     "角色扮演"
    ]
   },
   {
-   "name": "如果這個世界有神明大人存在的話",
-   "id": "5463390",
-   "url": "https://store.steampowered.com/app/5463390/",
+   "name": "Infinite Loop: Incremental",
+   "id": "5417370",
+   "url": "https://store.steampowered.com/app/5417370/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 984.00",
-   "discount": 15,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 89.00",
+   "discount": 10,
    "platforms": [
     "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463390/441871d9ef5f8882c349eb2db3c407e0a18d7762/header.jpg?t=1795661547",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5417370/a1bf506edef690f76e8dfbdb883b9ecaa3234817/header.jpg?t=1795751923",
    "genres": [
-    "休閒",
+    "策略"
+   ]
+  },
+  {
+   "name": "东方自走棋",
+   "id": "5559780",
+   "url": "https://store.steampowered.com/app/5559780/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 62.00",
+   "discount": 10,
+   "platforms": [
+    "Win",
+    "Mac",
+    "Linux"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5559780/b2e63ab619d63563fa82b6cbd6803d3af5324cee/header.jpg?t=1795751726",
+   "genres": [
+    "冒險",
     "獨立製作",
-    "模擬"
+    "角色扮演"
    ]
   },
   {
-   "name": "鋼鐵海戰：飽和打擊",
-   "id": "5421790",
-   "url": "https://store.steampowered.com/app/5421790/",
+   "name": "哀鴻：數位美術設定集",
+   "id": "4613550",
+   "url": "https://store.steampowered.com/app/4613550/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 198.00",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 94.00",
    "discount": 0,
    "platforms": [
     "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421790/b1bf949c12ed6c3a9a675bbad4b63cc5f9f80c2d/header_tchinese.jpg?t=1795660029",
-   "genres": [
-    "休閒"
-   ]
-  },
-  {
-   "name": "喵神社",
-   "id": "5497040",
-   "url": "https://store.steampowered.com/app/5497040/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 50.00",
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5497040/717ff7e51885d80fd1cb46d3135f0eeef2d2ca07/header.jpg?t=1795655015",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613550/209398abb1683dab0c540dd12678d091c7d37370/header.jpg?t=1795752893",
    "genres": [
     "獨立製作",
     "角色扮演",
@@ -92,221 +77,30 @@
    ]
   },
   {
-   "name": "掛機伏魔錄",
-   "id": "5200470",
-   "url": "https://store.steampowered.com/app/5200470/",
+   "name": "冥界村",
+   "id": "5408470",
+   "url": "https://store.steampowered.com/app/5408470/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 102.00",
-   "discount": 20,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 194.00",
+   "discount": 10,
    "platforms": [
     "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200470/43e6cd96c242573afdbbf8883ae24aa603ecdf00/header_tchinese.jpg?t=1795654937"
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5408470/5b346dd5aa1449591c72ccf8aa2a6e547681b528/header.jpg?t=1795751006"
   },
   {
-   "name": "大戰略SSB2 - 兵器圖鑑2EX",
-   "id": "5200440",
-   "url": "https://store.steampowered.com/app/5200440/",
+   "name": "Dice Tiny Town",
+   "id": "5491150",
+   "url": "https://store.steampowered.com/app/5491150/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 328.00",
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200440/8b84d31b639992d31520cf389090526a9e0c59f9/header_tchinese.jpg?t=1795654867",
-   "genres": [
-    "模擬",
-    "策略"
-   ]
-  },
-  {
-   "name": "大戰略SSB2 - 「印度」兵器、地圖、BGM組合包",
-   "id": "5200430",
-   "url": "https://store.steampowered.com/app/5200430/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 408.00",
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200430/3cd68ccc70990edd977040b41d1e30911ec339c8/header_tchinese.jpg?t=1795654835",
-   "genres": [
-    "模擬",
-    "策略"
-   ]
-  },
-  {
-   "name": "大戰略SSB2 - 「澳大利亞」兵器、地圖、BGM組合包",
-   "id": "5200420",
-   "url": "https://store.steampowered.com/app/5200420/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 408.00",
-   "discount": 0,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200420/03e35f854cabca04faae026147e270c10fec4db0/header_tchinese.jpg?t=1795654810",
-   "genres": [
-    "模擬",
-    "策略"
-   ]
-  },
-  {
-   "name": "大戰略SSB2 - 強化包",
-   "id": "3830590",
-   "url": "https://store.steampowered.com/app/3830590/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 820.00",
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830590/8e43a2d16f9ceb87863dcce1d54bb6dce2b1413f/header_tchinese.jpg?t=1795654801",
-   "genres": [
-    "休閒"
-   ]
-  },
-  {
-   "name": "奪人所愛才是愛",
-   "id": "5287640",
-   "url": "https://store.steampowered.com/app/5287640/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 278.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5287640/878bae805420cf4be4c2bad8dd115814dbd4f872/header_tchinese.jpg?t=1795652590",
-   "genres": [
-    "模擬",
-    "策略"
-   ]
-  },
-  {
-   "name": "大戰略SSB2 - 季票2特典「YF-23 黑寡婦Ⅱ」",
-   "id": "5423890",
-   "url": "https://store.steampowered.com/app/5423890/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 1,308.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5423890/b7d2246f601f7f9f82defb1cdeef29b5d1f701f1/header.jpg?t=1795665133",
-   "genres": [
-    "動作",
-    "冒險",
-    "獨立製作"
-   ]
-  },
-  {
-   "name": "MYTHHUNT",
-   "id": "5568650",
-   "url": "https://store.steampowered.com/app/5568650/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 158.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5568650/14ca7bfd5d59ddd41c98e04abe49b2449551c22e/header.jpg?t=1795668842",
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "角色扮演"
-   ]
-  },
-  {
-   "name": "Traymon World - 便利擴充包",
-   "id": "5568680",
-   "url": "https://store.steampowered.com/app/5568680/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 86.00",
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5568680/9044bf67708033081cb9920ebfdcd51bdbc0b0f8/header.jpg?t=1795654728"
-  },
-  {
-   "name": "Traymon World - 原聲音樂集",
-   "id": "5519800",
-   "url": "https://store.steampowered.com/app/5519800/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 48.00",
-   "discount": 0,
-   "platforms": [],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5519800/6638da55b478c97e86924eff3d52d3e3c1db60f4/header.jpg?t=1795655026",
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "角色扮演"
-   ]
-  },
-  {
-   "name": "Traymon World - 支持者禮包",
-   "id": "5568660",
-   "url": "https://store.steampowered.com/app/5568660/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 48.00",
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5568660/c9764c8e9e0e7093f6d3448f86ea27e72d4b747e/header.jpg?t=1795668769",
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "角色扮演"
-   ]
-  },
-  {
-   "name": "Traymon World - 基礎馴獸師套組",
-   "id": "5568670",
-   "url": "https://store.steampowered.com/app/5568670/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 86.00",
-   "discount": 0,
-   "platforms": [
-    "Win",
-    "Mac"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5568670/7abbf4d7a5e1e562255a849ba210587541064443/header.jpg?t=1795654688",
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "角色扮演"
-   ]
-  },
-  {
-   "name": "Traymon World - 進階馴獸師套組",
-   "id": "5045040",
-   "url": "https://store.steampowered.com/app/5045040/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
+   "released": "2026 年 11 月 26 日",
    "price": "NT$ 148.00",
-   "discount": 0,
+   "discount": 15,
    "platforms": [
-    "Win",
-    "Mac"
+    "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/726c32358aca78abd26e706530dc40e96bdfebf4/header.jpg?t=1795655721",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5491150/1be20eaf0b859a91a579548362bb8f0590e58b44/header.jpg?t=1795748860",
    "genres": [
     "休閒",
     "獨立製作",
@@ -314,18 +108,35 @@
    ]
   },
   {
-   "name": "Traymon World：工作列怪獸RPG",
-   "id": "787350",
-   "url": "https://store.steampowered.com/app/787350/",
+   "name": "Just a Villager MMORPG",
+   "id": "5578950",
+   "url": "https://store.steampowered.com/app/5578950/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "",
-   "discount": 0,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 159.00",
+   "discount": 15,
    "platforms": [
-    "Win",
-    "Mac"
+    "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/787350/5c7cba446e453610006d02300d62fc9dd52d8981/header.jpg?t=1795654058",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5578950/03761b78fdc16f16d6ad1c7a813a622f284aa7cf/header_tchinese.jpg?t=1795754161",
+   "genres": [
+    "冒險",
+    "獨立製作",
+    "角色扮演"
+   ]
+  },
+  {
+   "name": "叛逆神魂靈汐泳裝換裝",
+   "id": "4442580",
+   "url": "https://store.steampowered.com/app/4442580/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 40.00",
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442580/bf2f54ef6117034fd1ffe2f3e4fa552ce976dcd7/header.jpg?t=1795747222",
    "genres": [
     "動作",
     "冒險",
@@ -333,309 +144,468 @@
    ]
   },
   {
-   "name": "MASKED",
-   "id": "5495580",
-   "url": "https://store.steampowered.com/app/5495580/",
+   "name": "混亂符文：英雄",
+   "id": "5589110",
+   "url": "https://store.steampowered.com/app/5589110/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 158.00",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 86.00",
    "discount": 20,
    "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5495580/8b800a2d40b7d28e68a4cfac58ce3f19db97fde9/header.jpg?t=1795654031",
-   "genres": [
-    "休閒",
-    "獨立製作",
-    "競速"
-   ]
-  },
-  {
-   "name": "Extreme Paddle Board",
-   "id": "5129940",
-   "url": "https://store.steampowered.com/app/5129940/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 178.00",
-   "discount": 10,
-   "platforms": [
     "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5129940/64d27040eff1b714bf5002fdd1f39137ba937a59/header.jpg?t=1795653892",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5589110/b6436df149f0ac4eee9efcf6fefdf9d4a01be0c0/header_tchinese.jpg?t=1795747925",
    "genres": [
-    "遊戲開發"
-   ]
-  },
-  {
-   "name": "RPG Developer Bakin SGB Heroic Pixel Chr016",
-   "id": "5129930",
-   "url": "https://store.steampowered.com/app/5129930/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 122.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5129930/0049aa3a4f86fccc723893e6baa1021c3c266bb2/header.jpg?t=1795653850",
-   "genres": [
-    "遊戲開發"
-   ]
-  },
-  {
-   "name": "RPG Developer Bakin SGB Heroic Pixel Chr015",
-   "id": "5129900",
-   "url": "https://store.steampowered.com/app/5129900/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 122.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5129900/29ec5849668833d9e9f5fe649c54be8ccce71412/header.jpg?t=1795653802",
-   "genres": [
-    "遊戲開發"
-   ]
-  },
-  {
-   "name": "RPG Developer Bakin SGB Heroic Pixel Chr006",
-   "id": "5129890",
-   "url": "https://store.steampowered.com/app/5129890/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 122.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5129890/955bbf4b3e6f18992b984f09704eab55bada81f1/header.jpg?t=1795653757",
-   "genres": [
-    "遊戲開發"
-   ]
-  },
-  {
-   "name": "RPG Developer Bakin SGB Heroic Pixel Chr005",
-   "id": "5374830",
-   "url": "https://store.steampowered.com/app/5374830/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 122.00",
-   "discount": 10,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5374830/3caf2578f845df890f50e8899d7f2a8b3144c73a/header.jpg?t=1795652793",
-   "genres": [
-    "休閒",
+    "冒險",
     "獨立製作",
     "角色扮演"
    ]
   },
   {
-   "name": "DPS - 角色組合包：晦月",
-   "id": "5103180",
-   "url": "https://store.steampowered.com/app/5103180/",
+   "name": "叛逆神魂-特別幻靈泳裝VOL2",
+   "id": "5578940",
+   "url": "https://store.steampowered.com/app/5578940/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 81.00",
+   "discount": 21,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5578940/f7fb4b16ae3e36dc5d5131fc9e4a62890b24c599/header_tchinese.jpg?t=1795751194",
+   "genres": [
+    "冒險",
+    "獨立製作",
+    "角色扮演"
+   ]
+  },
+  {
+   "name": "叛逆神魂靈汐公主裙洋裝換裝",
+   "id": "5578960",
+   "url": "https://store.steampowered.com/app/5578960/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 40.00",
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5578960/1b1f229dcb607e0a781137ed04db1363a2079032/header_tchinese.jpg?t=1795754178",
+   "genres": [
+    "冒險",
+    "獨立製作",
+    "角色扮演"
+   ]
+  },
+  {
+   "name": "叛逆神魂星夢泳裝換裝",
+   "id": "5320350",
+   "url": "https://store.steampowered.com/app/5320350/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 40.00",
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5320350/717c5e610a5e35c0f774ff963cad07a556b8c7cd/header.jpg?t=1795745070",
+   "genres": [
+    "動作",
+    "休閒",
+    "獨立製作"
+   ]
+  },
+  {
+   "name": "Friendship Boat",
+   "id": "5520280",
+   "url": "https://store.steampowered.com/app/5520280/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 216.00",
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5520280/525abe253e12db78f0f3f3051eac69f1142198a9/header.jpg?t=1795744753",
+   "genres": [
+    "獨立製作",
+    "模擬"
+   ]
+  },
+  {
+   "name": "Creator Tycoon",
+   "id": "5086660",
+   "url": "https://store.steampowered.com/app/5086660/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 125.00",
+   "discount": 16,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086660/0bd2bc2f07a4bbf484a3a108d8ba51ae79432969/header.jpg?t=1795742747"
+  },
+  {
+   "name": "Vibe Train",
+   "id": "5406550",
+   "url": "https://store.steampowered.com/app/5406550/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 142.00",
+   "discount": 10,
+   "platforms": [
+    "Win",
+    "Mac",
+    "Linux"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5406550/a41d17dd3785751382db37936dbb44ffb0205bdd/header.jpg?t=1795741036",
+   "genres": [
+    "獨立製作",
+    "模擬"
+   ]
+  },
+  {
+   "name": "Goshiwon | 고시원",
+   "id": "5427620",
+   "url": "https://store.steampowered.com/app/5427620/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 97.00",
+   "discount": 10,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5427620/fdf2346b3ed6e79aab1fd289fc5618b0d272cbdc/header.jpg?t=1795740500",
+   "genres": [
+    "獨立製作",
+    "策略"
+   ]
+  },
+  {
+   "name": "SKYGUARD: Last Light",
+   "id": "5581940",
+   "url": "https://store.steampowered.com/app/5581940/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 97.00",
+   "discount": 10,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5581940/d3a97b102ee92a81217929fa4a72de90236eadf3/header.jpg?t=1795737985"
+  },
+  {
+   "name": "やさ死くシて",
+   "id": "5467210",
+   "url": "https://store.steampowered.com/app/5467210/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 76.00",
+   "discount": 30,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5467210/d475708467eb24a821bf4b26a18d3104fe6d6e6a/header.jpg?t=1795736193",
+   "genres": [
+    "休閒",
+    "獨立製作"
+   ]
+  },
+  {
+   "name": "KINETET",
+   "id": "3926400",
+   "url": "https://store.steampowered.com/app/3926400/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 58.00",
+   "discount": 16,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926400/4b7c337b1b0b175121e583a60708f1327b1e5850/header_tchinese.jpg?t=1795735585",
+   "genres": [
+    "策略"
+   ]
+  },
+  {
+   "name": "星艦骰",
+   "id": "4303120",
+   "url": "https://store.steampowered.com/app/4303120/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 46.00",
+   "discount": 12,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4303120/dfa98e698f606199aa9f1e417bf2748d32de9357/header.jpg?t=1795734133",
+   "genres": [
+    "動作",
+    "獨立製作",
+    "模擬"
+   ]
+  },
+  {
+   "name": "Blank Slate",
+   "id": "5349310",
+   "url": "https://store.steampowered.com/app/5349310/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 125.00",
+   "discount": 16,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5349310/14292942172d2188956e59361e8602cefca1569b/header.jpg?t=1795733874",
+   "genres": [
+    "遊戲開發"
+   ]
+  },
+  {
+   "name": "Kartelith: Racing Career",
+   "id": "3571940",
+   "url": "https://store.steampowered.com/app/3571940/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 168.00",
+   "discount": 0,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3571940/2e45f4466f7346891ea3d54c51bc34090c141986/header.jpg?t=1795727343",
+   "genres": [
+    "動作",
+    "冒險",
+    "獨立製作"
+   ]
+  },
+  {
+   "name": "Demon of the time",
+   "id": "5543140",
+   "url": "https://store.steampowered.com/app/5543140/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 226.00",
+   "discount": 40,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5543140/93a5fa5f06970ed211616cf62aafd16958dad4a0/header.jpg?t=1795723949"
+  },
+  {
+   "name": "Ghost Janitors: Spirits of Christmas Pass",
+   "id": "5536430",
+   "url": "https://store.steampowered.com/app/5536430/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 62.00",
+   "discount": 10,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5536430/a3bc0abf17611288d72ccc24c1e022b10396049a/header.jpg?t=1795722349"
+  },
+  {
+   "name": "No Touch.",
+   "id": "5509070",
+   "url": "https://store.steampowered.com/app/5509070/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
    "price": "NT$ 108.00",
    "discount": 0,
    "platforms": [
     "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5103180/b768f34d60f4af526de58f31ed027fd8fd8aeada/header.jpg?t=1795651806",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509070/2bd862199f6e91f4f17b33449057df3f65ef7c90/header.jpg?t=1795716213",
    "genres": [
-    "動作",
     "休閒",
-    "獨立製作"
-   ]
-  },
-  {
-   "name": "Nib Unleashed",
-   "id": "5319410",
-   "url": "https://store.steampowered.com/app/5319410/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 118.00",
-   "discount": 20,
-   "platforms": [
-    "Win",
-    "Linux"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5319410/2bc7fb8577a5fe664f34ee3b275199533595f35a/header_tchinese.jpg?t=1795651284",
-   "genres": [
     "獨立製作",
-    "模擬",
     "策略"
    ]
   },
   {
-   "name": "我的員工都死了！靈異大亨",
-   "id": "5475930",
-   "url": "https://store.steampowered.com/app/5475930/",
+   "name": "Charmosaic - Wild Encounters",
+   "id": "5509050",
+   "url": "https://store.steampowered.com/app/5509050/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 269.00",
-   "discount": 10,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
+   "discount": 20,
    "platforms": [
     "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5475930/14b710ee92909acf496fbfe90f1af17b438cc539/header.jpg?t=1795650909"
-  },
-  {
-   "name": "成為投資家",
-   "id": "5568630",
-   "url": "https://store.steampowered.com/app/5568630/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 100.00",
-   "discount": 40,
-   "platforms": [
-    "Win"
-   ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5568630/0736496a8d30d779a6b140182d1523c5d3a63e51/header.jpg?t=1795646144",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509050/fcda140c74854b805b8f125c9bf2e49974370a60/header.jpg?t=1795716211",
    "genres": [
-    "動作",
     "休閒",
-    "獨立製作"
+    "獨立製作",
+    "策略"
    ]
   },
   {
-   "name": "Mind the Tilt",
-   "id": "5570390",
-   "url": "https://store.steampowered.com/app/5570390/",
+   "name": "Charmosaic - Sweet Delights",
+   "id": "5509040",
+   "url": "https://store.steampowered.com/app/5509040/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 91.00",
-   "discount": 16,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
+   "discount": 20,
    "platforms": [
     "Win"
    ],
-   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5570390/a856c48acd4ee9de536b5c850a549fd75630199e/header.jpg?t=1795644957",
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509040/c1b41893636c36234f87df701e0949e0c03baa45/header.jpg?t=1795716210",
    "genres": [
-    "模擬"
+    "休閒",
+    "獨立製作",
+    "策略"
    ]
   },
   {
-   "name": "SOS :Should I Stay or Should I Hit",
-   "id": "5546750",
-   "url": "https://store.steampowered.com/app/5546750/",
+   "name": "Charmosaic - Wild Horizons",
+   "id": "5509030",
+   "url": "https://store.steampowered.com/app/5509030/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 91.00",
-   "discount": 16,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
+   "discount": 20,
    "platforms": [
     "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509030/c1eef18b2cfd964500e7df8a190c52ebee659681/header.jpg?t=1795716209",
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "策略"
    ]
   },
   {
-   "name": "差使：黃昏引魂人",
-   "id": "5169710",
-   "url": "https://store.steampowered.com/app/5169710/",
+   "name": "Charmosaic - Blooming Days",
+   "id": "5509090",
+   "url": "https://store.steampowered.com/app/5509090/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 286.00",
-   "discount": 10,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
+   "discount": 20,
    "platforms": [
-    "Win",
-    "Mac",
-    "Linux"
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509090/0a2774ad2a83344e6718da80125683b309792db1/header.jpg?t=1795716208",
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "策略"
    ]
   },
   {
-   "name": "Witchkeeping",
-   "id": "5154050",
-   "url": "https://store.steampowered.com/app/5154050/",
+   "name": "Charmosaic - Postcard Places",
+   "id": "5509060",
+   "url": "https://store.steampowered.com/app/5509060/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 190.00",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ],
+   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509060/91a71040894d023dc39ce1662fd2f0b05f125e19/header.jpg?t=1795716208",
+   "genres": [
+    "休閒",
+    "獨立製作",
+    "策略"
+   ]
+  },
+  {
+   "name": "Charmosaic - Sea Breeze",
+   "id": "5509010",
+   "url": "https://store.steampowered.com/app/5509010/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
    "discount": 20,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "The Frog Prince: Unfrogged",
-   "id": "5526950",
-   "url": "https://store.steampowered.com/app/5526950/",
+   "name": "Charmosaic - Cozy Corners",
+   "id": "5509020",
+   "url": "https://store.steampowered.com/app/5509020/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 91.00",
-   "discount": 16,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
+   "discount": 20,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "Swimcraft：釣魚模擬器",
-   "id": "5273180",
-   "url": "https://store.steampowered.com/app/5273180/",
+   "name": "Charmosaic - Paws & Whiskers",
+   "id": "3039960",
+   "url": "https://store.steampowered.com/app/3039960/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 228.00",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 118.00",
+   "discount": 20,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Near The Sun",
+   "id": "5467680",
+   "url": "https://store.steampowered.com/app/5467680/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 176.00",
+   "discount": 15,
+   "platforms": [
+    "Win"
+   ]
+  },
+  {
+   "name": "Charmosaic",
+   "id": "5619050",
+   "url": "https://store.steampowered.com/app/5619050/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "",
    "discount": 0,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "Chess Lords",
-   "id": "5271070",
-   "url": "https://store.steampowered.com/app/5271070/",
+   "name": "Trash Day - Cleetus the Christmas Opossum Pack",
+   "id": "5625550",
+   "url": "https://store.steampowered.com/app/5625550/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 94.00",
-   "discount": 41,
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 48.00",
+   "discount": 0,
    "platforms": [
     "Win"
    ]
   },
   {
-   "name": "Sort Their TEETH",
-   "id": "5180580",
-   "url": "https://store.steampowered.com/app/5180580/",
+   "name": "Gobs & Gears: Gilded Gobs",
+   "id": "4322440",
+   "url": "https://store.steampowered.com/app/4322440/",
    "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 51.00",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 48.00",
+   "discount": 0,
+   "platforms": [
+    "Win",
+    "Mac"
+   ]
+  },
+  {
+   "name": "100 Library Cats",
+   "id": "4903220",
+   "url": "https://store.steampowered.com/app/4903220/",
+   "capsule": "",
+   "released": "2026 年 11 月 26 日",
+   "price": "NT$ 40.00",
    "discount": 11,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "The Inconvenience Store",
-   "id": "5448900",
-   "url": "https://store.steampowered.com/app/5448900/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 158.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "BlobBobbing",
-   "id": "5375950",
-   "url": "https://store.steampowered.com/app/5375950/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 86.00",
-   "discount": 20,
-   "platforms": [
-    "Win"
-   ]
-  },
-  {
-   "name": "Put It Away Please",
-   "id": "5210790",
-   "url": "https://store.steampowered.com/app/5210790/",
-   "capsule": "",
-   "released": "2026 年 11 月 25 日",
-   "price": "NT$ 75.00",
-   "discount": 31,
    "platforms": [
     "Win"
    ]
